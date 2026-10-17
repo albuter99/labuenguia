@@ -25,7 +25,58 @@ class Handler(SimpleHTTPRequestHandler):
             super().do_GET()
 
     def do_PUT(self):
-        self.save_venue("PUT")
+        if self.path == "/api/visitas":
+            self.save_visit(update=True)
+        else:
+            self.save_venue("PUT")
+
+    def do_DELETE(self):
+        if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
+            self.reply(403, {"error": "Origen no permitido"})
+            return
+        try:
+            if self.path.startswith("/api/visitas/"):
+                item_id = self.path.split("/")[-1]
+                uuid.UUID(item_id)
+                items = json.loads(VISITS.read_text(encoding="utf-8"))
+                remaining = [v for v in items if str(v.get("id")) != item_id]
+                if len(items) == len(remaining):
+                    raise ValueError("Visita no encontrada")
+                self.atomic_write(VISITS, remaining)
+            elif self.path.startswith("/api/establecimientos/"):
+                item_id = self.path.split("/")[-1]
+                uuid.UUID(item_id)
+                collection = json.loads(DATA.read_text(encoding="utf-8"))
+                remaining = [v for v in collection["features"] if str(v.get("id")) != item_id]
+                if len(remaining) == len(collection["features"]):
+                    raise ValueError("Establecimiento no encontrado")
+                visits = json.loads(VISITS.read_text(encoding="utf-8"))
+                remaining_visits = [v for v in visits if str(v.get("establecimientoId")) != item_id]
+                if len(remaining_visits) != len(visits):
+                    self.atomic_write(VISITS, remaining_visits)
+                collection["features"] = remaining
+                self.atomic_write(DATA, collection)
+            else:
+                self.reply(404, {"error": "Ruta desconocida"})
+                return
+            self.reply(200, {"ok": True})
+        except (ValueError, OSError) as error:
+            self.reply(400, {"error": str(error)})
+
+    def atomic_write(self, path, data):
+        BACKUPS.mkdir(exist_ok=True)
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+        shutil.copy2(path, BACKUPS / (path.stem + "-" + stamp + ".json"))
+        fd, temp = tempfile.mkstemp(prefix=".edit-", dir=path.parent)
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as out:
+                json.dump(data, out, ensure_ascii=False, indent=2)
+                out.write("\\n")
+            os.replace(temp, path)
+        finally:
+            if os.path.exists(temp):
+                os.unlink(temp)
+
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT / "editor"), **kwargs)
@@ -81,7 +132,7 @@ class Handler(SimpleHTTPRequestHandler):
         except (ValueError, subprocess.TimeoutExpired, FileNotFoundError) as error:
             self.reply(409, {"error": str(error)})
 
-    def save_visit(self):
+    def save_visit(self, update=False):
         if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
             self.send_error(403)
             return
@@ -104,9 +155,15 @@ class Handler(SimpleHTTPRequestHandler):
             if not isinstance(visit.get("comentario"), str):
                 raise ValueError("Comentario inválido")
             existing = json.loads(VISITS.read_text(encoding="utf-8"))
-            if any(str(v.get("id")) == str(visit["id"]) for v in existing):
-                raise ValueError("Visita duplicada")
-            existing.append(visit)
+            matches = [i for i,v in enumerate(existing) if str(v.get("id")) == str(visit["id"])]
+            if update:
+                if len(matches) != 1:
+                    raise ValueError("Visita no encontrada")
+                existing[matches[0]] = visit
+            else:
+                if matches:
+                    raise ValueError("Visita duplicada")
+                existing.append(visit)
             BACKUPS.mkdir(exist_ok=True)
             stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
             shutil.copy2(VISITS, BACKUPS / f"visitas-{stamp}.json")

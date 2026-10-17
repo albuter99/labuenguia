@@ -2,3 +2,5 @@
 .management{background:white;border:1px solid #d9dde5;border-radius:14px;padding:22px;margin:20px 0}.management button{margin:12px 10px 0 0}
 
 .table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;margin:15px 0}th,td{padding:12px 9px;text-align:left;border-bottom:1px solid #d9dde5;font-size:14px}th{background:#f3f5f8}td button{padding:7px 10px;margin:2px}#venue-search{max-width:350px}
+
+.danger{background:#b33b43;color:white}td button{margin-right:5px}h3{margin-top:24px}

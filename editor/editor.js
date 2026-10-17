@@ -3,6 +3,7 @@ const form = document.querySelector("#venue-form");
 let venues = [];
 let editingId = null;
 let visits = [];
+let editingVisitId = null;
 const visitForm = document.querySelector("#visit-form");
 const visitSelect = document.querySelector("#visit-venue");
 function average(id) {
@@ -23,7 +24,8 @@ function renderTable() {
     const actions = document.createElement("td");
     const edit = document.createElement("button"); edit.type="button"; edit.textContent="Editar"; edit.addEventListener("click",()=>editVenue(venue));
     const rate = document.createElement("button"); rate.type="button"; rate.textContent="Valorar"; rate.className="secondary"; rate.addEventListener("click",()=>{visitSelect.value=venue.id;visitForm.scrollIntoView({behavior:"smooth"});});
-    actions.append(edit,rate); tr.append(actions); tbody.append(tr);
+    const remove = document.createElement("button"); remove.type="button"; remove.textContent="Eliminar"; remove.className="danger"; remove.addEventListener("click",()=>deleteVenue(venue));
+    actions.append(edit,rate,remove); tr.append(actions); tbody.append(tr);
   }
 }
 async function loadVenues() {
@@ -35,6 +37,7 @@ async function loadVenues() {
   for(const v of venues) visitSelect.add(new Option(v.properties.nombre,v.id));
   if(venues.some(v=>v.id===selected))visitSelect.value=selected;
   renderTable();
+  renderVisits();
 }
 function editVenue(venue) {
   editingId=venue.id; const p=venue.properties;
@@ -52,16 +55,71 @@ document.querySelector("#venue-search").addEventListener("input",renderTable);
 visitForm.addEventListener("submit",async event=>{
   event.preventDefault();
   const data=new FormData(visitForm);
-  const payload={id:crypto.randomUUID(),establecimientoId:visitSelect.value,fecha:data.get("fecha")||null,valoracion:data.get("valoracion")?Number(data.get("valoracion")):null,comentario:String(data.get("comentario")||"").trim()};
+  const payload={id:editingVisitId || crypto.randomUUID(),establecimientoId:visitSelect.value,fecha:data.get("fecha")||null,valoracion:data.get("valoracion")?Number(data.get("valoracion")):null,comentario:String(data.get("comentario")||"").trim()};
   const status=document.querySelector("#visit-message");
   if(!payload.establecimientoId){status.textContent="Selecciona un establecimiento";return;}
   try{
-    const response=await fetch("/api/visitas",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+    const response=await fetch("/api/visitas",{method:editingVisitId ? "PUT" : "POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
     const result=await response.json();if(!response.ok)throw new Error(result.error||"Error");
     status.textContent="Visita guardada localmente. Pendiente de publicación.";
-    visitForm.reset();await loadVenues();
+    resetVisit();await loadVenues();
   }catch(error){status.textContent="No se guardó: "+error.message;}
 });
+function resetVisit() {
+  editingVisitId=null;
+  visitForm.reset();
+  document.querySelector("#visit-save").textContent="Guardar visita";
+  document.querySelector("#visit-cancel").hidden=true;
+}
+document.querySelector("#visit-cancel").addEventListener("click",resetVisit);
+function renderVisits() {
+  const body=document.querySelector("#visit-rows");
+  body.replaceChildren();
+  for(const v of [...visits].reverse()) {
+    const tr=document.createElement("tr");
+    const venue=venues.find(x=>String(x.id)===String(v.establecimientoId));
+    for(const value of [venue?.properties.nombre || "Desconocido",v.fecha||"Sin fecha",v.valoracion==null?"Sin valorar":v.valoracion+" ☀️",v.comentario||""]) {
+      const td=document.createElement("td");td.textContent=value;tr.append(td);
+    }
+    const td=document.createElement("td");
+    const edit=document.createElement("button");edit.type="button";edit.textContent="Editar";
+    edit.addEventListener("click",()=>{
+      editingVisitId=v.id;
+      visitSelect.value=v.establecimientoId;
+      visitForm.elements.namedItem("fecha").value=v.fecha||"";
+      visitForm.elements.namedItem("valoracion").value=v.valoracion??"";
+      visitForm.elements.namedItem("comentario").value=v.comentario||"";
+      document.querySelector("#visit-save").textContent="Guardar cambios";
+      document.querySelector("#visit-cancel").hidden=false;
+      visitForm.scrollIntoView({behavior:"smooth"});
+    });
+    const del=document.createElement("button");del.type="button";del.textContent="Eliminar";del.className="danger";
+    del.addEventListener("click",async()=>{
+      if(!confirm("¿Eliminar esta visita?"))return;
+      try {
+        const response=await fetch("/api/visitas/"+encodeURIComponent(v.id),{method:"DELETE"});
+        const result=await response.json();if(!response.ok)throw new Error(result.error);
+        if(editingVisitId===v.id)resetVisit();
+        await loadVenues();
+        document.querySelector("#visit-message").textContent="Visita eliminada localmente. Pendiente de publicación.";
+      }catch(error){alert(error.message);}
+    });
+    td.append(edit,del);tr.append(td);body.append(tr);
+  }
+}
+async function deleteVenue(venue) {
+  const count=visits.filter(v=>String(v.establecimientoId)===String(venue.id)).length;
+  const message="¿Eliminar "+venue.properties.nombre+"?"+(count?" También se eliminarán sus "+count+" visitas.":"")+" Esta acción quedará pendiente de publicación.";
+  if(!confirm(message))return;
+  try {
+    const response=await fetch("/api/establecimientos/"+encodeURIComponent(venue.id),{method:"DELETE"});
+    const result=await response.json();if(!response.ok)throw new Error(result.error);
+    if(editingId===venue.id){editingId=null;form.reset();document.querySelector("#form-heading").textContent="Nuevo establecimiento";}
+    if(visitSelect.value===venue.id)resetVisit();
+    await loadVenues();
+    document.querySelector("#save-message").textContent="Establecimiento eliminado localmente. Pendiente de publicación.";
+  }catch(error){alert(error.message);}
+}
 loadVenues().catch(error=>{document.querySelector("#save-message").textContent=error.message;});
 const tagContainer = document.querySelector("#tag-options");
 for (const tag of TAGS) {
