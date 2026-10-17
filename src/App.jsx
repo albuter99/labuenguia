@@ -174,7 +174,7 @@ export default function App() {
     <div style={{ display: view === "map" ? "block" : "none" }}>
       <section className="map-wrap" aria-label="Mapa de establecimientos">
         <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
-          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
           <MapNavigator destination={destination} />
         </MapContainer>
