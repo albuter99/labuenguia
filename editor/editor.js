@@ -116,3 +116,17 @@ form.addEventListener("submit", async event => {
   } catch (error) { status.textContent = "No se ha guardado: " + error.message; }
 });
 form.addEventListener("reset", () => { document.querySelector("#preview").hidden = true; });
+const publishButton = document.querySelector("#publish-button");
+publishButton.addEventListener("click", async () => {
+  if (!confirm("¿Publicar los cambios guardados en GitHub?")) return;
+  publishButton.disabled = true;
+  const status = document.querySelector("#publish-status");
+  status.textContent = "Publicando…";
+  try {
+    const response = await fetch("/api/publicar", {method:"POST",headers:{"Content-Type":"application/json"},body:"{}"});
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error);
+    status.textContent = result.message;
+  } catch(error) { status.textContent = "No publicado: " + error.message; }
+  finally { publishButton.disabled = false; }
+});

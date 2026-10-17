@@ -1,7 +1,7 @@
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from datetime import datetime, timezone
-import json, os, shutil, tempfile, uuid, math
+import json, os, shutil, tempfile, uuid, math, subprocess
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "establecimientos.geojson.json"
@@ -40,10 +40,46 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(raw)
 
     def do_POST(self):
-        if self.path == "/api/visitas":
+        if self.path == "/api/publicar":
+            self.publish()
+        elif self.path == "/api/visitas":
             self.save_visit()
         else:
             self.save_venue("POST")
+
+    def publish(self):
+        if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
+            self.reply(403, {"error": "Origen no permitido"})
+            return
+        try:
+            def git(*args):
+                result = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=45)
+                if result.returncode:
+                    raise ValueError((result.stderr or result.stdout).strip()[:350])
+                return result.stdout.strip()
+            if git("branch", "--show-current") != "main":
+                raise ValueError("Debes estar en la rama main")
+            if git("diff", "--cached", "--name-only"):
+                raise ValueError("Hay cambios preparados para commit en GitHub Desktop")
+            git("fetch", "origin", "main")
+            if git("rev-parse", "HEAD") != git("rev-parse", "origin/main"):
+                raise ValueError("Primero sincroniza tu repositorio con GitHub Desktop")
+            changed = git("diff", "--name-only")
+            allowed = {"data/establecimientos.geojson.json", "data/visitas.json"}
+            if any(path not in allowed for path in changed.splitlines()):
+                raise ValueError("Hay otros archivos modificados. Revísalos en GitHub Desktop")
+            if not changed:
+                self.reply(200, {"message": "No hay cambios pendientes."})
+                return
+            git("add", "--", "data/establecimientos.geojson.json", "data/visitas.json")
+            git("commit", "-m", "Actualizar datos de La BuenGuia")
+            try:
+                git("push", "origin", "main")
+            except ValueError:
+                raise ValueError("Commit creado localmente. Usa Push origin en GitHub Desktop")
+            self.reply(200, {"message": "Publicado en GitHub. Espera al despliegue."})
+        except (ValueError, subprocess.TimeoutExpired, FileNotFoundError) as error:
+            self.reply(409, {"error": str(error)})
 
     def save_visit(self):
         if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
