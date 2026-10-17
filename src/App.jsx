@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
 import establecimientos from "../data/establecimientos.geojson.json";
+import visitas from "../data/visitas.json";
 import { createVenueMarker, bindVenuePopup, TYPE_COLORS } from "./markers.js";
 import { TYPES, STATUSES, PRICES, TAGS, initialFilters, filterVenues } from "./filters.js";
 
@@ -10,7 +11,7 @@ function FilterGroup({ title, options, selected, onToggle, format = String }) {
   )}</div></fieldset>;
 }
 
-function MapNavigator({ destination, onFeatureLayer }) {
+function MapNavigator({ destination }) {
   const map = useMap();
   useEffect(() => {
     if (!destination) return;
@@ -27,8 +28,26 @@ function MapNavigator({ destination, onFeatureLayer }) {
   return null;
 }
 
+function ratingFor(feature) {
+  const rated = visitas.filter(v => String(v.establecimientoId ?? v.establecimiento_id) === String(feature.id) && Number.isInteger(Number(v.valoracion)) && Number(v.valoracion) >= 1 && Number(v.valoracion) <= 5);
+  return rated.length ? rated.reduce((sum, v) => sum + Number(v.valoracion), 0) / rated.length : null;
+}
+
+function sortVenues(features, sort) {
+  const collator = new Intl.Collator("es", { sensitivity: "base" });
+  return [...features].sort((a, b) => {
+    const pa = a.properties ?? {}, pb = b.properties ?? {};
+    if (sort === "rating") return (ratingFor(b) ?? -1) - (ratingFor(a) ?? -1) || collator.compare(pa.nombre ?? "", pb.nombre ?? "");
+    if (sort === "price") return (Number(pa.precio) || 99) - (Number(pb.precio) || 99) || collator.compare(pa.nombre ?? "", pb.nombre ?? "");
+    if (sort === "newest") return (Date.parse(pb.fechaCreacion ?? pb.fecha_creacion) || 0) - (Date.parse(pa.fechaCreacion ?? pa.fecha_creacion) || 0) || collator.compare(pa.nombre ?? "", pb.nombre ?? "");
+    return collator.compare(pa.nombre ?? "", pb.nombre ?? "");
+  });
+}
+
 export default function App() {
   const [filters, setFilters] = useState(initialFilters);
+  const [view, setView] = useState("map");
+  const [sort, setSort] = useState("name");
   const [showFilters, setShowFilters] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
@@ -95,6 +114,7 @@ export default function App() {
         return;
       }
       setDestination({ center: [coordinates[1], coordinates[0]], zoom: 16, venueId: result.feature.id });
+      setView("map");
       setSearchMessage("");
     }
     setResults([]);
@@ -124,16 +144,50 @@ export default function App() {
       <FilterGroup title="Precio" options={PRICES} selected={filters.prices} onToggle={value => toggle("prices", value)} format={value => "€".repeat(value)} />
       <FilterGroup title="Etiquetas (debe cumplir todas las seleccionadas)" options={TAGS} selected={filters.tags} onToggle={value => toggle("tags", value)} />
     </aside>}
-    <section className="map-wrap" aria-label="Mapa de establecimientos">
-      <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
-        <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
-        <MapNavigator destination={destination} />
-      </MapContainer>
-    </section>
-    <div className="legend" aria-label="Leyenda de tipos">
-      {Object.entries(TYPE_COLORS).map(([type, color]) => <span className="legend-item" key={type}><span className="legend-dot" style={{ backgroundColor: color }} />{type}</span>)}
+    <div className="view-toolbar">
+      <div className="view-switch" role="group" aria-label="Vista">
+        <button type="button" aria-pressed={view === "map"} onClick={() => setView("map")}>Mapa</button>
+        <button type="button" aria-pressed={view === "list"} onClick={() => setView("list")}>Listado</button>
+      </div>
+      {view === "list" && <label className="sort-label">Ordenar por
+        <select value={sort} onChange={event => setSort(event.target.value)}>
+          <option value="name">Nombre (A–Z)</option>
+          <option value="rating">Soles (mayor primero)</option>
+          <option value="price">Precio (menor primero)</option>
+          <option value="newest">Más recientes</option>
+        </select>
+      </label>}
     </div>
+    <div style={{ display: view === "map" ? "block" : "none" }}>
+      <section className="map-wrap" aria-label="Mapa de establecimientos">
+        <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
+          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
+          <MapNavigator destination={destination} />
+        </MapContainer>
+      </section>
+      <div className="legend" aria-label="Leyenda de tipos">
+        {Object.entries(TYPE_COLORS).map(([type, color]) => <span className="legend-item" key={type}><span className="legend-dot" style={{ backgroundColor: color }} />{type}</span>)}
+      </div>
+    </div>
+    {view === "list" && <section aria-label="Listado de establecimientos" className="venue-list">
+      {sortVenues(visible.features, sort).map(feature => {
+        const p = feature.properties ?? {};
+        const rating = ratingFor(feature);
+        const coords = feature.geometry?.coordinates;
+        return <article className="venue-card" key={feature.id}>
+          <h2>{p.nombre || "Sin nombre"}</h2>
+          <p>{p.tipo || "Otros"} · {p.estado || "Sin estado"} · {p.precio ? "€".repeat(Number(p.precio)) : "Precio sin indicar"}</p>
+          <p>{rating == null ? "Sin valorar" : rating.toFixed(1) + " Soles"}</p>
+          {Array.isArray(p.etiquetas) && p.etiquetas.length > 0 && <p>{p.etiquetas.join(" · ")}</p>}
+          {Array.isArray(coords) && coords.length >= 2 && <button type="button" onClick={() => {
+            setDestination({ center: [coords[1], coords[0]], zoom: 16, venueId: feature.id });
+            setView("map");
+          }}>Ver en el mapa</button>}
+        </article>;
+      })}
+      {visible.features.length === 0 && <p className="hint">No hay establecimientos para mostrar en el listado.</p>}
+    </section>}
     {establecimientos.features.length === 0 && <p className="hint">Aún no hay establecimientos. Próximamente podrás añadirlos desde el editor local.</p>}
     {establecimientos.features.length > 0 && visible.features.length === 0 && <p className="hint">Ningún establecimiento coincide con los filtros seleccionados.</p>}
   </main>;
