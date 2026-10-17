@@ -29,7 +29,26 @@ export function bindVenuePopup(feature, layer) {
   name.textContent = d.name;
   wrapper.append(name);
   addLine(wrapper, "", `${d.type} · ${d.status} · ${d.price}`);
-  if (d.address) addLine(wrapper, "Dirección: ", d.address);
+  if (d.address) {
+    const line = document.createElement("p");
+    const label = document.createElement("strong");
+    label.textContent = "Dirección: ";
+    const address = document.createTextNode(d.address + " ");
+    const copy = document.createElement("button");
+    copy.type = "button";
+    copy.className = "copy-address";
+    copy.textContent = "Copiar dirección";
+    copy.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(d.address);
+        copy.textContent = "¡Copiada!";
+      } catch {
+        window.prompt("Copia la dirección:", d.address);
+      }
+    });
+    line.append(label, address, copy);
+    wrapper.append(line);
+  }
   addLine(wrapper, "Soles: ", d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5");
   if (d.tags.length) addLine(wrapper, "Etiquetas: ", d.tags.join(" · "));
   if (d.notes) addLine(wrapper, "Notas: ", d.notes);

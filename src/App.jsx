@@ -43,7 +43,7 @@ function VenueDetails({ feature }) {
   const d = venueDetails(feature);
   return <div className="venue-details">
     <p>{d.type} · {d.status} · {d.price}</p>
-    {d.address && <p><strong>Dirección:</strong> {d.address}</p>}
+    {d.address && <p><strong>Dirección:</strong> {d.address} <button type="button" className="copy-address" onClick={async () => { try { await navigator.clipboard.writeText(d.address); window.alert("Dirección copiada"); } catch { window.prompt("Copia la dirección:", d.address); } }}>Copiar dirección</button></p>}
     <p><strong>Soles:</strong> {d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5"}</p>
     {d.tags.length > 0 && <p><strong>Etiquetas:</strong> {d.tags.join(" · ")}</p>}
     {d.notes && <p><strong>Notas:</strong> {d.notes}</p>}
@@ -174,7 +174,7 @@ export default function App() {
     <div style={{ display: view === "map" ? "block" : "none" }}>
       <section className="map-wrap" aria-label="Mapa de establecimientos">
         <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
-          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
           <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
           <MapNavigator destination={destination} />
         </MapContainer>
