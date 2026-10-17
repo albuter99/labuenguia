@@ -9,6 +9,18 @@ BACKUPS = ROOT / "backups"
 HOST, PORT = "127.0.0.1", 8765
 
 class Handler(SimpleHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == "/api/establecimientos":
+            try:
+                self.reply(200, json.loads(DATA.read_text(encoding="utf-8")))
+            except (OSError, ValueError) as error:
+                self.reply(500, {"error": str(error)})
+        else:
+            super().do_GET()
+
+    def do_PUT(self):
+        self.save_venue("PUT")
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT / "editor"), **kwargs)
 
@@ -22,6 +34,9 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(raw)
 
     def do_POST(self):
+        self.save_venue("POST")
+
+    def save_venue(self, method):
         if self.path != "/api/establecimientos":
             self.send_error(404)
             return
@@ -53,9 +68,17 @@ class Handler(SimpleHTTPRequestHandler):
             collection = json.loads(DATA.read_text(encoding="utf-8"))
             if collection["type"] != "FeatureCollection" or not isinstance(collection["features"], list):
                 raise ValueError("Archivo GeoJSON inválido")
-            if any(str(v.get("id")) == str(feature["id"]) for v in collection["features"]):
-                raise ValueError("Identificador duplicado")
-            collection["features"].append(feature)
+            matches = [i for i, v in enumerate(collection["features"]) if str(v.get("id")) == str(feature["id"])]
+            if method == "PUT":
+                if len(matches) != 1:
+                    raise ValueError("No se encuentra el establecimiento")
+                previous = collection["features"][matches[0]]
+                feature["properties"]["fechaCreacion"] = previous["properties"].get("fechaCreacion", feature["properties"]["fechaCreacion"])
+                collection["features"][matches[0]] = feature
+            else:
+                if matches:
+                    raise ValueError("Identificador duplicado")
+                collection["features"].append(feature)
             BACKUPS.mkdir(exist_ok=True)
             stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
             shutil.copy2(DATA, BACKUPS / f"establecimientos-{stamp}.json")
