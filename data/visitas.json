@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "6f99d7a3-f3c6-42b6-a85c-85c25f9d14d8",
+    "establecimientoId": "5336d38f-8749-471c-b2f2-33215f67916d",
+    "fecha": "2026-09-26",
+    "valoracion": 3,
+    "comentario": ""
+  },
+  {
+    "id": "a13dbcbe-7af9-4788-b1cc-f13ce54e22f9",
+    "establecimientoId": "df3f073f-d968-4aa1-9063-4c83159f1ca9",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  }
+]

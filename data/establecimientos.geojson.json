@@ -26,6 +26,30 @@
         "fechaCreacion": "2026-10-17T22:32:58.584Z",
         "fechaActualizacion": "2026-10-17T22:32:58.584Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "df3f073f-d968-4aa1-9063-4c83159f1ca9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.697607,
+          40.428022
+        ]
+      },
+      "properties": {
+        "nombre": "Collin's Irish Tavern",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 2,
+        "direccion": "C. de Sagasta, 26, Centro, 28004 Madrid, España",
+        "etiquetas": [
+          "Irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-17T22:56:45.800Z",
+        "fechaActualizacion": "2026-10-17T22:56:45.800Z"
+      }
     }
   ]
 }
