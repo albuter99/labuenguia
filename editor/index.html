@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>La BuenGuia · Editor local</title><link rel="stylesheet" href="./editor.css"></head>
+<body><main><header><h1>La BuenGuia</h1><p>Editor local de establecimientos · Solo para tu ordenador</p></header>
+<section class="notice"><strong>Primera fase del editor.</strong> El formulario permite preparar y validar establecimientos, pero todavía no guarda archivos ni publica cambios. No introduzcas datos que necesites conservar.</section>
+<form id="venue-form">
+<h2>Nuevo establecimiento</h2>
+<div class="grid">
+<label>Nombre *<input name="nombre" required maxlength="160" placeholder="Nombre del establecimiento"></label>
+<label>Tipo *<select name="tipo" required><option value="">Seleccionar</option><option>Restaurante</option><option>Cafetería</option><option>Bar</option><option>Pub</option><option>Otros</option></select></label>
+<label>Estado *<select name="estado" required><option>Quiero ir</option><option>Visitado</option></select></label>
+<label>Precio <select name="precio"><option value="">Sin indicar</option><option value="1">€</option><option value="2">€€</option><option value="3">€€€</option><option value="4">€€€€</option></select></label>
+<label>Dirección<input name="direccion" placeholder="Calle, ciudad, país"></label>
+<label>Latitud *<input name="lat" type="number" step="any" min="-90" max="90" required placeholder="Ej. 40.4168"></label>
+<label>Longitud *<input name="lon" type="number" step="any" min="-180" max="180" required placeholder="Ej. -3.7038"></label>
+</div>
+<fieldset><legend>Etiquetas</legend><div id="tag-options" class="tags"></div></fieldset>
+<label>Notas generales<textarea name="notas" rows="4" placeholder="Observaciones sobre el establecimiento"></textarea></label>
+<div class="actions"><button type="submit">Validar establecimiento</button><button type="reset" class="secondary">Limpiar</button></div>
+</form>
+<section id="preview" hidden aria-live="polite"><h2>Vista previa (no guardada)</h2><pre id="preview-json"></pre></section>
+</main><script type="module" src="./editor.js"></script></body></html>
