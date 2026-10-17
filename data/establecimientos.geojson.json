@@ -50,6 +50,32 @@
         "fechaCreacion": "2026-10-17T22:56:45.800Z",
         "fechaActualizacion": "2026-10-17T22:56:45.800Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "cc3c179e-3b7e-49b1-8afb-8792ac7d53dc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.698935,
+          40.425976
+        ]
+      },
+      "properties": {
+        "nombre": "Café Museo del Romanticismo",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "direccion": "C. de San Mateo, 11, Centro, 28004 Madrid, España",
+        "etiquetas": [
+          "Postre",
+          "Brunch",
+          "Desayuno"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-17T23:04:51.704Z",
+        "fechaActualizacion": "2026-10-17T23:04:51.704Z"
+      }
     }
   ]
 }
