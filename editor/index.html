@@ -2,7 +2,7 @@
 <html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>La BuenGuia · Editor local</title><link rel="stylesheet" href="./editor.css"></head>
 <body><main><header><h1>La BuenGuia</h1><p>Editor local de establecimientos · Solo para tu ordenador</p></header>
 <section class="notice"><strong>Editor local.</strong> Guarda los establecimientos en tu ordenador. Para usarlo, ejecuta <code>iniciar_editor.bat</code>. Guardar no publica en GitHub.</section>
-<section class="management"><h2>Mis establecimientos</h2><label>Seleccionar establecimiento<select id="venue-select"><option value="">Nuevo establecimiento</option></select></label><button type="button" id="edit-venue">Editar seleccionado</button><button type="button" id="new-venue" class="secondary">Nuevo establecimiento</button></section><form id="venue-form">
+<section class="management"><h2>Mis establecimientos</h2><div class="grid"><label>Buscar establecimientos<input id="venue-search" placeholder="Filtrar por nombre"></label></div><div class="table-scroll"><table><thead><tr><th>Nombre</th><th>Tipo</th><th>Estado</th><th>Precio</th><th>Soles</th><th>Acciones</th></tr></thead><tbody id="venue-rows"></tbody></table></div><button type="button" id="new-venue" class="secondary">Nuevo establecimiento</button></section><form id="venue-form">
 <h2 id="form-heading">Nuevo establecimiento</h2>
 <div class="grid">
 <label>Nombre *<input name="nombre" required maxlength="160" placeholder="Nombre del establecimiento"></label>
@@ -16,6 +16,6 @@
 <fieldset><legend>Etiquetas</legend><div id="tag-options" class="tags"></div></fieldset>
 <label>Notas generales<textarea name="notas" rows="4" placeholder="Observaciones sobre el establecimiento"></textarea></label>
 <div class="actions"><button type="submit">Guardar establecimiento</button><button type="reset" class="secondary">Limpiar</button></div>
-</form><p id="save-message" role="status" aria-live="polite"></p>
+</form><section class="management"><h2>Registrar visita y soles</h2><p>Selecciona un establecimiento de la tabla con «Valorar» o edítalo. Las visitas se guardan por separado y permiten calcular la media.</p><form id="visit-form"><label>Establecimiento<select id="visit-venue" required></select></label><div class="grid"><label>Fecha (opcional)<input type="date" name="fecha"></label><label>Soles<select name="valoracion"><option value="">Sin valorar</option><option value="1">☀️ 1</option><option value="2">☀️☀️ 2</option><option value="3">☀️☀️☀️ 3</option><option value="4">☀️☀️☀️☀️ 4</option><option value="5">☀️☀️☀️☀️☀️ 5</option></select></label></div><label>Comentario de la visita<textarea name="comentario" rows="3"></textarea></label><button type="submit">Guardar visita</button><p id="visit-message" role="status"></p></form></section><p id="save-message" role="status" aria-live="polite"></p>
 <section id="preview" hidden aria-live="polite"><h2>Último establecimiento guardado</h2><pre id="preview-json"></pre></section>
 </main><script type="module" src="./editor.js"></script></body></html>

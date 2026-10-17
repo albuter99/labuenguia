@@ -5,6 +5,7 @@ import json, os, shutil, tempfile, uuid, math
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "establecimientos.geojson.json"
+VISITS = ROOT / "data" / "visitas.json"
 BACKUPS = ROOT / "backups"
 HOST, PORT = "127.0.0.1", 8765
 
@@ -13,6 +14,11 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path == "/api/establecimientos":
             try:
                 self.reply(200, json.loads(DATA.read_text(encoding="utf-8")))
+            except (OSError, ValueError) as error:
+                self.reply(500, {"error": str(error)})
+        elif self.path == "/api/visitas":
+            try:
+                self.reply(200, json.loads(VISITS.read_text(encoding="utf-8")))
             except (OSError, ValueError) as error:
                 self.reply(500, {"error": str(error)})
         else:
@@ -34,7 +40,54 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(raw)
 
     def do_POST(self):
-        self.save_venue("POST")
+        if self.path == "/api/visitas":
+            self.save_visit()
+        else:
+            self.save_venue("POST")
+
+    def save_visit(self):
+        if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
+            self.send_error(403)
+            return
+        try:
+            length = int(self.headers.get("Content-Length", "0"))
+            if not 0 < length <= 65536 or self.headers.get("Content-Type", "").split(";")[0] != "application/json":
+                raise ValueError("Solicitud inválida")
+            visit = json.loads(self.rfile.read(length))
+            uuid.UUID(str(visit["id"]))
+            venue_id = str(visit["establecimientoId"])
+            collection = json.loads(DATA.read_text(encoding="utf-8"))
+            if not any(str(v["id"]) == venue_id for v in collection["features"]):
+                raise ValueError("Establecimiento no encontrado")
+            rating = visit.get("valoracion")
+            if rating is not None and (type(rating) is not int or rating not in (1,2,3,4,5)):
+                raise ValueError("Los soles deben estar entre 1 y 5")
+            if visit.get("fecha") is not None:
+                from datetime import date
+                date.fromisoformat(visit["fecha"])
+            if not isinstance(visit.get("comentario"), str):
+                raise ValueError("Comentario inválido")
+            existing = json.loads(VISITS.read_text(encoding="utf-8"))
+            if any(str(v.get("id")) == str(visit["id"]) for v in existing):
+                raise ValueError("Visita duplicada")
+            existing.append(visit)
+            BACKUPS.mkdir(exist_ok=True)
+            stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+            shutil.copy2(VISITS, BACKUPS / f"visitas-{stamp}.json")
+            fd, temp = tempfile.mkstemp(prefix=".visits-", dir=VISITS.parent)
+            try:
+                with os.fdopen(fd, "w", encoding="utf-8") as out:
+                    json.dump(existing, out, ensure_ascii=False, indent=2)
+                    out.write("\n")
+                os.replace(temp, VISITS)
+            finally:
+                if os.path.exists(temp):
+                    os.unlink(temp)
+            self.reply(201, {"ok": True})
+        except (KeyError, ValueError, TypeError, IndexError, json.JSONDecodeError) as error:
+            self.reply(400, {"error": str(error)})
+        except OSError:
+            self.reply(500, {"error": "No se pudo guardar la visita"})
 
     def save_venue(self, method):
         if self.path != "/api/establecimientos":

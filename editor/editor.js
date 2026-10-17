@@ -2,34 +2,67 @@ const TAGS = ["Michelin","Menu degustacion","Vino","Vegano","Irlandes","Copas","
 const form = document.querySelector("#venue-form");
 let venues = [];
 let editingId = null;
-const selector = document.querySelector("#venue-select");
-async function loadVenues() {
-  const response = await fetch("/api/establecimientos", { cache: "no-store" });
-  if (!response.ok) throw new Error("No se pudieron cargar los establecimientos");
-  venues = (await response.json()).features;
-  selector.replaceChildren(new Option("Nuevo establecimiento", ""));
-  for (const venue of venues) selector.add(new Option(venue.properties.nombre, venue.id));
+let visits = [];
+const visitForm = document.querySelector("#visit-form");
+const visitSelect = document.querySelector("#visit-venue");
+function average(id) {
+  const ratings = visits.filter(v => String(v.establecimientoId) === String(id) && Number.isInteger(v.valoracion) && v.valoracion >= 1 && v.valoracion <= 5).map(v => v.valoracion);
+  return ratings.length ? (ratings.reduce((a,b) => a+b, 0)/ratings.length).toFixed(1) + " ☀️" : "Sin valorar";
 }
-document.querySelector("#new-venue").addEventListener("click", () => {
-  editingId = null;
-  form.reset();
-  selector.value = "";
-  document.querySelector("#form-heading").textContent = "Nuevo establecimiento";
+function renderTable() {
+  const term = document.querySelector("#venue-search").value.toLocaleLowerCase("es").trim();
+  const tbody = document.querySelector("#venue-rows");
+  tbody.replaceChildren();
+  for (const venue of [...venues].sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre,"es"))) {
+    const p = venue.properties;
+    if (!p.nombre.toLocaleLowerCase("es").includes(term)) continue;
+    const tr = document.createElement("tr");
+    for (const value of [p.nombre,p.tipo,p.estado,p.precio ? "€".repeat(p.precio) : "Sin indicar",average(venue.id)]) {
+      const td = document.createElement("td"); td.textContent = value; tr.append(td);
+    }
+    const actions = document.createElement("td");
+    const edit = document.createElement("button"); edit.type="button"; edit.textContent="Editar"; edit.addEventListener("click",()=>editVenue(venue));
+    const rate = document.createElement("button"); rate.type="button"; rate.textContent="Valorar"; rate.className="secondary"; rate.addEventListener("click",()=>{visitSelect.value=venue.id;visitForm.scrollIntoView({behavior:"smooth"});});
+    actions.append(edit,rate); tr.append(actions); tbody.append(tr);
+  }
+}
+async function loadVenues() {
+  const [a,b] = await Promise.all([fetch("/api/establecimientos",{cache:"no-store"}),fetch("/api/visitas",{cache:"no-store"})]);
+  if (!a.ok || !b.ok) throw new Error("No se pudieron cargar los datos");
+  venues=(await a.json()).features; visits=await b.json();
+  const selected=visitSelect.value;
+  visitSelect.replaceChildren(new Option("Seleccionar establecimiento",""));
+  for(const v of venues) visitSelect.add(new Option(v.properties.nombre,v.id));
+  if(venues.some(v=>v.id===selected))visitSelect.value=selected;
+  renderTable();
+}
+function editVenue(venue) {
+  editingId=venue.id; const p=venue.properties;
+  for(const key of ["nombre","tipo","estado","direccion","notas"])form.elements.namedItem(key).value=p[key]??"";
+  form.elements.namedItem("precio").value=p.precio??"";
+  form.elements.namedItem("lat").value=venue.geometry.coordinates[1];
+  form.elements.namedItem("lon").value=venue.geometry.coordinates[0];
+  for(const input of form.querySelectorAll('input[name="etiquetas"]'))input.checked=(p.etiquetas||[]).includes(input.value);
+  document.querySelector("#form-heading").textContent="Modificar: "+p.nombre;
+  visitSelect.value=venue.id;
+  form.scrollIntoView({behavior:"smooth"});
+}
+document.querySelector("#new-venue").addEventListener("click",()=>{editingId=null;form.reset();document.querySelector("#form-heading").textContent="Nuevo establecimiento";form.scrollIntoView({behavior:"smooth"});});
+document.querySelector("#venue-search").addEventListener("input",renderTable);
+visitForm.addEventListener("submit",async event=>{
+  event.preventDefault();
+  const data=new FormData(visitForm);
+  const payload={id:crypto.randomUUID(),establecimientoId:visitSelect.value,fecha:data.get("fecha")||null,valoracion:data.get("valoracion")?Number(data.get("valoracion")):null,comentario:String(data.get("comentario")||"").trim()};
+  const status=document.querySelector("#visit-message");
+  if(!payload.establecimientoId){status.textContent="Selecciona un establecimiento";return;}
+  try{
+    const response=await fetch("/api/visitas",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+    const result=await response.json();if(!response.ok)throw new Error(result.error||"Error");
+    status.textContent="Visita guardada localmente. Pendiente de publicación.";
+    visitForm.reset();await loadVenues();
+  }catch(error){status.textContent="No se guardó: "+error.message;}
 });
-document.querySelector("#edit-venue").addEventListener("click", () => {
-  const venue = venues.find(v => String(v.id) === selector.value);
-  if (!venue) return;
-  editingId = venue.id;
-  const p = venue.properties;
-  for (const key of ["nombre", "tipo", "estado", "direccion", "notas"]) form.elements.namedItem(key).value = p[key] ?? "";
-  form.elements.namedItem("precio").value = p.precio ?? "";
-  form.elements.namedItem("lat").value = venue.geometry.coordinates[1];
-  form.elements.namedItem("lon").value = venue.geometry.coordinates[0];
-  for (const input of form.querySelectorAll('input[name="etiquetas"]')) input.checked = (p.etiquetas || []).includes(input.value);
-  document.querySelector("#form-heading").textContent = "Modificar: " + p.nombre;
-  form.scrollIntoView({ behavior: "smooth" });
-});
-loadVenues().catch(error => { document.querySelector("#save-message").textContent = error.message; });
+loadVenues().catch(error=>{document.querySelector("#save-message").textContent=error.message;});
 const tagContainer = document.querySelector("#tag-options");
 for (const tag of TAGS) {
   const label = document.createElement("label");
