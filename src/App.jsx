@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
 import establecimientos from "../data/establecimientos.geojson.json";
-import visitas from "../data/visitas.json";
+import { ratingFor, venueDetails, visitDate, visitRating, visitComment } from "./venueDetails.js";
 import { createVenueMarker, bindVenuePopup, TYPE_COLORS } from "./markers.js";
 import { TYPES, STATUSES, PRICES, TAGS, initialFilters, filterVenues } from "./filters.js";
 
@@ -28,11 +28,6 @@ function MapNavigator({ destination }) {
   return null;
 }
 
-function ratingFor(feature) {
-  const rated = visitas.filter(v => String(v.establecimientoId ?? v.establecimiento_id) === String(feature.id) && Number.isInteger(Number(v.valoracion)) && Number(v.valoracion) >= 1 && Number(v.valoracion) <= 5);
-  return rated.length ? rated.reduce((sum, v) => sum + Number(v.valoracion), 0) / rated.length : null;
-}
-
 function sortVenues(features, sort) {
   const collator = new Intl.Collator("es", { sensitivity: "base" });
   return [...features].sort((a, b) => {
@@ -42,6 +37,24 @@ function sortVenues(features, sort) {
     if (sort === "newest") return (Date.parse(pb.fechaCreacion ?? pb.fecha_creacion) || 0) - (Date.parse(pa.fechaCreacion ?? pa.fecha_creacion) || 0) || collator.compare(pa.nombre ?? "", pb.nombre ?? "");
     return collator.compare(pa.nombre ?? "", pb.nombre ?? "");
   });
+}
+
+function VenueDetails({ feature }) {
+  const d = venueDetails(feature);
+  return <div className="venue-details">
+    <p>{d.type} · {d.status} · {d.price}</p>
+    {d.address && <p><strong>Dirección:</strong> {d.address}</p>}
+    <p><strong>Soles:</strong> {d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5"}</p>
+    {d.tags.length > 0 && <p><strong>Etiquetas:</strong> {d.tags.join(" · ")}</p>}
+    {d.notes && <p><strong>Notas:</strong> {d.notes}</p>}
+    <details className="visit-history"><summary>Historial de visitas ({d.visits.length})</summary>
+      {d.visits.length === 0 ? <p>No hay visitas registradas.</p> :
+        <ul>{d.visits.map((v, i) => <li key={v.id ?? i}>
+          <strong>{visitDate(v)}</strong> · {visitRating(v)}
+          {visitComment(v) && <p>{visitComment(v)}</p>}
+        </li>)}</ul>}
+    </details>
+  </div>;
 }
 
 export default function App() {
@@ -177,10 +190,7 @@ export default function App() {
         const coords = feature.geometry?.coordinates;
         return <article className="venue-card" key={feature.id}>
           <h2>{p.nombre || "Sin nombre"}</h2>
-          <p>{p.tipo || "Otros"} · {p.estado || "Sin estado"} · {p.precio ? "€".repeat(Number(p.precio)) : "Precio sin indicar"}</p>
-          <p>{rating == null ? "Sin valorar" : rating.toFixed(1) + " Soles"}</p>
-          {Array.isArray(p.etiquetas) && p.etiquetas.length > 0 && <p>{p.etiquetas.join(" · ")}</p>}
-          {Array.isArray(coords) && coords.length >= 2 && <button type="button" onClick={() => {
+          <VenueDetails feature={feature} />\n          {Array.isArray(coords) && coords.length >= 2 && <button type="button" onClick={() => {
             setDestination({ center: [coords[1], coords[0]], zoom: 16, venueId: feature.id });
             setView("map");
           }}>Ver en el mapa</button>}
