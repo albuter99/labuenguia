@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>La BuenGuia · Editor local</title><link rel="stylesheet" href="./editor.css"></head>
 <body><main><header><h1>La BuenGuia</h1><p>Editor local de establecimientos · Solo para tu ordenador</p></header>
-<section class="notice"><strong>Primera fase del editor.</strong> El formulario permite preparar y validar establecimientos, pero todavía no guarda archivos ni publica cambios. No introduzcas datos que necesites conservar.</section>
+<section class="notice"><strong>Editor local.</strong> Guarda los establecimientos en tu ordenador. Para usarlo, ejecuta <code>iniciar_editor.bat</code>. Guardar no publica en GitHub.</section>
 <form id="venue-form">
 <h2>Nuevo establecimiento</h2>
 <div class="grid">
@@ -15,7 +15,7 @@
 </div>
 <fieldset><legend>Etiquetas</legend><div id="tag-options" class="tags"></div></fieldset>
 <label>Notas generales<textarea name="notas" rows="4" placeholder="Observaciones sobre el establecimiento"></textarea></label>
-<div class="actions"><button type="submit">Validar establecimiento</button><button type="reset" class="secondary">Limpiar</button></div>
-</form>
-<section id="preview" hidden aria-live="polite"><h2>Vista previa (no guardada)</h2><pre id="preview-json"></pre></section>
+<div class="actions"><button type="submit">Guardar establecimiento</button><button type="reset" class="secondary">Limpiar</button></div>
+</form><p id="save-message" role="status" aria-live="polite"></p>
+<section id="preview" hidden aria-live="polite"><h2>Último establecimiento guardado</h2><pre id="preview-json"></pre></section>
 </main><script type="module" src="./editor.js"></script></body></html>

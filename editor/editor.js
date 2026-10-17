@@ -10,7 +10,7 @@ for (const tag of TAGS) {
   label.append(input, document.createTextNode(tag));
   tagContainer.append(label);
 }
-form.addEventListener("submit", event => {
+form.addEventListener("submit", async event => {
   event.preventDefault();
   if (!form.reportValidity()) return;
   const data = new FormData(form);
@@ -36,7 +36,17 @@ form.addEventListener("submit", event => {
       fechaActualizacion: new Date().toISOString()
     }
   };
-  document.querySelector("#preview-json").textContent = JSON.stringify(venue, null, 2);
-  document.querySelector("#preview").hidden = false;
+  const status = document.querySelector("#save-message");
+  status.textContent = "Guardando…";
+  try {
+    const response = await fetch("/api/establecimientos", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(venue) });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Error al guardar");
+    document.querySelector("#preview-json").textContent = JSON.stringify(venue, null, 2);
+    document.querySelector("#preview").hidden = false;
+    form.reset();
+    document.querySelector("#preview").hidden = false;
+    status.textContent = "Guardado localmente. Pendiente de publicación.";
+  } catch (error) { status.textContent = "No se ha guardado: " + error.message; }
 });
 form.addEventListener("reset", () => { document.querySelector("#preview").hidden = true; });
