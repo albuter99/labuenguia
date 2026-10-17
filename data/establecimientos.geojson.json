@@ -1,4 +1,31 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "5336d38f-8749-471c-b2f2-33215f67916d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.675352,
+          40.448333
+        ]
+      },
+      "properties": {
+        "nombre": "Tramo",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 4,
+        "direccion": "C. de Eugenio Salazar, 56, Chamartín, 28002 Madrid, España",
+        "etiquetas": [
+          "Menu degustacion",
+          "Vino",
+          "Vegano"
+        ],
+        "notas": "Reservar zona tramo",
+        "fechaCreacion": "2026-10-17T22:32:58.584Z",
+        "fechaActualizacion": "2026-10-17T22:32:58.584Z"
+      }
+    }
+  ]
 }
