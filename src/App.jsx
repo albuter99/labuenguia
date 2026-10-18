@@ -253,7 +253,8 @@ export default function App() {
         const coords = feature.geometry?.coordinates;
         return <article className="venue-card" key={feature.id}>
           <h2>{venueDetails(feature).selloB && <span className="b-seal" title="Sello B de La BuenGuia" aria-label="Sello B de La BuenGuia">B</span>}{p.nombre || "Sin nombre"}</h2>
-          <VenueDetails feature={feature} />\n          {Array.isArray(coords) && coords.length >= 2 && <button type="button" onClick={() => {
+          <VenueDetails feature={feature} />
+          {Array.isArray(coords) && coords.length >= 2 && <button type="button" onClick={() => {
             setDestination({ center: [coords[1], coords[0]], zoom: 16, venueId: feature.id });
             setView("map");
           }}>Ver en el mapa</button>}
