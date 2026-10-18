@@ -84,7 +84,7 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             with os.fdopen(fd, "w", encoding="utf-8") as out:
                 json.dump(data, out, ensure_ascii=False, indent=2)
-                out.write("\\n")
+                out.write("\n")
             os.replace(temp, path)
         finally:
             if os.path.exists(temp):
