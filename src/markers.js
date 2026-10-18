@@ -70,7 +70,7 @@ export function bindVenuePopup(feature, layer) {
   const rating = document.createElement("div");
   rating.className = "popup-sun-rating";
   const sun = document.createElement("span");
-  sun.textContent = "☀";
+  sun.textContent = "☺";
   sun.className = "popup-sun-icon";
   rating.append(sun, document.createTextNode(d.rating == null ? " Sin valorar" : " " + d.rating.toFixed(1) + " / 5"));
   wrapper.append(rating);
