@@ -8,6 +8,24 @@ let venuePage = 0;
 const VENUE_PAGE_SIZE = 20;
 const visitForm = document.querySelector("#visit-form");
 const visitSelect = document.querySelector("#visit-venue");
+const visitSearch = document.querySelector("#visit-search");
+function renderVisitMatches() {
+  const box = document.querySelector("#visit-search-results");
+  box.replaceChildren();
+  const term = visitSearch.value.trim().toLocaleLowerCase("es");
+  if (!term) return;
+  const matches = venues.filter(v => [v.properties.nombre,v.properties.direccion].join(" ").toLocaleLowerCase("es").includes(term)).slice(0,12);
+  if (!matches.length) { box.textContent = "No hay establecimientos coincidentes."; return; }
+  for (const venue of matches) {
+    const button = document.createElement("button");
+    button.type = "button"; button.className = "secondary";
+    button.textContent = venue.properties.nombre + (venue.properties.direccion ? " · "+venue.properties.direccion : "");
+    button.onclick = () => { visitSelect.value = venue.id; visitSearch.value = venue.properties.nombre; box.replaceChildren(); };
+    box.append(button);
+  }
+}
+visitSearch.addEventListener("input",renderVisitMatches);
+visitSelect.addEventListener("change",()=>{const v=venues.find(v=>v.id===visitSelect.value);if(v){visitSearch.value=v.properties.nombre;document.querySelector("#visit-search-results").replaceChildren();}});
 function average(id) {
   const ratings = visits.filter(v => String(v.establecimientoId) === String(id) && Number.isInteger(v.valoracion) && v.valoracion >= 1 && v.valoracion <= 5).map(v => v.valoracion);
   return ratings.length ? (ratings.reduce((a,b) => a+b, 0)/ratings.length).toFixed(1) + " ☺" : "Sin valorar";
@@ -37,7 +55,7 @@ function renderTable() {
     }
     const actions = document.createElement("td");
     const edit = document.createElement("button"); edit.type="button"; edit.textContent="Editar"; edit.addEventListener("click",()=>editVenue(venue));
-    const rate = document.createElement("button"); rate.type="button"; rate.textContent="Valorar"; rate.className="secondary"; rate.addEventListener("click",()=>{visitSelect.value=venue.id;visitForm.scrollIntoView({behavior:"smooth"});});
+    const rate = document.createElement("button"); rate.type="button"; rate.textContent="Valorar"; rate.className="secondary"; rate.addEventListener("click",()=>{visitSelect.value=venue.id;visitSearch.value=venue.properties.nombre;document.querySelector("#visit-search-results").replaceChildren();visitForm.scrollIntoView({behavior:"smooth"});});
     const remove = document.createElement("button"); remove.type="button"; remove.textContent="Eliminar"; remove.className="danger"; remove.addEventListener("click",()=>deleteVenue(venue));
     actions.append(edit,rate,remove); tr.append(actions); tbody.append(tr);
   }
@@ -48,10 +66,11 @@ async function loadVenues() {
   venues=(await a.json()).features; visits=await b.json();
   const selected=visitSelect.value;
   visitSelect.replaceChildren(new Option("Seleccionar establecimiento",""));
-  for(const v of venues) visitSelect.add(new Option(v.properties.nombre,v.id));
+  for(const v of [...venues].sort((a,b)=>a.properties.nombre.localeCompare(b.properties.nombre,"es"))) visitSelect.add(new Option(v.properties.nombre,v.id));
   if(venues.some(v=>v.id===selected))visitSelect.value=selected;
   renderTable();
   renderVisits();
+  renderVisitMatches();
 }
 function editVenue(venue) {
   editingId=venue.id; const p=venue.properties;
@@ -64,6 +83,7 @@ function editVenue(venue) {
   for(const input of form.querySelectorAll('input[name="etiquetas"]'))input.checked=(p.etiquetas||[]).includes(input.value);
   document.querySelector("#form-heading").textContent="Modificar: "+p.nombre;
   visitSelect.value=venue.id;
+  visitSearch.value=p.nombre;
   form.scrollIntoView({behavior:"smooth"});
 }
 document.querySelector("#new-venue").addEventListener("click",()=>{editingId=null;form.reset();document.querySelector("#form-heading").textContent="Nuevo establecimiento";form.scrollIntoView({behavior:"smooth"});});
@@ -86,6 +106,8 @@ visitForm.addEventListener("submit",async event=>{
 function resetVisit() {
   editingVisitId=null;
   visitForm.reset();
+  visitSearch.value="";
+  document.querySelector("#visit-search-results").replaceChildren();
   document.querySelector("#visit-save").textContent="Guardar visita";
   document.querySelector("#visit-cancel").hidden=true;
 }
@@ -104,6 +126,7 @@ function renderVisits() {
     edit.addEventListener("click",()=>{
       editingVisitId=v.id;
       visitSelect.value=v.establecimientoId;
+      visitSearch.value=venue?.properties.nombre || "";
       visitForm.elements.namedItem("fecha").value=v.fecha||"";
       visitForm.elements.namedItem("valoracion").value=v.valoracion??"";
       visitForm.elements.namedItem("comentario").value=v.comentario||"";
