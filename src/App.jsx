@@ -53,17 +53,14 @@ function sortVenues(features, sort) {
 function VenueDetails({ feature }) {
   const d = venueDetails(feature);
   return <div className="venue-details">
-    <p>{d.type} · {d.status} · {d.price}</p>
-    {d.address && <p><strong>Dirección:</strong> {d.address} <button type="button" className="copy-address" onClick={async () => { try { await navigator.clipboard.writeText(d.address); window.alert("Dirección copiada"); } catch { window.prompt("Copia la dirección:", d.address); } }}>Copiar dirección</button></p>}
-    <p><strong>Soles:</strong> {d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5"}</p>
-    {d.tags.length > 0 && <p><strong>Etiquetas:</strong> {d.tags.join(" · ")}</p>}
-    {d.notes && <p><strong>Notas:</strong> {d.notes}</p>}
+    <div className="card-eyebrow">{d.type} · {d.status}</div>
+    <div className="card-meta"><span className="card-price">{d.price}</span><span className="card-rating"><span className="card-sun">☀</span> {d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5"}</span></div>
+    {d.tags.length > 0 && <div className="card-tags">{d.tags.map(tag => <span className="card-tag" key={tag}>{tag}</span>)}</div>}
+    {d.address && <div className="card-section"><div className="card-label">DIRECCIÓN</div><span>{d.address}</span> <button type="button" className="card-copy" title="Copiar dirección" aria-label="Copiar dirección" onClick={async event => { try { await navigator.clipboard.writeText(d.address); event.currentTarget.textContent = "✓"; } catch { window.prompt("Copia la dirección:", d.address); } }}>⧉</button></div>}
+    {d.notes && <div className="card-section"><div className="card-label">NOTAS</div>{d.notes}</div>}
     <details className="visit-history"><summary>Historial de visitas ({d.visits.length})</summary>
       {d.visits.length === 0 ? <p>No hay visitas registradas.</p> :
-        <ul>{d.visits.map((v, i) => <li key={v.id ?? i}>
-          <strong>{visitDate(v)}</strong> · {visitRating(v)}
-          {visitComment(v) && <p>{visitComment(v)}</p>}
-        </li>)}</ul>}
+        <ul>{d.visits.map((v, i) => <li key={v.id ?? i}><strong>{visitDate(v)}</strong> · {visitRating(v)}{visitComment(v) && <p>{visitComment(v)}</p>}</li>)}</ul>}
     </details>
   </div>;
 }
@@ -161,13 +158,13 @@ export default function App() {
         {showFilters ? "Cerrar menú" : "Abrir menú"}
       </button>
       <span aria-live="polite">{visible.features.length} de {establecimientos.features.length} establecimientos</span>
-      <button type="button" className="reset-button" onClick={() => setFilters(initialFilters())}>Restablecer filtros</button>
     </div>
     {showFilters && <aside className="filters" aria-label="Filtros de establecimientos">
       <FilterGroup title="Tipo" options={TYPES} selected={filters.types} onToggle={value => toggle("types", value)} />
       <FilterGroup title="Estado" options={STATUSES} selected={filters.statuses} onToggle={value => toggle("statuses", value)} />
       <FilterGroup title="Precio" options={PRICES} selected={filters.prices} onToggle={value => toggle("prices", value)} format={value => "€".repeat(value)} />
       <FilterGroup title="Etiquetas (debe cumplir todas las seleccionadas)" options={TAGS} selected={filters.tags} onToggle={value => toggle("tags", value)} />
+      <button type="button" className="reset-inside-filters" onClick={() => { setFilters(initialFilters()); setQuery(""); setResults([]); setSearchMessage(""); }}>↺ Restablecer filtros</button>
     </aside>}
     <div className="view-toolbar">
       <div className="view-switch" role="group" aria-label="Vista">
