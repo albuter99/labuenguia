@@ -1191,6 +1191,33 @@
         "fechaCreacion": "2026-10-18T16:31:13.696Z",
         "fechaActualizacion": "2026-10-18T16:31:13.696Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "8b24a7e3-e0ad-4c46-a7e4-cbe0b49f1fcc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847635,
+          21.030123
+        ]
+      },
+      "properties": {
+        "nombre": "Phở Gà Nguyệt",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "5b P. Phủ Doãn, Hoàn Kiếm, Hà Nội 100000, Vietnam",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:33:25.879Z",
+        "fechaActualizacion": "2026-10-18T16:33:25.879Z"
+      }
     }
   ]
 }
