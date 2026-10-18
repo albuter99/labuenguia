@@ -96,5 +96,19 @@
     "fecha": null,
     "valoracion": 5,
     "comentario": ""
+  },
+  {
+    "id": "ef3f5b4e-4e09-45c5-98a2-ac8dc31adb1f",
+    "establecimientoId": "6b2f099f-60cf-47d4-8668-400dd68c37f4",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "76b5f9bf-0c29-4223-a3b3-5dd1c52523db",
+    "establecimientoId": "ede4f6da-2d13-4eb6-9e12-55fe95981ff4",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
   }
 ]

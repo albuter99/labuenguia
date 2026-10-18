@@ -971,6 +971,171 @@
         "fechaCreacion": "2026-10-18T15:39:40.456Z",
         "fechaActualizacion": "2026-10-18T15:39:40.456Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "daac9a96-5d36-4989-b1ad-38e1695e1d88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.390664,
+          -34.604102
+        ]
+      },
+      "properties": {
+        "nombre": "Cadore Gelato Artigianale",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Av. Corrientes 1695, C1042AAC Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:43:43.032Z",
+        "fechaActualizacion": "2026-10-18T15:43:43.032Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17fdc80d-62cb-43d7-a1fd-673a3a651a3c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.424917,
+          -34.593526
+        ]
+      },
+      "properties": {
+        "nombre": "Nola",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Gorriti 4389, C1414 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "De autor"
+        ],
+        "notas": "Pollo",
+        "fechaCreacion": "2026-10-18T15:47:30.375Z",
+        "fechaActualizacion": "2026-10-18T15:47:30.375Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6b2f099f-60cf-47d4-8668-400dd68c37f4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.423073,
+          -34.588005
+        ]
+      },
+      "properties": {
+        "nombre": "Rapanui",
+        "tipo": "Otros",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Malabia 2014, C1425EZB Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:49:05.503Z",
+        "fechaActualizacion": "2026-10-18T15:49:05.503Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "35fd3cdd-d381-4dc8-94fb-7a725cbf31c4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42423,
+          -34.5863
+        ]
+      },
+      "properties": {
+        "nombre": "Don Julio",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 4,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Guatemala 4699, C1425 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Michelin",
+          "Reservado",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:50:53.808Z",
+        "fechaActualizacion": "2026-10-18T15:50:53.808Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "53a57486-1603-4c94-b142-090934dfdecd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.425345,
+          -34.685403
+        ]
+      },
+      "properties": {
+        "nombre": "El Preferido de Palermo",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Jorge Luis Borges 2108, C1425FFD Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Helados",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:52:12.143Z",
+        "fechaActualizacion": "2026-10-18T15:52:12.143Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ede4f6da-2d13-4eb6-9e12-55fe95981ff4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.431749,
+          -34.579882
+        ]
+      },
+      "properties": {
+        "nombre": "Cantina Palermo",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Fitz Roy 2238, C1425 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:54:14.471Z",
+        "fechaActualizacion": "2026-10-18T15:54:14.471Z"
+      }
     }
   ]
 }
