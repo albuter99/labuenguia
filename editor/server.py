@@ -28,7 +28,9 @@ class Handler(SimpleHTTPRequestHandler):
             super().do_GET()
 
     def do_PUT(self):
-        if self.path == "/api/visitas":
+        if self.path == "/api/rutas":
+            self.save_route(True)
+        elif self.path == "/api/visitas":
             self.save_visit(update=True)
         else:
             self.save_venue("PUT")
@@ -96,6 +98,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path == "/api/publicar":
             self.publish()
+        elif self.path == "/api/rutas":
+            self.save_route(False)
         elif self.path == "/api/visitas":
             self.save_visit()
         else:
@@ -119,13 +123,13 @@ class Handler(SimpleHTTPRequestHandler):
             if git("rev-parse", "HEAD") != git("rev-parse", "origin/main"):
                 raise ValueError("Primero sincroniza tu repositorio con GitHub Desktop")
             changed = git("diff", "--name-only")
-            allowed = {"data/establecimientos.geojson.json", "data/visitas.json"}
+            allowed = {"data/establecimientos.geojson.json", "data/visitas.json", "data/rutas.json"}
             if any(path not in allowed for path in changed.splitlines()):
                 raise ValueError("Hay otros archivos modificados. Revísalos en GitHub Desktop")
             if not changed:
                 self.reply(200, {"message": "No hay cambios pendientes."})
                 return
-            git("add", "--", "data/establecimientos.geojson.json", "data/visitas.json")
+            git("add", "--", "data/establecimientos.geojson.json", "data/visitas.json", "data/rutas.json")
             git("commit", "-m", "Actualizar datos de La BuenGuia")
             try:
                 git("push", "origin", "main")
