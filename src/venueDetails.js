@@ -9,6 +9,11 @@ export function ratingFor(feature) {
   return ratings.length ? ratings.reduce((sum, n) => sum + n, 0) / ratings.length : null;
 }
 
+export function hasBuenSello(feature) {
+  const history = visitsFor(feature);
+  return feature.properties?.selloB === true || (history.length >= 4 && ratingFor(feature) !== null && ratingFor(feature) > 4.5);
+}
+
 export function priceLabel(price) {
   return Number.isInteger(price) && price >= 1 && price <= 4 ? "€".repeat(price) : "Sin precio";
 }
@@ -24,6 +29,7 @@ export function venueDetails(feature) {
     tags: Array.isArray(p.etiquetas) ? p.etiquetas : [],
     notes: p.notas ?? "",
     rating: ratingFor(feature),
+    selloB: hasBuenSello(feature),
     visits: visitsFor(feature),
   };
 }
