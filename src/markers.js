@@ -49,7 +49,13 @@ export function bindVenuePopup(feature, layer) {
     line.append(label, address, copy);
     wrapper.append(line);
   }
-  addLine(wrapper, "Soles: ", d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5");
+  const rating = document.createElement("div");
+  rating.className = "popup-sun-rating";
+  const sun = document.createElement("span");
+  sun.textContent = "☀";
+  sun.className = "popup-sun-icon";
+  rating.append(sun, document.createTextNode(d.rating == null ? " Sin valorar" : " " + d.rating.toFixed(1) + " / 5"));
+  wrapper.append(rating);
   if (d.tags.length) addLine(wrapper, "Etiquetas: ", d.tags.join(" · "));
   if (d.notes) addLine(wrapper, "Notas: ", d.notes);
   const details = document.createElement("details");
