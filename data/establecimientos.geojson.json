@@ -1136,6 +1136,61 @@
         "fechaCreacion": "2026-10-18T15:54:14.471Z",
         "fechaActualizacion": "2026-10-18T15:54:14.471Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "ca1f586b-96e8-4f89-afb4-ecd6a4e85003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.647613,
+          35.701557
+        ]
+      },
+      "properties": {
+        "nombre": "Kiku Sushi",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "3 Chome-35-16 Koenjiminami, Suginami City, Tokyo 166-0003, Japón",
+        "etiquetas": [
+          "Sushi",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:29:39.344Z",
+        "fechaActualizacion": "2026-10-18T16:29:39.344Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e09afef7-2e96-4b4c-8d3a-7394bb3b13e9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.763303,
+          35.418747
+        ]
+      },
+      "properties": {
+        "nombre": "Le Monde",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Japón, 〒500-8116 Gifu, Tonomachi, 1 Chome−4 小栗殿町ビル",
+        "etiquetas": [
+          "Brunch",
+          "Desayuno",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:31:13.696Z",
+        "fechaActualizacion": "2026-10-18T16:31:13.696Z"
+      }
     }
   ]
 }
