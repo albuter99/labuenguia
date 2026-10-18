@@ -26,7 +26,7 @@ export function venueDetails(feature) {
     address: p.direccion ?? p.dirección ?? "",
     status: p.estado || "Sin estado",
     price: priceLabel(p.precio),
-    tags: Array.isArray(p.etiquetas) ? p.etiquetas : [],
+    tags: Array.isArray(p.etiquetas) ? [...p.etiquetas].sort((a,b)=>a.localeCompare(b,"es",{sensitivity:"base"})) : [],
     notes: p.notas ?? "",
     rating: ratingFor(feature),
     selloB: hasBuenSello(feature),
