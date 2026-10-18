@@ -4,6 +4,8 @@ let venues = [];
 let editingId = null;
 let visits = [];
 let editingVisitId = null;
+let venuePage = 0;
+const VENUE_PAGE_SIZE = 20;
 const visitForm = document.querySelector("#visit-form");
 const visitSelect = document.querySelector("#visit-venue");
 function average(id) {
@@ -12,11 +14,23 @@ function average(id) {
 }
 function renderTable() {
   const term = document.querySelector("#venue-search").value.toLocaleLowerCase("es").trim();
+  const type = document.querySelector("#venue-type-filter").value;
+  const status = document.querySelector("#venue-status-filter").value;
   const tbody = document.querySelector("#venue-rows");
   tbody.replaceChildren();
-  for (const venue of [...venues].sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre,"es"))) {
+  const matches = venues.filter(venue => {
     const p = venue.properties;
-    if (!p.nombre.toLocaleLowerCase("es").includes(term)) continue;
+    const haystack = [p.nombre,p.direccion].join(" ").toLocaleLowerCase("es");
+    return haystack.includes(term) && (!type || p.tipo === type) && (!status || p.estado === status);
+  }).sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre,"es"));
+  const pages = Math.max(1, Math.ceil(matches.length / VENUE_PAGE_SIZE));
+  venuePage = Math.min(venuePage, pages - 1);
+  document.querySelector("#venue-count").textContent = matches.length + " establecimientos encontrados de " + venues.length;
+  document.querySelector("#venue-page").textContent = "Página " + (venuePage+1) + " de " + pages;
+  document.querySelector("#venue-prev").disabled = venuePage === 0;
+  document.querySelector("#venue-next").disabled = venuePage >= pages-1;
+  for (const venue of matches.slice(venuePage*VENUE_PAGE_SIZE,(venuePage+1)*VENUE_PAGE_SIZE)) {
+    const p = venue.properties;
     const tr = document.createElement("tr");
     for (const value of [p.nombre,p.tipo,p.estado,p.precio ? "€".repeat(p.precio) : "Sin indicar",average(venue.id)]) {
       const td = document.createElement("td"); td.textContent = value; tr.append(td);
@@ -53,7 +67,9 @@ function editVenue(venue) {
   form.scrollIntoView({behavior:"smooth"});
 }
 document.querySelector("#new-venue").addEventListener("click",()=>{editingId=null;form.reset();document.querySelector("#form-heading").textContent="Nuevo establecimiento";form.scrollIntoView({behavior:"smooth"});});
-document.querySelector("#venue-search").addEventListener("input",renderTable);
+for (const id of ["venue-search","venue-type-filter","venue-status-filter"]) document.querySelector("#"+id).addEventListener(id === "venue-search" ? "input" : "change", () => {venuePage=0;renderTable();});
+document.querySelector("#venue-prev").addEventListener("click",()=>{venuePage--;renderTable();});
+document.querySelector("#venue-next").addEventListener("click",()=>{venuePage++;renderTable();});
 visitForm.addEventListener("submit",async event=>{
   event.preventDefault();
   const data=new FormData(visitForm);
