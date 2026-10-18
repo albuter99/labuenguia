@@ -811,6 +811,166 @@
         "fechaCreacion": "2026-10-18T15:27:25.847Z",
         "fechaActualizacion": "2026-10-18T15:27:25.847Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "0308b095-94ed-4dee-91e9-342ab7d04779",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.444798,
+          -34.589997
+        ]
+      },
+      "properties": {
+        "nombre": "Anchoita Cava",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "vino",
+        "selloB": false,
+        "direccion": "Juan Ramírez de Velasco 1456, C1414 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Romantico",
+          "Tapas",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:31:45.943Z",
+        "fechaActualizacion": "2026-10-18T15:31:45.943Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7f873b47-8e59-4b1a-b1e0-c81e90fa55d2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.448075,
+          -34.604676
+        ]
+      },
+      "properties": {
+        "nombre": "Don Zoilo",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Av. Dr. Honorio Pueyrredón 1406, C1416 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:33:18.744Z",
+        "fechaActualizacion": "2026-10-18T15:33:18.744Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b9354efa-be14-49c6-808c-ab335c51e34f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.352241,
+          -34.676302
+        ]
+      },
+      "properties": {
+        "nombre": "Parrilla el tano",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Casella Piñero 187, B1872 Sarandí, Provincia de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:34:35.703Z",
+        "fechaActualizacion": "2026-10-18T15:34:35.703Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "84eee909-dee5-4270-8244-f91d81cfcd21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.378191,
+          -34.608618
+        ]
+      },
+      "properties": {
+        "nombre": "Café Tortoni",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cafe",
+        "selloB": true,
+        "direccion": "Av. de Mayo 825, C1084 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Desayuno",
+          "Tipico"
+        ],
+        "notas": "Pedir chocolate y churros",
+        "fechaCreacion": "2026-10-18T15:36:13.007Z",
+        "fechaActualizacion": "2026-10-18T15:36:31.943Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "de56be54-476f-4925-9c77-9de7f3e3b707",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.375717,
+          -34.604485
+        ]
+      },
+      "properties": {
+        "nombre": "Paulin",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cerveza",
+        "selloB": true,
+        "direccion": "Sarmiento 635, C1041AAM Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "Bocadillo voladores",
+        "fechaCreacion": "2026-10-18T15:38:00.663Z",
+        "fechaActualizacion": "2026-10-18T15:38:20.055Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b6b677bb-fdd2-481d-afe0-f09667fb3723",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.378578,
+          -34.60357
+        ]
+      },
+      "properties": {
+        "nombre": "Las cuartetas",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Av. Corrientes 838, C1043 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:39:40.456Z",
+        "fechaActualizacion": "2026-10-18T15:39:40.456Z"
+      }
     }
   ]
 }
