@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MapContainer, TileLayer, GeoJSON, Circle, CircleMarker, useMap } from "react-leaflet";
 import establecimientos from "../data/establecimientos.geojson.json";
+import rutas from "../data/rutas.json";
 import { ratingFor, venueDetails, visitDate, visitRating, visitComment } from "./venueDetails.js";
 import { createVenueMarker, bindVenuePopup, TYPE_COLORS } from "./markers.js";
 import { TYPES, STATUSES, PRICES, TAGS, initialFilters, filterVenues } from "./filters.js";
@@ -79,6 +80,7 @@ function VenueDetails({ feature }) {
 export default function App() {
   const [filters, setFilters] = useState(initialFilters);
   const [view, setView] = useState("map");
+  const [selectedRoute, setSelectedRoute] = useState("");
   const [sort, setSort] = useState("name");
   const [showFilters, setShowFilters] = useState(false);
   const [query, setQuery] = useState("");
