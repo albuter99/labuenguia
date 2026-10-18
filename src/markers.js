@@ -6,7 +6,7 @@ export const TYPE_COLORS = Object.freeze({
   Pub: "#253B73", Otros: "#6C757D",
 });
 
-const PIN_SYMBOLS = Object.freeze({ cubiertos:"🍴", cerveza:"🍺", helado:"🍦", cafe:"☕", coctel:"🍸", vino:"🍷" });
+const PIN_SYMBOLS = Object.freeze({ cubiertos:"🍴", cerveza:"🍺", helado:"🍦", cafe:"☕", coctel:"🍸", vino:"🍷", pizza:"🍕" });
 export function createVenueMarker(feature, latlng) {
   const choice = feature?.properties?.icono || "";
   const symbol = PIN_SYMBOLS[choice];
