@@ -209,6 +209,145 @@
         "fechaCreacion": "2026-10-18T14:29:41.887Z",
         "fechaActualizacion": "2026-10-18T14:30:40.111Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "a577c014-4633-4804-a4cf-3329150be293",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.571973,
+          -25.60131
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante La Rueda 1975",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "CON, Av. Córdoba 28, N3370 Puerto Iguazú, Misiones, Argentina",
+        "etiquetas": [
+          "Vino",
+          "Carne",
+          "Tipico",
+          "Pescado"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:33:49.703Z",
+        "fechaActualizacion": "2026-10-18T14:33:49.703Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5e9a48ff-7ab3-4cf2-bfbd-4a34046f1814",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.588317,
+          -25.534488
+        ]
+      },
+      "properties": {
+        "nombre": "Churrascaria do Gaúcho desde 2003",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "R. Tarobá, 1066 - Centro, Foz do Iguaçu - PR, 85851-220, Brasil",
+        "etiquetas": [
+          "Carne",
+          "Tipico",
+          "Barato",
+          "Buffet"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:36:36.735Z",
+        "fechaActualizacion": "2026-10-18T14:36:36.735Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5500cce7-6f0d-423d-8022-8ca697787712",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.975059,
+          -26.070926
+        ]
+      },
+      "properties": {
+        "nombre": "Baco Resto Bar",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Av. Gral. Güemes Nte. Centro, A4427 Cafayate, Salta, Argentina",
+        "etiquetas": [
+          "Tipico",
+          "Barato"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:41:24.023Z",
+        "fechaActualizacion": "2026-10-18T14:41:24.023Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7c1d5e89-6362-405a-91fb-f016076884e0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.408459,
+          -24.79052
+        ]
+      },
+      "properties": {
+        "nombre": "Doña Salta",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Córdoba 46, A4400 Salta, Argentina",
+        "etiquetas": [
+          "Tipico",
+          "Barato"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:44:27.687Z",
+        "fechaActualizacion": "2026-10-18T14:44:27.687Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e9e5dfb9-7889-4272-845f-c238421c21a2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.43713,
+          -24.787752
+        ]
+      },
+      "properties": {
+        "nombre": "La Casona del Molino",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Cnel, Luis Burela 1, A4400 Salta, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:46:02.455Z",
+        "fechaActualizacion": "2026-10-18T14:46:02.455Z"
+      }
     }
   ]
 }
