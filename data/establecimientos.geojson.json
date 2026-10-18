@@ -16,6 +16,7 @@
         "tipo": "Restaurante",
         "estado": "Visitado",
         "precio": 4,
+        "icono": "cubiertos",
         "direccion": "C. de Eugenio Salazar, 56, Chamartín, 28002 Madrid, España",
         "etiquetas": [
           "Menu degustacion",
@@ -24,7 +25,7 @@
         ],
         "notas": "Reservar zona tramo",
         "fechaCreacion": "2026-10-17T22:32:58.584Z",
-        "fechaActualizacion": "2026-10-17T22:32:58.584Z"
+        "fechaActualizacion": "2026-10-18T12:00:45.616Z"
       }
     },
     {
@@ -42,13 +43,14 @@
         "tipo": "Bar",
         "estado": "Visitado",
         "precio": 2,
+        "icono": "cerveza",
         "direccion": "C. de Sagasta, 26, Centro, 28004 Madrid, España",
         "etiquetas": [
           "Irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-17T22:56:45.800Z",
-        "fechaActualizacion": "2026-10-17T22:56:45.800Z"
+        "fechaActualizacion": "2026-10-18T12:01:01.895Z"
       }
     },
     {
@@ -66,6 +68,7 @@
         "tipo": "Cafetería",
         "estado": "Quiero ir",
         "precio": null,
+        "icono": "cafe",
         "direccion": "C. de San Mateo, 11, Centro, 28004 Madrid, España",
         "etiquetas": [
           "Postre",
@@ -74,7 +77,7 @@
         ],
         "notas": "",
         "fechaCreacion": "2026-10-17T23:04:51.704Z",
-        "fechaActualizacion": "2026-10-17T23:04:51.704Z"
+        "fechaActualizacion": "2026-10-18T12:01:12.855Z"
       }
     }
   ]
