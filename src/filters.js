@@ -2,7 +2,7 @@ import { hasBuenSello } from "./venueDetails.js";
 export const TYPES = ["Restaurante", "Cafetería", "Bar", "Pub", "Otros"];
 export const STATUSES = ["Quiero ir", "Visitado"];
 export const PRICES = [1, 2, 3, 4];
-export const TAGS = ["Michelin", "Menu degustacion", "Vino", "Vegano", "Irlandes", "Copas", "Vistas", "Coffeeshop", "Italiano", "Carne", "Español", "Tipico", "Pescado", "Barato", "Chino", "Hamburguesa", "Postre", "Paella", "Sushi", "Kebab", "Mexicano", "Musica en directo", "Reservado", "Helados", "Brunch", "Desayuno", "Cocteles", "Pasteleria", "Rooftop", "Romantico", "Buffet", "Tapas"];
+export const TAGS = ["Michelin", "Menu degustacion", "Vino", "Vegano", "Irlandes", "Copas", "Vistas", "Coffeeshop", "Italiano", "Carne", "Español", "Tipico", "Pescado", "Barato", "Chino", "Hamburguesa", "Postre", "Paella", "Sushi", "Kebab", "Mexicano", "Musica en directo", "Reservado", "Helados", "Brunch", "Desayuno", "Cocteles", "Pasteleria", "Rooftop", "Romantico", "Buffet", "Tapas","De autor"].sort((a,b)=>a.localeCompare(b,"es",{sensitivity:"base"}));
 
 export const initialFilters = () => ({
   types: [...TYPES],
