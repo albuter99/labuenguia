@@ -209,7 +209,7 @@ class Handler(SimpleHTTPRequestHandler):
                 raise ValueError("Establecimiento no encontrado")
             rating = visit.get("valoracion")
             if rating is not None and (type(rating) is not int or rating not in (1,2,3,4,5)):
-                raise ValueError("Los soles deben estar entre 1 y 5")
+                raise ValueError("Las sonrisas deben estar entre 1 y 5")
             if visit.get("fecha") is not None:
                 from datetime import date
                 date.fromisoformat(visit["fecha"])
@@ -270,6 +270,8 @@ class Handler(SimpleHTTPRequestHandler):
                 raise ValueError("Tipo o estado inválido")
             if p["precio"] is not None and (type(p["precio"]) is not int or p["precio"] not in (1, 2, 3, 4)):
                 raise ValueError("Precio inválido")
+            if "selloB" in p and type(p["selloB"]) is not bool:
+                raise ValueError("Sello B inválido")
             if not isinstance(p["etiquetas"], list) or any(not isinstance(t, str) for t in p["etiquetas"]):
                 raise ValueError("Etiquetas inválidas")
             collection = json.loads(DATA.read_text(encoding="utf-8"))
