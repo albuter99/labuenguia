@@ -1408,6 +1408,247 @@
         "fechaCreacion": "2026-10-18T16:56:32.735Z",
         "fechaActualizacion": "2026-10-18T16:56:44.599Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "a883a2dd-e2d9-47ee-b5ca-c86201c6b553",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.484209,
+          27.934845
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante El Centro",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Barranco de Guayadeque, 25, 35260 Agüimes, Las Palmas, España",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:58:59.759Z",
+        "fechaActualizacion": "2026-10-18T16:58:59.759Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b7d5bd83-5e0b-42ef-8535-e1e0a630e2dc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.625886,
+          28.393939
+        ]
+      },
+      "properties": {
+        "nombre": "El Rincón de Edu",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "C. el Rosario, 6, 38420 San Juan de la Rambla, Santa Cruz de Tenerife, España",
+        "etiquetas": [
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T17:00:15.415Z",
+        "fechaActualizacion": "2026-10-18T17:00:15.415Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e7418583-c62b-454b-bd55-1e4b9bd4b9cd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.044818,
+          -27.596848
+        ]
+      },
+      "properties": {
+        "nombre": "Jim's Chicken",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "397 Hellawell Rd, Sunnybank Hills QLD 4109, Australia",
+        "etiquetas": [],
+        "notas": "Pollo",
+        "fechaCreacion": "2026-10-18T17:02:47.519Z",
+        "fechaActualizacion": "2026-10-18T17:02:47.519Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d73b9a4d-e310-4a39-b4ba-f27b2f523a30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.370269,
+          4.367879
+        ]
+      },
+      "properties": {
+        "nombre": "Celsius",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Maldivas, Huvafen Fushi",
+        "etiquetas": [
+          "Brunch",
+          "Desayuno",
+          "Romantico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T17:05:58.591Z",
+        "fechaActualizacion": "2026-10-18T17:05:58.591Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0ecaac1b-49a9-48a1-a99f-5bba8a3926d4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.574986,
+          13.726223
+        ]
+      },
+      "properties": {
+        "nombre": "Err Urban Rustic Thai",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "2/4 Sukhumvit Rd, Khlong Tan, Khlong Toei, Bangkok 10110, Tailandia",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T17:07:18.663Z",
+        "fechaActualizacion": "2026-10-18T17:07:18.663Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "793ea024-3db4-46fe-8393-5dbee0de8076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.539608,
+          13.723592
+        ]
+      },
+      "properties": {
+        "nombre": "Vertigo & Moon Bar Rooftop",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "21/100 S Sathon Rd, Thung Maha Mek, Sathon, Bangkok 10120, Tailandia",
+        "etiquetas": [
+          "Copas",
+          "Rooftop",
+          "Vistas"
+        ],
+        "notas": "Tambien comida",
+        "fechaCreacion": "2026-10-18T17:09:37.383Z",
+        "fechaActualizacion": "2026-10-18T17:09:37.383Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f843bd07-96b5-482b-9104-14bab325bef5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.556047,
+          13.744996
+        ]
+      },
+      "properties": {
+        "nombre": "Nest Rooftop Lounge",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "11 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110, Tailandia",
+        "etiquetas": [
+          "Copas",
+          "Rooftop",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T17:10:50.039Z",
+        "fechaActualizacion": "2026-10-18T17:10:50.039Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0d2919a-3294-474f-b080-257d12dfa587",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.514189,
+          13.72361
+        ]
+      },
+      "properties": {
+        "nombre": "Authors' Lounge",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "48 Oriental Ave, Khwaeng Bang Rak, Bang Rak, Bangkok 10500, Tailandia",
+        "etiquetas": [
+          "Postre"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T17:12:23.919Z",
+        "fechaActualizacion": "2026-10-18T17:12:23.919Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8d0b16a4-45ac-4fa6-8c1d-595cd371f0f5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.504763,
+          13.752616
+        ]
+      },
+      "properties": {
+        "nombre": "Raan Jay Fai",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "327 Maha Chai Rd, Samran Rat, Phra Nakhon, Bangkok 10200, Tailandia",
+        "etiquetas": [
+          "Michelin",
+          "Tipico"
+        ],
+        "notas": "Pedir la omelete",
+        "fechaCreacion": "2026-10-18T17:14:24.295Z",
+        "fechaActualizacion": "2026-10-18T17:14:24.295Z"
+      }
     }
   ]
 }
