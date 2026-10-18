@@ -6,3 +6,5 @@
 .danger{background:#b33b43;color:white}td button{margin-right:5px}h3{margin-top:24px}
 
 #routes-editor{margin-top:22px}.route-stop{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:9px 0;padding:9px;background:#f4f6f9;border-radius:9px}.route-stop select{flex:2;min-width:170px}.route-stop input{flex:3;min-width:170px}.route-stop button{flex:none;padding:8px 11px}.route-entry{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #ddd}.route-entry strong{flex:1;min-width:160px}
+
+.result-count{font-size:13px;color:#596579;margin:14px 0 4px}.pagination{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}.pagination button:disabled{opacity:.45;cursor:not-allowed}.visit-matches{display:flex;flex-direction:column;gap:5px;margin:7px 0}.visit-matches button{margin:0;text-align:left;white-space:normal;font-weight:500}.visit-matches:empty{display:none}#visit-search{max-width:100%}
