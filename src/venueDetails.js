@@ -36,7 +36,7 @@ export function visitDate(visit) {
 }
 
 export function visitRating(visit) {
-  return Number.isInteger(visit.valoracion) && visit.valoracion >= 1 && visit.valoracion <= 5 ? `${visit.valoracion} Soles` : "Sin valorar";
+  return Number.isInteger(visit.valoracion) && visit.valoracion >= 1 && visit.valoracion <= 5 ? `${visit.valoracion} sonrisas` : "Sin valorar";
 }
 
 export function visitComment(visit) {
