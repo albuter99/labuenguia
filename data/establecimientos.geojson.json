@@ -619,6 +619,198 @@
         "fechaCreacion": "2026-10-18T15:14:10.759Z",
         "fechaActualizacion": "2026-10-18T15:14:10.759Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "653eb86b-5631-4129-ad96-e49cd5850435",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.153192,
+          -34.912864
+        ]
+      },
+      "properties": {
+        "nombre": "Polo Bamba",
+        "tipo": "Pub",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "26 de Marzo 958, 11300 Montevideo, Departamento de Montevideo, Uruguay",
+        "etiquetas": [
+          "Copas",
+          "Rooftop",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:16:09.095Z",
+        "fechaActualizacion": "2026-10-18T15:16:09.095Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5968a945-2dd8-411d-97fe-740532eb3e71",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.572512,
+          -34.418505
+        ]
+      },
+      "properties": {
+        "nombre": "Lo de Negri Parrilla - Asado Criollo",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "A Sarmiento 7, B1648 Tigre, Provincia de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:17:56.399Z",
+        "fechaActualizacion": "2026-10-18T15:17:56.399Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cf66a3d6-0989-4d0a-9736-514aa420d514",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.520691,
+          -34.637008
+        ]
+      },
+      "properties": {
+        "nombre": "El Ferroviario",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Av. Reservistas Argentinos 219, C1408 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:19:42.727Z",
+        "fechaActualizacion": "2026-10-18T15:19:42.727Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d9eb047c-94b4-4215-b550-7e50160d662c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.454723,
+          -34.552448
+        ]
+      },
+      "properties": {
+        "nombre": "EL ANTOJO NÚÑEZ",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Manuel Ugarte 1699, C1428 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "Milanesas",
+        "fechaCreacion": "2026-10-18T15:21:36.151Z",
+        "fechaActualizacion": "2026-10-18T15:23:19.055Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "918fd657-2fd6-460e-9961-538f871dbcb5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.448264,
+          -34.554067
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Corte Comedor",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Av. Olazábal 1391, C1428DGE Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:23:07.327Z",
+        "fechaActualizacion": "2026-10-18T15:23:07.327Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4f972b08-ad84-441c-aa18-b42362606bfc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.434678,
+          -34.566373
+        ]
+      },
+      "properties": {
+        "nombre": "La Colorada",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Migueletes 840, C1426BUJ Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:25:18.855Z",
+        "fechaActualizacion": "2026-10-18T15:25:18.855Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "50fc5093-ceff-41e1-be80-96fb16cf363e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.418106,
+          -34.566145
+        ]
+      },
+      "properties": {
+        "nombre": "Belisario Roldán",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Av. Pres. Figueroa Alcorta 5100, C1426 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:27:25.847Z",
+        "fechaActualizacion": "2026-10-18T15:27:25.847Z"
+      }
     }
   ]
 }

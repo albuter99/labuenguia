@@ -61,5 +61,26 @@
     "fecha": "2024-08-21",
     "valoracion": 4,
     "comentario": ""
+  },
+  {
+    "id": "ec1a170e-d0fd-451d-a838-fc597a1da207",
+    "establecimientoId": "653eb86b-5631-4129-ad96-e49cd5850435",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "d0f51037-edae-4487-9f7c-7cc706fbe02e",
+    "establecimientoId": "4f972b08-ad84-441c-aa18-b42362606bfc",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "5c4c6a10-e264-4f0e-9054-a6ac81db2a5a",
+    "establecimientoId": "50fc5093-ceff-41e1-be80-96fb16cf363e",
+    "fecha": null,
+    "valoracion": 5,
+    "comentario": ""
   }
 ]
