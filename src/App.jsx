@@ -203,6 +203,7 @@ export default function App() {
       <span aria-live="polite">{visible.features.length} de {establecimientos.features.length} establecimientos</span>
     </div>
     {showFilters && <aside className="filters" aria-label="Filtros de establecimientos">
+      <label className="b-filter"><input type="checkbox" checked={filters.soloSelloB} onChange={event => setFilters(previous => ({...previous, soloSelloB:event.target.checked}))} /><span className="b-seal">B</span> Solo recomendados con Sello B</label>
       <FilterGroup title="Tipo" options={TYPES} selected={filters.types} onToggle={value => toggle("types", value)} />
       <FilterGroup title="Estado" options={STATUSES} selected={filters.statuses} onToggle={value => toggle("statuses", value)} />
       <FilterGroup title="Precio" options={PRICES} selected={filters.prices} onToggle={value => toggle("prices", value)} format={value => "€".repeat(value)} />
@@ -251,7 +252,7 @@ export default function App() {
         const rating = ratingFor(feature);
         const coords = feature.geometry?.coordinates;
         return <article className="venue-card" key={feature.id}>
-          <h2>{p.nombre || "Sin nombre"}</h2>
+          <h2>{venueDetails(feature).selloB && <span className="b-seal" title="Sello B de La BuenGuia" aria-label="Sello B de La BuenGuia">B</span>}{p.nombre || "Sin nombre"}</h2>
           <VenueDetails feature={feature} />\n          {Array.isArray(coords) && coords.length >= 2 && <button type="button" onClick={() => {
             setDestination({ center: [coords[1], coords[0]], zoom: 16, venueId: feature.id });
             setView("map");
