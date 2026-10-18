@@ -83,3 +83,12 @@ main>.filters .reset-inside-filters:hover{background:#e8eff7}
 .venue-symbol-pin{background:transparent;border:0}
 .venue-pin-bubble{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border:3px solid white;border-radius:50%;box-sizing:border-box;box-shadow:0 3px 9px #15253385;font-size:21px;line-height:1;transition:transform .15s ease}
 .venue-symbol-pin:hover .venue-pin-bubble{transform:scale(1.15)}
+
+/* Compact directions chooser next to addresses */
+.map-directions{display:inline-block;position:relative;vertical-align:middle;margin-left:5px}
+.map-directions>summary{display:inline-flex;align-items:center;justify-content:center;list-style:none;cursor:pointer;width:28px;height:28px;border:1px solid #d8dee5;border-radius:7px;background:#f8fafc;color:#253B73;font-size:17px;user-select:none}
+.map-directions>summary::-webkit-details-marker{display:none}
+.map-directions[open]>summary{background:#e7eef9}
+.map-directions-options{position:absolute;right:0;top:calc(100% + 5px);z-index:1100;min-width:155px;padding:5px;border-radius:10px;background:#fff;box-shadow:0 5px 20px #17253c35;border:1px solid #e1e5eb}
+.map-directions-options a{display:block;padding:9px 11px;border-radius:6px;color:#253B73!important;text-decoration:none!important;font-size:13px;font-weight:650;white-space:nowrap}
+.map-directions-options a:hover{background:#f0f4f9}
