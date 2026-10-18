@@ -6,7 +6,18 @@ export const TYPE_COLORS = Object.freeze({
   Pub: "#253B73", Otros: "#6C757D",
 });
 
+const PIN_SYMBOLS = Object.freeze({ cubiertos:"🍴", cerveza:"🍺", helado:"🍦", cafe:"☕", coctel:"🍸", vino:"🍷" });
 export function createVenueMarker(feature, latlng) {
+  const choice = feature?.properties?.icono || "";
+  const symbol = PIN_SYMBOLS[choice];
+  if (symbol) {
+    const color = TYPE_COLORS[feature?.properties?.tipo] ?? TYPE_COLORS.Otros;
+    return L.marker(latlng, { icon: L.divIcon({
+      className:"venue-symbol-pin",
+      html:'<span class="venue-pin-bubble" style="background:'+color+'"><span>'+symbol+'</span></span>',
+      iconSize:[40,44], iconAnchor:[20,22], popupAnchor:[0,-22]
+    }) });
+  }
   return L.circleMarker(latlng, {
     radius: 13, color: "#ffffff", weight: 3, className: "venue-map-marker",
     fillColor: TYPE_COLORS[feature?.properties?.tipo] ?? TYPE_COLORS.Otros, fillOpacity: 1,
