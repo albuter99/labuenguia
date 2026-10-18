@@ -6,6 +6,7 @@ import json, os, shutil, tempfile, uuid, math, subprocess
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "establecimientos.geojson.json"
 VISITS = ROOT / "data" / "visitas.json"
+ROUTES = ROOT / "data" / "rutas.json"
 BACKUPS = ROOT / "backups"
 HOST, PORT = "127.0.0.1", 8765
 
@@ -16,6 +17,8 @@ class Handler(SimpleHTTPRequestHandler):
                 self.reply(200, json.loads(DATA.read_text(encoding="utf-8")))
             except (OSError, ValueError) as error:
                 self.reply(500, {"error": str(error)})
+        elif self.path == "/api/rutas":
+            self.reply(200, json.loads(ROUTES.read_text(encoding="utf-8")))
         elif self.path == "/api/visitas":
             try:
                 self.reply(200, json.loads(VISITS.read_text(encoding="utf-8")))
