@@ -79,6 +79,136 @@
         "fechaCreacion": "2026-10-17T23:04:51.704Z",
         "fechaActualizacion": "2026-10-18T12:01:12.855Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "74fa1801-f17e-418a-bd8d-ca58aea18f9a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991795,
+          40.760037
+        ]
+      },
+      "properties": {
+        "nombre": "Rudy's Bar & Grill",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "627 9th Ave, New York, NY 10036, Estados Unidos",
+        "etiquetas": [
+          "Barato"
+        ],
+        "notas": "Cerveza barata y perritos calientes gratis",
+        "fechaCreacion": "2026-10-18T14:17:30.953Z",
+        "fechaActualizacion": "2026-10-18T14:17:30.953Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ad31aead-e023-43fc-b12c-b0318d25ad74",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.044256,
+          40.717794
+        ]
+      },
+      "properties": {
+        "nombre": "Razza",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "275 Grove St, Jersey City, NJ 07302, Estados Unidos",
+        "etiquetas": [
+          "Italiano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:19:59.135Z",
+        "fechaActualizacion": "2026-10-18T14:19:59.135Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e88308eb-3d85-4ca5-a2a1-84f90b996324",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962502,
+          40.709904
+        ]
+      },
+      "properties": {
+        "nombre": "Peter Luger Steak House",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "178 Broadway, Brooklyn, NY 11211, Estados Unidos",
+        "etiquetas": [
+          "Carne",
+          "Tipico",
+          "Hamburguesa"
+        ],
+        "notas": "SOLO EFECTIVO\nPedir bacon Luger, hamburguesa y el steak",
+        "fechaCreacion": "2026-10-18T14:24:33.880Z",
+        "fechaActualizacion": "2026-10-18T14:24:33.880Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13f1f04f-74ca-4262-9c98-6577172c3676",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983823,
+          40.578942
+        ]
+      },
+      "properties": {
+        "nombre": "Totonno's",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "1524 Neptune Ave, Brooklyn, NY 11224, Estados Unidos",
+        "etiquetas": [
+          "Italiano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:28:41.624Z",
+        "fechaActualizacion": "2026-10-18T14:28:41.624Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b65bdbed-2967-4eed-93fe-57f8fbc5ea4f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.077289,
+          40.642015
+        ]
+      },
+      "properties": {
+        "nombre": "Nonnas of the World Community",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "27 Hyatt St, Staten Island, NY 10301, Estados Unidos",
+        "etiquetas": [],
+        "notas": "Cada vez hay una señora distinta haciendo la comida y cambia el menú según la nacionalidad.",
+        "fechaCreacion": "2026-10-18T14:29:41.887Z",
+        "fechaActualizacion": "2026-10-18T14:30:40.111Z"
+      }
     }
   ]
 }
