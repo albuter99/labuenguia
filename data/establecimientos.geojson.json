@@ -2269,7 +2269,7 @@
         "tipo": "Restaurante",
         "estado": "Quiero ir",
         "precio": null,
-        "icono": "",
+        "icono": "cubiertos",
         "selloB": false,
         "direccion": "Havlíčkova 1014/2, 110 00 Nové Město, Chequia",
         "etiquetas": [
@@ -2277,7 +2277,7 @@
         ],
         "notas": "",
         "fechaCreacion": "2026-10-18T21:42:03.779Z",
-        "fechaActualizacion": "2026-10-18T21:42:03.779Z"
+        "fechaActualizacion": "2026-10-18T21:51:35.378Z"
       }
     },
     {

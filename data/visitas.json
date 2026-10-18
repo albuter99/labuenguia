@@ -110,5 +110,96 @@
     "fecha": null,
     "valoracion": 4,
     "comentario": ""
+  },
+  {
+    "id": "1e8a9e89-ce29-4eb1-8763-4788e4edde70",
+    "establecimientoId": "ef601536-87af-4e04-851e-de529f468a56",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "532c87df-d6ef-4b40-b4a0-6c6846037b8e",
+    "establecimientoId": "cf9792f1-2948-4849-8547-de282e2adc67",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "fec8aef8-b420-4c65-b268-a5bf343e01f0",
+    "establecimientoId": "6e7a6982-28ee-404d-8f2f-1f58f22bdb93",
+    "fecha": null,
+    "valoracion": 3,
+    "comentario": ""
+  },
+  {
+    "id": "04bd0282-b2bf-481c-84ea-000800f83c37",
+    "establecimientoId": "28c681cb-c877-4878-a25c-753d8800daf4",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "6e8b5aef-7a71-4916-9707-13484a616834",
+    "establecimientoId": "49707574-9b52-4ab8-8c9e-152ff57b1357",
+    "fecha": null,
+    "valoracion": 3,
+    "comentario": ""
+  },
+  {
+    "id": "2b677537-dfd0-45b3-9126-55b32b82af07",
+    "establecimientoId": "9a05475d-c00e-4e89-9e8a-271e6d304e2f",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "9240e230-5b38-47c5-8430-bfda5d86d11d",
+    "establecimientoId": "3904a8ff-39ba-4aa8-97e0-d7a36fe18266",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "e16d8a19-7e24-4354-89e3-896f5a88ba2d",
+    "establecimientoId": "46e7a73b-f5b4-46ff-82a8-33f71b6ad1c6",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "dbedc4ec-5694-43d8-b9e6-7765a11cd674",
+    "establecimientoId": "604b8976-00cf-4721-a650-240fbb614b44",
+    "fecha": null,
+    "valoracion": 3,
+    "comentario": ""
+  },
+  {
+    "id": "b9c04079-c22d-4e6d-9d07-46d67afa2317",
+    "establecimientoId": "7ac40e8d-483f-4c94-b01c-8ded42fed14d",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "2045bcf0-087e-47fa-ab43-190b1b81b833",
+    "establecimientoId": "b4b695f9-7399-4c99-935b-3eafe0df2ae9",
+    "fecha": null,
+    "valoracion": 3,
+    "comentario": ""
+  },
+  {
+    "id": "9228f6bc-bc36-4c47-906b-e82e55cb1625",
+    "establecimientoId": "180b325a-555f-4b40-9874-da67d1e3607c",
+    "fecha": null,
+    "valoracion": 2,
+    "comentario": "Muy barato"
+  },
+  {
+    "id": "f66dfe70-08c6-4371-9230-27b22a343f32",
+    "establecimientoId": "7f1ccd67-5837-470a-958d-f9204db884e5",
+    "fecha": null,
+    "valoracion": 3,
+    "comentario": ""
   }
 ]
