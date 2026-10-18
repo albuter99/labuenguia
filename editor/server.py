@@ -147,6 +147,52 @@ class Handler(SimpleHTTPRequestHandler):
         except (ValueError, subprocess.TimeoutExpired, FileNotFoundError) as error:
             self.reply(409, {"error": str(error)})
 
+    def save_route(self, update=False):
+        if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
+            self.reply(403, {"error": "Origen no permitido"})
+            return
+        try:
+            length = int(self.headers.get("Content-Length", "0"))
+            if not 0 < length <= 65536:
+                raise ValueError("Solicitud inválida")
+            route = json.loads(self.rfile.read(length))
+            uuid.UUID(str(route["id"]))
+            if not isinstance(route.get("nombre"), str) or not 0 < len(route["nombre"].strip()) <= 160:
+                raise ValueError("Nombre inválido")
+            if route.get("tipo") not in ("ruta", "coleccion"):
+                raise ValueError("Tipo inválido")
+            if not isinstance(route.get("ciudad"), str) or len(route["ciudad"]) > 160:
+                raise ValueError("Ciudad inválida")
+            if not isinstance(route.get("descripcion"), str) or len(route["descripcion"]) > 2000:
+                raise ValueError("Descripción inválida")
+            stops = route.get("paradas")
+            if not isinstance(stops, list) or len(stops) > 100:
+                raise ValueError("Paradas inválidas")
+            valid = {str(v["id"]) for v in json.loads(DATA.read_text(encoding="utf-8"))["features"]}
+            ids = []
+            for stop in stops:
+                venue_id = str(stop["establecimientoId"])
+                if venue_id not in valid or not isinstance(stop.get("pedir"), str) or len(stop["pedir"]) > 1000:
+                    raise ValueError("Parada inválida")
+                ids.append(venue_id)
+            if len(set(ids)) != len(ids):
+                raise ValueError("Establecimiento repetido")
+            items = json.loads(ROUTES.read_text(encoding="utf-8"))
+            matches = [i for i, v in enumerate(items) if v["id"] == route["id"]]
+            clean = {k: route[k] for k in ("id", "nombre", "tipo", "ciudad", "descripcion", "paradas")}
+            if update:
+                if len(matches) != 1:
+                    raise ValueError("Ruta no encontrada")
+                items[matches[0]] = clean
+            else:
+                if matches:
+                    raise ValueError("Ruta duplicada")
+                items.append(clean)
+            self.atomic_write(ROUTES, items)
+            self.reply(200, {"ok": True})
+        except (ValueError, KeyError, TypeError, OSError) as error:
+            self.reply(400, {"error": str(error)})
+
     def save_visit(self, update=False):
         if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}"):
             self.send_error(403)
