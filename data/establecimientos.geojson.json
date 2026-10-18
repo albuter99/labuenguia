@@ -17,15 +17,17 @@
         "estado": "Visitado",
         "precio": 4,
         "icono": "cubiertos",
+        "selloB": false,
         "direccion": "C. de Eugenio Salazar, 56, Chamartín, 28002 Madrid, España",
         "etiquetas": [
+          "De autor",
           "Menu degustacion",
-          "Vino",
-          "Vegano"
+          "Vegano",
+          "Vino"
         ],
         "notas": "Reservar zona tramo",
         "fechaCreacion": "2026-10-17T22:32:58.584Z",
-        "fechaActualizacion": "2026-10-18T12:16:58.888Z"
+        "fechaActualizacion": "2026-10-18T21:59:27.392Z"
       }
     },
     {

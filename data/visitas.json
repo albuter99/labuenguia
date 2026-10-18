@@ -201,5 +201,12 @@
     "fecha": null,
     "valoracion": 3,
     "comentario": ""
+  },
+  {
+    "id": "f9b1097b-1be2-4a37-8037-6be6f07571cd",
+    "establecimientoId": "6eb56020-a664-4e28-a61e-de509e6025f0",
+    "fecha": null,
+    "valoracion": 5,
+    "comentario": ""
   }
 ]
