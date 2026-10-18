@@ -93,7 +93,8 @@ export default function App() {
   const [locationError, setLocationError] = useState("");
   const lastRemoteSearch = useRef(0);
   const firstFit = useRef(false);
-  const visible = useMemo(() => filterVenues(establecimientos, filters), [filters]);
+  const activeRoute = rutas.find(item => item.id === selectedRoute);
+  const visible = useMemo(() => { const base = filterVenues(establecimientos, filters); return activeRoute ? { ...base, features: base.features.filter(f => activeRoute.paradas.some(p => String(p.establecimientoId) === String(f.id))) } : base; }, [filters, activeRoute]);
 
   function toggle(key, value) {
     setFilters(previous => ({ ...previous, [key]: previous[key].includes(value)
