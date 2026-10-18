@@ -1,0 +1,19 @@
+{
+  "id": "/labuenguia/",
+  "name": "La BuenGuia",
+  "short_name": "La BuenGuia",
+  "description": "Mi mapa de restaurantes, cafeterías, bares y lugares favoritos.",
+  "start_url": "/labuenguia/",
+  "scope": "/labuenguia/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#253B73",
+  "icons": [
+    {
+      "src": "/labuenguia/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
