@@ -92,3 +92,7 @@ main>.filters .reset-inside-filters:hover{background:#e8eff7}
 .map-directions-options{position:absolute;right:0;top:calc(100% + 5px);z-index:1100;min-width:155px;padding:5px;border-radius:10px;background:#fff;box-shadow:0 5px 20px #17253c35;border:1px solid #e1e5eb}
 .map-directions-options a{display:block;padding:9px 11px;border-radius:6px;color:#253B73!important;text-decoration:none!important;font-size:13px;font-weight:650;white-space:nowrap}
 .map-directions-options a:hover{background:#f0f4f9}
+
+/* Center hamburger and close icons precisely within their square */
+main>.toolbar .filter-toggle{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;padding:0;line-height:1;flex-shrink:0}
+main>.toolbar .filter-toggle::before{display:block;line-height:1;text-align:center;margin:0;transform:none}
