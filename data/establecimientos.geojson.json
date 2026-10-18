@@ -348,6 +348,119 @@
         "fechaCreacion": "2026-10-18T14:46:02.455Z",
         "fechaActualizacion": "2026-10-18T14:46:02.455Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "f85873f4-1c4c-4f63-9c83-cf2d9794cd53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.263138,
+          -50.337815
+        ]
+      },
+      "properties": {
+        "nombre": "Pietro's Cafe",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Av. del Libertador 1002, Z9405 El Calafate, Santa Cruz, Argentina",
+        "etiquetas": [
+          "Tipico",
+          "Barato",
+          "Brunch",
+          "Desayuno",
+          "Pasteleria"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:48:15.151Z",
+        "fechaActualizacion": "2026-10-18T14:48:15.151Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19794a42-061b-4c1e-adcf-c928fdc69ed2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.263936,
+          -50.337893
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Asador \"MERINO-Fuegos de Patagonia\"",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Av. del Libertador 1044, Z9405 El Calafate, Santa Cruz, Argentina",
+        "etiquetas": [
+          "Vino",
+          "Carne",
+          "Tipico",
+          "Reservado"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:50:17.111Z",
+        "fechaActualizacion": "2026-10-18T14:50:17.111Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d5f868f0-5dce-4636-9cd5-7eac5bb00bfa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.892614,
+          -49.324495
+        ]
+      },
+      "properties": {
+        "nombre": "Rancho Grande Hostel y Restaurante 24 hs.",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "San Martín 724, Z9301 El Chalten, Santa Cruz, Argentina",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:53:27.967Z",
+        "fechaActualizacion": "2026-10-18T14:53:27.967Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b219f826-ad3b-4458-a9a4-84c0232194a0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.891627,
+          -49.325319
+        ]
+      },
+      "properties": {
+        "nombre": "La Lomiteria El Chalten",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "San Martín 624, Z9301 El Chalten, Santa Cruz, Argentina",
+        "etiquetas": [
+          "Tipico",
+          "Hamburguesa"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T14:57:38.271Z",
+        "fechaActualizacion": "2026-10-18T14:57:38.271Z"
+      }
     }
   ]
 }
