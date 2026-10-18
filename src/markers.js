@@ -40,11 +40,11 @@ export function bindVenuePopup(feature, layer) {
   name.textContent = d.name;
   wrapper.append(name);
   addLine(wrapper, "", `${d.type} · ${d.status} · ${d.price}`);
-  if (d.address) {
+  if (feature.geometry?.coordinates?.length >= 2) {
     const line = document.createElement("p");
     const label = document.createElement("strong");
     label.textContent = "Dirección: ";
-    const address = document.createTextNode(d.address + " ");
+    const address = document.createTextNode((d.address || "Ubicación en el mapa") + " ");
     const directions = document.createElement("details");
     directions.className = "map-directions";
     const trigger = document.createElement("summary");
@@ -54,7 +54,7 @@ export function bindVenuePopup(feature, layer) {
     const choices = document.createElement("div");
     choices.className = "map-directions-options";
     const coords = feature.geometry.coordinates;
-    const destination = encodeURIComponent(coords[1] + "," + coords[0]);
+    const destination = encodeURIComponent(d.address?.trim() || coords[1] + "," + coords[0]);
     for (const [text, url] of [
       ["Google Maps", "https://www.google.com/maps/dir/?api=1&destination=" + destination],
       ["Mapas de Apple", "https://maps.apple.com/?daddr=" + destination]
