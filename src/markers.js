@@ -8,7 +8,7 @@ export const TYPE_COLORS = Object.freeze({
 
 export function createVenueMarker(feature, latlng) {
   return L.circleMarker(latlng, {
-    radius: 9, color: "#ffffff", weight: 2,
+    radius: 13, color: "#ffffff", weight: 3, className: "venue-map-marker",
     fillColor: TYPE_COLORS[feature?.properties?.tipo] ?? TYPE_COLORS.Otros, fillOpacity: 1,
   });
 }

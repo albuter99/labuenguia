@@ -41,3 +41,7 @@ main .leaflet-top.leaflet-left .leaflet-control-zoom{margin:0}
 main .leaflet-control-zoom{border:1px solid #e0e3e8;border-radius:11px;overflow:hidden;box-shadow:0 3px 15px #00000019}
 main .leaflet-control-zoom a{width:36px;height:36px;line-height:36px;color:#253B73}
 @media(max-width:700px){main>header{top:16px;padding:6px 13px 7px}main>header h1{font-size:21px;letter-spacing:-.8px}main .leaflet-top.leaflet-left{right:9px;top:14px}main .leaflet-control-zoom a{width:30px;height:30px;line-height:30px}}
+
+/* Higher-contrast venue pins */
+.venue-map-marker{filter:drop-shadow(0 2px 4px #15253380);transition:filter .15s ease,stroke-width .15s ease;cursor:pointer}
+.venue-map-marker:hover{filter:drop-shadow(0 3px 7px #152533b3) brightness(1.08);stroke-width:5}
