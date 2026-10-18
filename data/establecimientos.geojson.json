@@ -204,10 +204,12 @@
         "icono": "cubiertos",
         "selloB": false,
         "direccion": "27 Hyatt St, Staten Island, NY 10301, Estados Unidos",
-        "etiquetas": [],
+        "etiquetas": [
+          "De autor"
+        ],
         "notas": "Cada vez hay una señora distinta haciendo la comida y cambia el menú según la nacionalidad.",
         "fechaCreacion": "2026-10-18T14:29:41.887Z",
-        "fechaActualizacion": "2026-10-18T14:30:40.111Z"
+        "fechaActualizacion": "2026-10-18T15:05:46.960Z"
       }
     },
     {
@@ -460,6 +462,162 @@
         "notas": "",
         "fechaCreacion": "2026-10-18T14:57:38.271Z",
         "fechaActualizacion": "2026-10-18T14:57:38.271Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6956f978-6a17-43fa-841c-45e993090a18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.511302,
+          -34.591411
+        ]
+      },
+      "properties": {
+        "nombre": "Pizzería José",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Av. S. Martín 6915, C1419 ICG, Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:07:01.632Z",
+        "fechaActualizacion": "2026-10-18T15:07:01.632Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1d4f63b9-5448-49b8-850e-54f657bde16f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.460855,
+          -34.577935
+        ]
+      },
+      "properties": {
+        "nombre": "La Mezzetta",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Av. Álvarez Thomas 1321, C1427CDA Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:08:33.127Z",
+        "fechaActualizacion": "2026-10-18T15:08:33.127Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c5fed871-b6d0-46f2-b60a-849501ae6fd4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43692,
+          -34.589843
+        ]
+      },
+      "properties": {
+        "nombre": "Pizzería Angelín",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Av. Córdoba 5270, C1414 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:09:49.495Z",
+        "fechaActualizacion": "2026-10-18T15:09:49.495Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "294c52d0-25ed-401a-993a-ca512e29ab3b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.385508,
+          -34.5978
+        ]
+      },
+      "properties": {
+        "nombre": "El Cuartito",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Talcahuano 937, C1001 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:11:16.927Z",
+        "fechaActualizacion": "2026-10-18T15:11:16.927Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "afb9f669-1e23-4f71-8545-fead1d357965",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.386014,
+          -34.604062
+        ]
+      },
+      "properties": {
+        "nombre": "Pizzería Güerrín",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Av. Corrientes 1368, C1043ABN Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:12:27.023Z",
+        "fechaActualizacion": "2026-10-18T15:12:27.023Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9e95c7d6-9122-49cc-911f-a5e82306a564",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.374543,
+          -34.63799
+        ]
+      },
+      "properties": {
+        "nombre": "Pizzería Los Campeones",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Av. Montes de Oca 856, C1270 Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T15:14:10.759Z",
+        "fechaActualizacion": "2026-10-18T15:14:10.759Z"
       }
     }
   ]

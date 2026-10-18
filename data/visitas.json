@@ -54,5 +54,12 @@
     "fecha": "2024-08-29",
     "valoracion": 4,
     "comentario": ""
+  },
+  {
+    "id": "e2f43500-9cb2-4286-8331-078dbc035380",
+    "establecimientoId": "afb9f669-1e23-4f71-8545-fead1d357965",
+    "fecha": "2024-08-21",
+    "valoracion": 4,
+    "comentario": ""
   }
 ]
