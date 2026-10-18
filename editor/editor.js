@@ -43,6 +43,7 @@ function editVenue(venue) {
   editingId=venue.id; const p=venue.properties;
   for(const key of ["nombre","tipo","estado","direccion","notas"])form.elements.namedItem(key).value=p[key]??"";
   form.elements.namedItem("precio").value=p.precio??"";
+  form.elements.namedItem("selloB").checked=p.selloB===true;
   form.elements.namedItem("icono").value=p.icono??"";
   form.elements.namedItem("lat").value=venue.geometry.coordinates[1];
   form.elements.namedItem("lon").value=venue.geometry.coordinates[0];
@@ -152,6 +153,7 @@ form.addEventListener("submit", async event => {
       estado: data.get("estado"),
       precio: data.get("precio") ? Number(data.get("precio")) : null,
       icono: String(data.get("icono") || ""),
+      selloB: data.get("selloB") === "on",
       direccion: String(data.get("direccion") || "").trim(),
       etiquetas: data.getAll("etiquetas"),
       notas: String(data.get("notas") || "").trim(),
