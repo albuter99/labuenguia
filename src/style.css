@@ -4,3 +4,31 @@ html,body,#root{margin:0;min-height:100%;font-family:system-ui,-apple-system,Seg
 .venue-details p,.venue-popup p{margin:6px 0;line-height:1.45}.venue-popup h3{margin:0 0 8px;font-size:17px}.venue-popup{min-width:200px;overflow-wrap:anywhere}.visit-history,.venue-popup details{margin:10px 0}.visit-history summary,.venue-popup summary{cursor:pointer;font-weight:600}.visit-history ul{padding-left:20px}.visit-history li,.visit-entry{margin:8px 0;padding-top:6px;border-top:1px solid #e6e8ed}
 
 .copy-address { display: inline-block; margin-left: 0.4rem; padding: 0.25rem 0.5rem; font-size: 0.8rem; cursor: pointer; }
+
+html,body,#root{height:100%;overflow:hidden}
+main{max-width:none;height:100dvh;margin:0;padding:0;position:relative;overflow:hidden}
+main>header{position:absolute;top:12px;left:50%;transform:translateX(-50%);z-index:1000;pointer-events:none;text-align:center}
+main>header h1{font-family:Georgia,serif;font-size:29px;color:#253B73;text-shadow:0 1px 9px white}
+main>header p{display:none}
+main>.toolbar{position:absolute;top:16px;left:16px;z-index:1200;margin:0}
+main>.toolbar .filter-toggle{width:44px;height:44px;font-size:0;box-shadow:0 2px 12px #0002;background:white;color:#253B73;border-radius:12px}
+main>.toolbar .filter-toggle::before{content:"☰";font-size:23px}
+main>.toolbar .filter-toggle[aria-expanded="true"]::before{content:"✕"}
+main>.toolbar>span,main>.toolbar>.reset-button{display:none}
+main>.search-form,main>.search-results,main>.search-message,main>.filters{position:absolute;left:16px;width:min(33vw,460px);min-width:310px;z-index:1100;background:#fff;box-sizing:border-box}
+main>.search-form{top:77px;padding:14px 14px 8px;margin:0;border-radius:14px 14px 0 0;box-shadow:0 4px 18px #0002}
+main>.search-results{top:145px;z-index:1150;max-height:210px;overflow:auto}
+main>.search-message{top:140px;padding:10px}
+main>.filters{top:144px;bottom:15px;overflow-y:auto;display:block;border-radius:0 0 14px 14px;padding:12px 14px;box-shadow:0 8px 18px #0002}
+main>.filters .filter-group{margin-bottom:20px;padding-bottom:15px;border-bottom:1px solid #eee}
+main>.filters .filter-options{max-height:none}
+main>.view-toolbar{position:absolute;top:68px;left:50%;transform:translateX(-50%);z-index:1000;margin:0}
+main>.view-toolbar .view-switch{background:white;border-radius:30px;box-shadow:0 2px 12px #0002}
+main>.view-toolbar .view-switch button{border-radius:25px}
+main>.view-toolbar .sort-label{background:white;padding:8px;border-radius:8px}
+main>div:has(>.map-wrap){position:absolute;inset:0}
+main .map-wrap{height:100%;min-height:0;border:0;border-radius:0}
+main .legend{position:absolute;bottom:14px;left:14px;z-index:800;background:#fffffff0;padding:9px 12px;border-radius:10px;margin:0}
+main>.venue-list{position:absolute;inset:0;overflow:auto;padding:135px 24px 30px;align-content:start}
+main>.hint{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);z-index:850;background:white;padding:12px;border-radius:10px}
+@media(max-width:700px){main>header h1{font-size:23px}main>header{top:19px}main>.toolbar{left:10px}main>.search-form,main>.search-results,main>.search-message,main>.filters{left:10px;width:min(92vw,390px);min-width:0}main>.view-toolbar{top:78px}main .legend{bottom:8px;left:8px;right:8px;gap:6px}main>.venue-list{padding:135px 12px 20px}}
