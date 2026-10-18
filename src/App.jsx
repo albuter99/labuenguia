@@ -204,6 +204,7 @@ export default function App() {
       <div className="view-switch" role="group" aria-label="Vista">
         <button type="button" aria-pressed={view === "map"} onClick={() => setView("map")}>Mapa</button>
         <button type="button" aria-pressed={view === "list"} onClick={() => setView("list")}>Listado</button>
+        <button type="button" aria-pressed={view === "routes"} onClick={() => setView("routes")}>Rutas</button>
       </div>
       {view === "list" && <label className="sort-label">Ordenar por
         <select value={sort} onChange={event => setSort(event.target.value)}>
