@@ -7,8 +7,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.675352,
-          40.448333
+          -3.675665,
+          40.448353
         ]
       },
       "properties": {
@@ -25,7 +25,7 @@
         ],
         "notas": "Reservar zona tramo",
         "fechaCreacion": "2026-10-17T22:32:58.584Z",
-        "fechaActualizacion": "2026-10-18T12:00:45.616Z"
+        "fechaActualizacion": "2026-10-18T12:16:58.888Z"
       }
     },
     {
