@@ -45,24 +45,26 @@ export function bindVenuePopup(feature, layer) {
     const label = document.createElement("strong");
     label.textContent = "Dirección: ";
     const address = document.createTextNode(d.address + " ");
-    const copy = document.createElement("button");
-    copy.type = "button";
-    copy.className = "copy-address icon-copy-address";
-    copy.title = "Copiar dirección";
-    copy.setAttribute("aria-label", "Copiar dirección");
-    copy.textContent = "⧉";
-    copy.addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText(d.address);
-        copy.textContent = "✓";
-        copy.title = "Dirección copiada";
-        copy.setAttribute("aria-label", "Dirección copiada");
-        setTimeout(() => { copy.textContent = "⧉"; copy.title = "Copiar dirección"; copy.setAttribute("aria-label", "Copiar dirección"); }, 1800);
-      } catch {
-        window.prompt("Copia la dirección:", d.address);
-      }
-    });
-    line.append(label, address, copy);
+    const directions = document.createElement("details");
+    directions.className = "map-directions";
+    const trigger = document.createElement("summary");
+    trigger.textContent = "➤";
+    trigger.title = "Cómo llegar";
+    trigger.setAttribute("aria-label", "Cómo llegar");
+    const choices = document.createElement("div");
+    choices.className = "map-directions-options";
+    const coords = feature.geometry.coordinates;
+    const destination = encodeURIComponent(coords[1] + "," + coords[0]);
+    for (const [text, url] of [
+      ["Google Maps", "https://www.google.com/maps/dir/?api=1&destination=" + destination],
+      ["Mapas de Apple", "https://maps.apple.com/?daddr=" + destination]
+    ]) {
+      const link = document.createElement("a");
+      link.href = url; link.target = "_blank"; link.rel = "noopener noreferrer"; link.textContent = text;
+      choices.append(link);
+    }
+    directions.append(trigger, choices);
+    line.append(label, address, directions);
     wrapper.append(line);
   }
   const rating = document.createElement("div");
