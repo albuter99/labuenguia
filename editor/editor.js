@@ -190,3 +190,115 @@ publishButton.addEventListener("click", async () => {
   } catch(error) { status.textContent = "No publicado: " + error.message; }
   finally { publishButton.disabled = false; }
 });
+
+
+let routes = [];
+let editingRoute = null;
+const routeForm = document.querySelector("#route-form");
+const stopsBox = document.querySelector("#route-stops");
+const routeMessage = document.querySelector("#route-message");
+function addRouteStop(id = "", pedir = "") {
+  const row = document.createElement("div");
+  row.className = "route-stop";
+  const select = document.createElement("select");
+  select.setAttribute("aria-label", "Establecimiento");
+  const empty = document.createElement("option");
+  empty.value = "";
+  empty.textContent = "Selecciona un establecimiento";
+  select.append(empty);
+  for (const v of [...venues].sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre, "es"))) {
+    const option = document.createElement("option");
+    option.value = v.id;
+    option.textContent = v.properties.nombre;
+    select.append(option);
+  }
+  select.value = id;
+  const input = document.createElement("input");
+  input.placeholder = "Qué pedir o recomendación";
+  input.maxLength = 1000;
+  input.value = pedir;
+  const up = document.createElement("button");
+  up.type = "button"; up.textContent = "↑"; up.title = "Subir";
+  up.onclick = () => { if (row.previousElementSibling) stopsBox.insertBefore(row, row.previousElementSibling); };
+  const down = document.createElement("button");
+  down.type = "button"; down.textContent = "↓"; down.title = "Bajar";
+  down.onclick = () => { if (row.nextElementSibling) stopsBox.insertBefore(row.nextElementSibling, row); };
+  const remove = document.createElement("button");
+  remove.type = "button"; remove.textContent = "✕"; remove.title = "Quitar parada";
+  remove.onclick = () => row.remove();
+  row.append(select, input, up, down, remove);
+  stopsBox.append(row);
+}
+function clearRoute() {
+  editingRoute = null;
+  routeForm.reset();
+  stopsBox.replaceChildren();
+  document.querySelector("#route-heading").textContent = "Nueva ruta";
+}
+function renderRoutes() {
+  const list = document.querySelector("#route-list");
+  list.replaceChildren();
+  for (const route of routes) {
+    const row = document.createElement("div");
+    row.className = "route-entry";
+    const title = document.createElement("strong");
+    title.textContent = route.nombre + " · " + route.paradas.length + " paradas";
+    const edit = document.createElement("button");
+    edit.type = "button"; edit.textContent = "Editar";
+    edit.onclick = () => {
+      editingRoute = route.id;
+      document.querySelector("#route-name").value = route.nombre;
+      document.querySelector("#route-city").value = route.ciudad;
+      document.querySelector("#route-type").value = route.tipo;
+      document.querySelector("#route-description").value = route.descripcion;
+      stopsBox.replaceChildren();
+      route.paradas.forEach(p => addRouteStop(p.establecimientoId, p.pedir));
+      document.querySelector("#route-heading").textContent = "Editar ruta";
+      routeForm.scrollIntoView({behavior:"smooth"});
+    };
+    const del = document.createElement("button");
+    del.type = "button"; del.textContent = "Eliminar";
+    del.onclick = async () => {
+      if (!confirm("¿Eliminar esta ruta? Los establecimientos no se eliminarán.")) return;
+      const res = await fetch("/api/rutas/" + route.id, {method:"DELETE"});
+      if (!res.ok) { alert("No se pudo eliminar la ruta"); return; }
+      clearRoute(); await loadRoutes();
+    };
+    row.append(title, edit, del); list.append(row);
+  }
+}
+async function loadRoutes() {
+  const res = await fetch("/api/rutas");
+  if (!res.ok) throw new Error("No se pudieron cargar las rutas");
+  routes = await res.json();
+  renderRoutes();
+}
+document.querySelector("#route-add").onclick = () => addRouteStop();
+document.querySelector("#route-clear").onclick = clearRoute;
+routeForm.addEventListener("submit", async event => {
+  event.preventDefault();
+  const paradas = [...stopsBox.children].map(row => ({
+    establecimientoId: row.querySelector("select").value,
+    pedir: row.querySelector("input").value.trim()
+  }));
+  if (!paradas.length || paradas.some(p => !p.establecimientoId) || new Set(paradas.map(p => p.establecimientoId)).size !== paradas.length) {
+    routeMessage.textContent = "Añade paradas válidas sin establecimientos repetidos.";
+    return;
+  }
+  const route = {
+    id: editingRoute || crypto.randomUUID(),
+    nombre: document.querySelector("#route-name").value.trim(),
+    ciudad: document.querySelector("#route-city").value.trim(),
+    tipo: document.querySelector("#route-type").value,
+    descripcion: document.querySelector("#route-description").value.trim(),
+    paradas
+  };
+  try {
+    const res = await fetch("/api/rutas", {method: editingRoute ? "PUT" : "POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(route)});
+    const result = await res.json();
+    if (!res.ok) throw new Error(result.error || "Error al guardar");
+    clearRoute(); await loadRoutes();
+    routeMessage.textContent = "Ruta guardada localmente. Pulsa Publicar para compartirla.";
+  } catch(error) { routeMessage.textContent = error.message; }
+});
+loadRoutes().catch(error => { routeMessage.textContent = error.message; });
