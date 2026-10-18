@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Circle, CircleMarker, useMap } from "react-leaflet";
 import establecimientos from "../data/establecimientos.geojson.json";
 import { ratingFor, venueDetails, visitDate, visitRating, visitComment } from "./venueDetails.js";
 import { createVenueMarker, bindVenuePopup, TYPE_COLORS } from "./markers.js";
@@ -39,6 +39,17 @@ function MapNavigator({ destination }) {
   return null;
 }
 
+function NearbyNavigator({ location }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!location) return;
+    const [lat, lng] = location;
+    const latRadius = 1000 / 111320;
+    const lngRadius = 1000 / (111320 * Math.max(0.01, Math.cos(lat * Math.PI / 180)));
+    map.fitBounds([[lat - latRadius, lng - lngRadius], [lat + latRadius, lng + lngRadius]], { padding: [24, 24] });
+  }, [map, location]);
+  return null;
+}
 function sortVenues(features, sort) {
   const collator = new Intl.Collator("es", { sensitivity: "base" });
   return [...features].sort((a, b) => {
@@ -75,6 +86,9 @@ export default function App() {
   const [searchMessage, setSearchMessage] = useState("");
   const [searching, setSearching] = useState(false);
   const [destination, setDestination] = useState(null);
+  const [myLocation, setMyLocation] = useState(null);
+  const [locationLoading, setLocationLoading] = useState(false);
+  const [locationError, setLocationError] = useState("");
   const lastRemoteSearch = useRef(0);
   const firstFit = useRef(false);
   const visible = useMemo(() => filterVenues(establecimientos, filters), [filters]);
@@ -84,6 +98,23 @@ export default function App() {
       ? previous[key].filter(item => item !== value) : [...previous[key], value] }));
   }
 
+  function locateMe() {
+    if (!navigator.geolocation) { setLocationError("Este dispositivo no permite obtener la ubicación."); return; }
+    setLocationError("");
+    setLocationLoading(true);
+    navigator.geolocation.getCurrentPosition(
+      position => {
+        setMyLocation([position.coords.latitude, position.coords.longitude]);
+        setLocationLoading(false);
+        setView("map");
+      },
+      error => {
+        setLocationLoading(false);
+        setLocationError(error.code === 1 ? "Permite el acceso a tu ubicación para usar esta función." : "No se pudo determinar tu ubicación. Inténtalo de nuevo.");
+      },
+      { enableHighAccuracy: true, timeout: 15000, maximumAge: 30000 }
+    );
+  }
   async function search(event) {
     event.preventDefault();
     const term = query.trim();
@@ -187,7 +218,11 @@ export default function App() {
           <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
           <FitAllVenues features={establecimientos.features} fitted={firstFit} />
           <MapNavigator destination={destination} />
+          <NearbyNavigator location={myLocation} />
+          {myLocation && <><Circle center={myLocation} radius={1000} pathOptions={{ color: "#253B73", weight: 2, fillColor: "#628bd2", fillOpacity: 0.10, interactive: false }} /><CircleMarker center={myLocation} radius={7} pathOptions={{ color: "#ffffff", weight: 3, fillColor: "#2769d6", fillOpacity: 1, interactive: false }} /></>}
         </MapContainer>
+        <button type="button" className="locate-me-button" onClick={locateMe} disabled={locationLoading} title="Ver 1 km a mi alrededor" aria-label="Ver 1 km a mi alrededor">{locationLoading ? "…" : "⌖"}</button>
+        {locationError && <div className="locate-error" role="alert">{locationError}<button type="button" aria-label="Cerrar aviso" onClick={() => setLocationError("")}>✕</button></div>}
       </section>
       <div className="legend" aria-label="Leyenda de tipos">
         {Object.entries(TYPE_COLORS).map(([type, color]) => <span className="legend-item" key={type}><span className="legend-dot" style={{ backgroundColor: color }} />{type}</span>)}
