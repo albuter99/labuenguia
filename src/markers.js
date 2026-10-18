@@ -36,12 +36,17 @@ export function bindVenuePopup(feature, layer) {
     const address = document.createTextNode(d.address + " ");
     const copy = document.createElement("button");
     copy.type = "button";
-    copy.className = "copy-address";
-    copy.textContent = "Copiar dirección";
+    copy.className = "copy-address icon-copy-address";
+    copy.title = "Copiar dirección";
+    copy.setAttribute("aria-label", "Copiar dirección");
+    copy.textContent = "⧉";
     copy.addEventListener("click", async () => {
       try {
         await navigator.clipboard.writeText(d.address);
-        copy.textContent = "¡Copiada!";
+        copy.textContent = "✓";
+        copy.title = "Dirección copiada";
+        copy.setAttribute("aria-label", "Dirección copiada");
+        setTimeout(() => { copy.textContent = "⧉"; copy.title = "Copiar dirección"; copy.setAttribute("aria-label", "Copiar dirección"); }, 1800);
       } catch {
         window.prompt("Copia la dirección:", d.address);
       }
