@@ -69,15 +69,17 @@
         "estado": "Quiero ir",
         "precio": null,
         "icono": "cafe",
+        "selloB": false,
         "direccion": "C. de San Mateo, 11, Centro, 28004 Madrid, España",
         "etiquetas": [
-          "Postre",
           "Brunch",
-          "Desayuno"
+          "Desayuno",
+          "Pasteleria",
+          "Postre"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-17T23:04:51.704Z",
-        "fechaActualizacion": "2026-10-18T12:01:12.855Z"
+        "fechaActualizacion": "2026-10-18T21:25:48.693Z"
       }
     },
     {
@@ -370,15 +372,15 @@
         "selloB": false,
         "direccion": "Av. del Libertador 1002, Z9405 El Calafate, Santa Cruz, Argentina",
         "etiquetas": [
-          "Tipico",
           "Barato",
           "Brunch",
           "Desayuno",
-          "Pasteleria"
+          "Pasteleria",
+          "Tipico"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-18T14:48:15.151Z",
-        "fechaActualizacion": "2026-10-18T14:48:15.151Z"
+        "fechaActualizacion": "2026-10-18T21:26:29.111Z"
       }
     },
     {
@@ -912,12 +914,15 @@
         "selloB": true,
         "direccion": "Av. de Mayo 825, C1084 Cdad. Autónoma de Buenos Aires, Argentina",
         "etiquetas": [
+          "Brunch",
           "Desayuno",
+          "Pasteleria",
+          "Postre",
           "Tipico"
         ],
         "notas": "Pedir chocolate y churros",
         "fechaCreacion": "2026-10-18T15:36:13.007Z",
-        "fechaActualizacion": "2026-10-18T15:36:31.943Z"
+        "fechaActualizacion": "2026-10-18T21:25:59.742Z"
       }
     },
     {
@@ -1189,7 +1194,7 @@
         ],
         "notas": "",
         "fechaCreacion": "2026-10-18T16:31:13.696Z",
-        "fechaActualizacion": "2026-10-18T16:31:13.696Z"
+        "fechaActualizacion": "2026-10-18T21:26:13.446Z"
       }
     },
     {
@@ -1406,7 +1411,7 @@
         ],
         "notas": "Tambien para comer",
         "fechaCreacion": "2026-10-18T16:56:32.735Z",
-        "fechaActualizacion": "2026-10-18T16:56:44.599Z"
+        "fechaActualizacion": "2026-10-18T21:25:30.294Z"
       }
     },
     {
@@ -1616,11 +1621,12 @@
         "selloB": false,
         "direccion": "48 Oriental Ave, Khwaeng Bang Rak, Bang Rak, Bangkok 10500, Tailandia",
         "etiquetas": [
+          "Desayuno",
           "Postre"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-18T17:12:23.919Z",
-        "fechaActualizacion": "2026-10-18T17:12:23.919Z"
+        "fechaActualizacion": "2026-10-18T21:25:02.933Z"
       }
     },
     {
@@ -1648,6 +1654,711 @@
         "notas": "Pedir la omelete",
         "fechaCreacion": "2026-10-18T17:14:24.295Z",
         "fechaActualizacion": "2026-10-18T17:14:24.295Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "05b48594-1882-4954-a9de-554b64bb50a7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.425607,
+          -34.585522
+        ]
+      },
+      "properties": {
+        "nombre": "Social Corazón",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Guatemala 4802, C1425BUP Cdad. Autónoma de Buenos Aires, Argentina",
+        "etiquetas": [
+          "Brunch",
+          "Desayuno",
+          "Pasteleria",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:03:23.415Z",
+        "fechaActualizacion": "2026-10-18T21:26:37.343Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "604b8976-00cf-4721-a650-240fbb614b44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727519,
+          37.976021
+        ]
+      },
+      "properties": {
+        "nombre": "Quick Pitta",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Mitropoleos 78, Athina 105 56, Grecia",
+        "etiquetas": [
+          "Barato",
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:06:02.844Z",
+        "fechaActualizacion": "2026-10-18T21:06:02.844Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7ac40e8d-483f-4c94-b01c-8ded42fed14d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.188264,
+          40.310917
+        ]
+      },
+      "properties": {
+        "nombre": "Sarajet \"Restaurant\"",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "SH75 Këlcyrë, 6402, Albania",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:08:03.641Z",
+        "fechaActualizacion": "2026-10-18T21:08:03.641Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "700c3eda-9b86-48fa-aaa5-3c4ff39a2307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.742325,
+          42.485264
+        ]
+      },
+      "properties": {
+        "nombre": "Underwater wine cellar Kraken Kotor",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "vino",
+        "selloB": false,
+        "direccion": "Dražin Vrt 85330, Montenegro",
+        "etiquetas": [
+          "Pescado",
+          "Vino",
+          "Vistas"
+        ],
+        "notas": "Reservar antes de ir",
+        "fechaCreacion": "2026-10-18T21:11:10.531Z",
+        "fechaActualizacion": "2026-10-18T21:11:10.531Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "94387ff6-7ced-431e-b136-c8a1efa95796",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.098124,
+          44.432028
+        ]
+      },
+      "properties": {
+        "nombre": "Caru' cu bere",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Strada Stavropoleos 5, 030081 București, Rumanía",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:12:56.198Z",
+        "fechaActualizacion": "2026-10-18T21:12:56.198Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4acf8710-dd90-413c-b5d5-c1a16ce9b985",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.636931,
+          45.407055
+        ]
+      },
+      "properties": {
+        "nombre": "Transfăgărășan Treehouse Village",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Transfăgărășan, Curtea de Argeș, Rumanía",
+        "etiquetas": [
+          "Carne",
+          "Vistas"
+        ],
+        "notas": "Solo abierto verano",
+        "fechaCreacion": "2026-10-18T21:15:22.912Z",
+        "fechaActualizacion": "2026-10-18T21:15:22.912Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b4b695f9-7399-4c99-935b-3eafe0df2ae9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.583785,
+          57.722324
+        ]
+      },
+      "properties": {
+        "nombre": "Skagen Bryghus A/S",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Kirkevej 10, 9990 Skagen, Dinamarca",
+        "etiquetas": [
+          "Hamburguesa",
+          "Tipico"
+        ],
+        "notas": "Cerveza artesanal",
+        "fechaCreacion": "2026-10-18T21:17:13.467Z",
+        "fechaActualizacion": "2026-10-18T21:17:13.467Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9e90a022-85f5-495b-8903-192d4d533b2c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.12555,
+          57.139625
+        ]
+      },
+      "properties": {
+        "nombre": "Thorupstrand Fiskehus",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Thorup Strandvej 329, 9690 Fjerritslev, Dinamarca",
+        "etiquetas": [
+          "Pescado",
+          "Vistas"
+        ],
+        "notas": "Pescado fresco del dia.",
+        "fechaCreacion": "2026-10-18T21:19:01.925Z",
+        "fechaActualizacion": "2026-10-18T21:19:01.925Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cf9792f1-2948-4849-8547-de282e2adc67",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.909299,
+          57.052467
+        ]
+      },
+      "properties": {
+        "nombre": "BreadByKaerup",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Kastetvej 15A, 9000 Aalborg, Dinamarca",
+        "etiquetas": [
+          "De autor",
+          "Desayuno",
+          "Pasteleria",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:20:19.599Z",
+        "fechaActualizacion": "2026-10-18T21:25:19.172Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7f1ccd67-5837-470a-958d-f9204db884e5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.916347,
+          57.051515
+        ]
+      },
+      "properties": {
+        "nombre": "The Wharf",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Borgergade 16, 9000 Aalborg, Dinamarca",
+        "etiquetas": [],
+        "notas": "Cervezas de todos lados\nBuen servicio",
+        "fechaCreacion": "2026-10-18T21:21:39.776Z",
+        "fechaActualizacion": "2026-10-18T21:27:04.454Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ef601536-87af-4e04-851e-de529f468a56",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.924913,
+          57.048051
+        ]
+      },
+      "properties": {
+        "nombre": "Behag Din Smag",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Slotsgade 16A, 9000 Aalborg, Dinamarca",
+        "etiquetas": [
+          "Desayuno",
+          "Pasteleria",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:23:43.228Z",
+        "fechaActualizacion": "2026-10-18T21:25:10.950Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9d1577f3-ccec-4b65-9822-92ada8f42af0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.925435,
+          57.049042
+        ]
+      },
+      "properties": {
+        "nombre": "Hos Isidor Henius",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Slotsgade 33, 9000 Aalborg, Dinamarca",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:24:50.093Z",
+        "fechaActualizacion": "2026-10-18T21:24:50.093Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "36bbe4b4-fe79-4763-8043-6ca832f14b1d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.591878,
+          55.687615
+        ]
+      },
+      "properties": {
+        "nombre": "Bottega Barlito",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Esplanaden 7B, 1263 København, Dinamarca",
+        "etiquetas": [
+          "De autor",
+          "Romantico",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:28:46.439Z",
+        "fechaActualizacion": "2026-10-18T21:28:46.439Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5b67fb26-dd5e-47d2-9777-2ea4f5b7c7d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.570583,
+          55.694571
+        ]
+      },
+      "properties": {
+        "nombre": "Sinne gas bageri",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Ryesgade 63, 2100 København, Dinamarca",
+        "etiquetas": [
+          "Desayuno",
+          "Pasteleria",
+          "Postre"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:29:56.298Z",
+        "fechaActualizacion": "2026-10-18T21:29:56.298Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c51609d6-6951-4c3c-b8af-7cf49df1f4d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.556142,
+          55.692172
+        ]
+      },
+      "properties": {
+        "nombre": "BRUS",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Guldbergsgade 29, 2200 København, Dinamarca",
+        "etiquetas": [
+          "Hamburguesa",
+          "Tapas"
+        ],
+        "notas": "Cerveza artesanal",
+        "fechaCreacion": "2026-10-18T21:31:30.067Z",
+        "fechaActualizacion": "2026-10-18T21:31:30.067Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8fc87f69-315a-49f9-a58d-00f2a68e17bf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.552329,
+          55.692271
+        ]
+      },
+      "properties": {
+        "nombre": "Gaarden & Gaden",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Nørrebrogade 88, 2200 København, Dinamarca",
+        "etiquetas": [
+          "De autor",
+          "Tapas",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:32:41.485Z",
+        "fechaActualizacion": "2026-10-18T21:32:41.485Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "28c681cb-c877-4878-a25c-753d8800daf4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.311511,
+          47.106026
+        ]
+      },
+      "properties": {
+        "nombre": "Jausenstation Weber Lois",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Rodelalm 1179/2, 6167 Neustift im Stubaital, Austria",
+        "etiquetas": [
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:34:04.485Z",
+        "fechaActualizacion": "2026-10-18T21:34:04.485Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9a05475d-c00e-4e89-9e8a-271e6d304e2f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.351376,
+          48.203628
+        ]
+      },
+      "properties": {
+        "nombre": "MOMO Pizza Gourmet",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "pizza",
+        "selloB": false,
+        "direccion": "Kirchengasse 35, 1070 Wien, Austria",
+        "etiquetas": [
+          "Italiano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:35:21.814Z",
+        "fechaActualizacion": "2026-10-18T21:35:21.814Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "94df36d9-2b58-4bb8-8f6b-c14843ba2aac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.376293,
+          48.211745
+        ]
+      },
+      "properties": {
+        "nombre": "Gelateria Castelletto",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Rotenturmstraße 24, 1010 Wien, Austria",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:36:29.096Z",
+        "fechaActualizacion": "2026-10-18T21:36:29.096Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "49707574-9b52-4ab8-8c9e-152ff57b1357",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.369966,
+          48.212046
+        ]
+      },
+      "properties": {
+        "nombre": "Mel's Craft Beers & Diner",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Wipplingerstraße 9, 1010 Wien, Austria",
+        "etiquetas": [
+          "Barato",
+          "Hamburguesa"
+        ],
+        "notas": "Cerveza artesanal y buen menu del dia",
+        "fechaCreacion": "2026-10-18T21:38:03.151Z",
+        "fechaActualizacion": "2026-10-18T21:38:03.151Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "180b325a-555f-4b40-9874-da67d1e3607c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.370961,
+          48.213304
+        ]
+      },
+      "properties": {
+        "nombre": "The Look Bar",
+        "tipo": "Pub",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "Salzgries 17, 1010 Wien, Austria",
+        "etiquetas": [
+          "Barato",
+          "Cocteles",
+          "Copas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:39:28.377Z",
+        "fechaActualizacion": "2026-10-18T21:39:28.377Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "96ab1072-00d3-4d10-b7e5-9ea94c2ee564",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.415244,
+          50.081291
+        ]
+      },
+      "properties": {
+        "nombre": "Pivovar Národní",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Národní 8, 110 00 Nové Město, Chequia",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:41:00.330Z",
+        "fechaActualizacion": "2026-10-18T21:41:00.330Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "994ec650-cda9-408e-a662-811148b50163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.432787,
+          50.087398
+        ]
+      },
+      "properties": {
+        "nombre": "Masaryčka",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "",
+        "selloB": false,
+        "direccion": "Havlíčkova 1014/2, 110 00 Nové Město, Chequia",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:42:03.779Z",
+        "fechaActualizacion": "2026-10-18T21:42:03.779Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6eb56020-a664-4e28-a61e-de509e6025f0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.417076,
+          50.078831
+        ]
+      },
+      "properties": {
+        "nombre": "U Fleků",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cerveza",
+        "selloB": true,
+        "direccion": "Křemencova 11, 110 00 Nové Město, Chequia",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:43:08.108Z",
+        "fechaActualizacion": "2026-10-18T21:43:08.108Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3904a8ff-39ba-4aa8-97e0-d7a36fe18266",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.426885,
+          50.090876
+        ]
+      },
+      "properties": {
+        "nombre": "Naše maso",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Dlouhá 727/39, 110 00 Staré Město, Chequia",
+        "etiquetas": [
+          "Carne",
+          "Hamburguesa",
+          "Tipico"
+        ],
+        "notas": "Carniceria que te hacen en el momento con los productos",
+        "fechaCreacion": "2026-10-18T21:44:22.694Z",
+        "fechaActualizacion": "2026-10-18T21:44:22.694Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46e7a73b-f5b4-46ff-82a8-33f71b6ad1c6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.345487,
+          48.197146
+        ]
+      },
+      "properties": {
+        "nombre": "Paolo Bortolotti",
+        "tipo": "Otros",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Mariahilfer Str. 94, 1070 Wien, Austria",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T21:46:06.247Z",
+        "fechaActualizacion": "2026-10-18T21:46:06.247Z"
       }
     }
   ]
