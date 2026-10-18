@@ -40,7 +40,15 @@ class Handler(SimpleHTTPRequestHandler):
             self.reply(403, {"error": "Origen no permitido"})
             return
         try:
-            if self.path.startswith("/api/visitas/"):
+            if self.path.startswith("/api/rutas/"):
+                item_id = self.path.split("/")[-1]
+                uuid.UUID(item_id)
+                items = json.loads(ROUTES.read_text(encoding="utf-8"))
+                remaining = [v for v in items if v.get("id") != item_id]
+                if len(remaining) == len(items):
+                    raise ValueError("Ruta no encontrada")
+                self.atomic_write(ROUTES, remaining)
+            elif self.path.startswith("/api/visitas/"):
                 item_id = self.path.split("/")[-1]
                 uuid.UUID(item_id)
                 items = json.loads(VISITS.read_text(encoding="utf-8"))
