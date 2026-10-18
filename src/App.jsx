@@ -11,6 +11,17 @@ function FilterGroup({ title, options, selected, onToggle, format = String }) {
   )}</div></fieldset>;
 }
 
+function FitAllVenues({ features, fitted }) {
+  const map = useMap();
+  useEffect(() => {
+    if (fitted.current) return;
+    fitted.current = true;
+    const coords = features.map(f => f.geometry?.coordinates).filter(c => Array.isArray(c) && c.length >= 2 && Number.isFinite(c[0]) && Number.isFinite(c[1]));
+    if (coords.length > 1) map.fitBounds(coords.map(c => [c[1],c[0]]), { padding: [45,45], maxZoom: 14 });
+    else if (coords.length === 1) map.setView([coords[0][1],coords[0][0]],14);
+  }, [map,features,fitted]);
+  return null;
+}
 function MapNavigator({ destination }) {
   const map = useMap();
   useEffect(() => {
@@ -68,6 +79,7 @@ export default function App() {
   const [searching, setSearching] = useState(false);
   const [destination, setDestination] = useState(null);
   const lastRemoteSearch = useRef(0);
+  const firstFit = useRef(false);
   const visible = useMemo(() => filterVenues(establecimientos, filters), [filters]);
 
   function toggle(key, value) {
@@ -135,18 +147,18 @@ export default function App() {
 
   return <main>
     <header><h1>La BuenGuia</h1><p>Tu mapa de restaurantes, bares y cafeterías</p></header>
-    <form className="search-form" onSubmit={search} role="search">
+    {showFilters && <form className="search-form" onSubmit={search} role="search">
       <label className="sr-only" htmlFor="place-search">Buscar establecimiento, ciudad o dirección</label>
       <input id="place-search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Buscar establecimiento, ciudad o dirección" />
       <button type="submit" disabled={searching}>{searching ? "Buscando…" : "Buscar"}</button>
-    </form>
-    {results.length > 0 && <ul className="search-results">{results.map((result, index) =>
+    </form>}
+    {showFilters && results.length > 0 && <ul className="search-results">{results.map((result, index) =>
       <li key={result.kind + index}><button type="button" onClick={() => selectResult(result)}>{result.label}</button></li>
     )}</ul>}
-    {searchMessage && <p className="search-message" role="status">{searchMessage}</p>}
+    {showFilters && searchMessage && <p className="search-message" role="status">{searchMessage}</p>}
     <div className="toolbar">
       <button type="button" className="filter-toggle" aria-expanded={showFilters} onClick={() => setShowFilters(value => !value)}>
-        {showFilters ? "Ocultar filtros" : "Mostrar filtros"}
+        {showFilters ? "Cerrar menú" : "Abrir menú"}
       </button>
       <span aria-live="polite">{visible.features.length} de {establecimientos.features.length} establecimientos</span>
       <button type="button" className="reset-button" onClick={() => setFilters(initialFilters())}>Restablecer filtros</button>
@@ -176,6 +188,7 @@ export default function App() {
         <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
           <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
+          <FitAllVenues features={establecimientos.features} fitted={firstFit} />
           <MapNavigator destination={destination} />
         </MapContainer>
       </section>
