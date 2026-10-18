@@ -74,7 +74,7 @@ function VenueDetails({ feature }) {
   const d = venueDetails(feature);
   return <div className="venue-details">
     <div className="card-eyebrow">{d.type} · {d.status}</div>
-    <div className="card-meta"><span className="card-price">{d.price}</span><span className="card-rating"><span className="card-sun">☀</span> {d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5"}</span></div>
+    <div className="card-meta"><span className="card-price">{d.price}</span><span className="card-rating"><span className="card-sun">☺</span> {d.rating == null ? "Sin valorar" : d.rating.toFixed(1) + " / 5"}</span></div>
     {d.tags.length > 0 && <div className="card-tags">{d.tags.map(tag => <span className="card-tag" key={tag}>{tag}</span>)}</div>}
     {feature.geometry?.coordinates?.length >= 2 && <div className="card-section"><div className="card-label">DIRECCIÓN</div><span>{d.address || "Ubicación en el mapa"}</span> <details className="map-directions"><summary title="Cómo llegar" aria-label="Cómo llegar">➤</summary><div className="map-directions-options">{(() => { const destination = encodeURIComponent(d.address?.trim() || feature.geometry.coordinates[1] + "," + feature.geometry.coordinates[0]); return <><a href={`https://www.google.com/maps/dir/?api=1&destination=${destination}`} target="_blank" rel="noopener noreferrer">Google Maps</a><a href={`https://maps.apple.com/?daddr=${destination}`} target="_blank" rel="noopener noreferrer">Mapas de Apple</a></>; })()}</div></details></div>}
     {d.notes && <div className="card-section"><div className="card-label">NOTAS</div>{d.notes}</div>}
@@ -218,7 +218,7 @@ export default function App() {
       {view === "list" && <label className="sort-label">Ordenar por
         <select value={sort} onChange={event => setSort(event.target.value)}>
           <option value="name">Nombre (A–Z)</option>
-          <option value="rating">Soles (mayor primero)</option>
+          <option value="rating">Sonrisas (mayor primero)</option>
           <option value="price">Precio (menor primero)</option>
           <option value="newest">Más recientes</option>
         </select>
