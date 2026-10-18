@@ -45,3 +45,14 @@ main .leaflet-control-zoom a{width:36px;height:36px;line-height:36px;color:#253B
 /* Higher-contrast venue pins */
 .venue-map-marker{filter:drop-shadow(0 2px 4px #15253380);transition:filter .15s ease,stroke-width .15s ease;cursor:pointer}
 .venue-map-marker:hover{filter:drop-shadow(0 3px 7px #152533b3) brightness(1.08);stroke-width:5}
+
+/* Refined venue popups */
+.leaflet-popup-content-wrapper{border-radius:16px;box-shadow:0 9px 30px #192b3c30}
+.venue-popup{min-width:240px;max-width:320px;padding:4px 2px;color:#293a4b}
+.venue-popup h3{font-family:Georgia,"Times New Roman",serif;font-size:23px;line-height:1.2;color:#223b5d;margin:2px 24px 12px 0}
+.venue-popup>p:first-of-type{font-size:12px;letter-spacing:.3px;color:#7a6b63;font-weight:600;padding-bottom:10px;border-bottom:1px solid #eee9e2}
+.popup-sun-rating{display:inline-flex;align-items:center;gap:5px;padding:7px 11px;border-radius:100px;background:#fff2d6;color:#82580e;font-weight:750;font-size:14px;margin:8px 0 9px}
+.popup-sun-icon{color:#e8a11c;font-size:23px;line-height:1}
+.venue-popup>p{font-size:13px;line-height:1.5}
+.venue-popup details{padding-top:10px;border-top:1px solid #eee9e2}
+.venue-popup summary{color:#253B73}
