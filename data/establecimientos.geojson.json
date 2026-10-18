@@ -1218,6 +1218,196 @@
         "fechaCreacion": "2026-10-18T16:33:25.879Z",
         "fechaActualizacion": "2026-10-18T16:33:25.879Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "af973aaa-9a7e-4414-ae77-325a7ed2b389",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.838836,
+          8.005635
+        ]
+      },
+      "properties": {
+        "nombre": "The Grotto",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "2R4Q+6GP, Ao Nang, Mueang Krabi District, Krabi, Tailandia",
+        "etiquetas": [
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:44:27.087Z",
+        "fechaActualizacion": "2026-10-18T16:44:27.087Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6e7a6982-28ee-404d-8f2f-1f58f22bdb93",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.26142,
+          30.046203
+        ]
+      },
+      "properties": {
+        "nombre": "Gad",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "27W6+FH2، Al Azhar St Ad، عطفة الجاويشي, El Gamaliya, Egipto",
+        "etiquetas": [
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:47:57.999Z",
+        "fechaActualizacion": "2026-10-18T16:51:45.104Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7e92be57-4322-4c31-9dbb-39da00143968",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.358999,
+          41.37625
+        ]
+      },
+      "properties": {
+        "nombre": "Caravan Khiva Restaurant",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "P. Mahmud str 88, 220900, Khiva, Xorazm Region, Uzbekistán",
+        "etiquetas": [
+          "Rooftop",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:50:12.040Z",
+        "fechaActualizacion": "2026-10-18T16:50:12.040Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "41edd081-c7ef-4d61-8279-11d38eb4314f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.358847,
+          41.379696
+        ]
+      },
+      "properties": {
+        "nombre": "Old terrassa",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "99H5+WCQ, Khiva, Xorazm Region, Uzbekistán",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:51:35.191Z",
+        "fechaActualizacion": "2026-10-18T16:51:35.191Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "650acb67-2760-4c4c-ac20-3507813f035c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.986405,
+          31.622249
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurant Dardar Rooftop Marrakech",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "4 Rue Riad Zitoun el Kdim, Marrakesh 40000, Marruecos",
+        "etiquetas": [
+          "Rooftop",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:53:07.295Z",
+        "fechaActualizacion": "2026-10-18T16:53:07.295Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "93a30292-598d-47f1-b734-45cd7b6ac08e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.987291,
+          31.626509
+        ]
+      },
+      "properties": {
+        "nombre": "Le Marrakchi Restaurant & Rooftop",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "52 Rue des banques, Av. Jamaa El Fna, Marrakech 40000, Marruecos",
+        "etiquetas": [
+          "Rooftop",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-18T16:54:21.863Z",
+        "fechaActualizacion": "2026-10-18T16:54:21.863Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b3bc3b06-b3a3-4756-9ce8-34f15ded6e1c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.821835,
+          35.791385
+        ]
+      },
+      "properties": {
+        "nombre": "Café Hafa",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Q5RH+J5M، Rue Hafa, Tangier 90030, Marruecos",
+        "etiquetas": [
+          "Desayuno",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "Tambien para comer",
+        "fechaCreacion": "2026-10-18T16:56:32.735Z",
+        "fechaActualizacion": "2026-10-18T16:56:44.599Z"
+      }
     }
   ]
 }
