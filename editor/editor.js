@@ -8,7 +8,7 @@ const visitForm = document.querySelector("#visit-form");
 const visitSelect = document.querySelector("#visit-venue");
 function average(id) {
   const ratings = visits.filter(v => String(v.establecimientoId) === String(id) && Number.isInteger(v.valoracion) && v.valoracion >= 1 && v.valoracion <= 5).map(v => v.valoracion);
-  return ratings.length ? (ratings.reduce((a,b) => a+b, 0)/ratings.length).toFixed(1) + " ☀️" : "Sin valorar";
+  return ratings.length ? (ratings.reduce((a,b) => a+b, 0)/ratings.length).toFixed(1) + " ☺" : "Sin valorar";
 }
 function renderTable() {
   const term = document.querySelector("#venue-search").value.toLocaleLowerCase("es").trim();
@@ -79,7 +79,7 @@ function renderVisits() {
   for(const v of [...visits].reverse()) {
     const tr=document.createElement("tr");
     const venue=venues.find(x=>String(x.id)===String(v.establecimientoId));
-    for(const value of [venue?.properties.nombre || "Desconocido",v.fecha||"Sin fecha",v.valoracion==null?"Sin valorar":v.valoracion+" ☀️",v.comentario||""]) {
+    for(const value of [venue?.properties.nombre || "Desconocido",v.fecha||"Sin fecha",v.valoracion==null?"Sin valorar":v.valoracion+" ☺",v.comentario||""]) {
       const td=document.createElement("td");td.textContent=value;tr.append(td);
     }
     const td=document.createElement("td");
