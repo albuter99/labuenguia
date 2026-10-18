@@ -1,3 +1,4 @@
+import { hasBuenSello } from "./venueDetails.js";
 export const TYPES = ["Restaurante", "Cafetería", "Bar", "Pub", "Otros"];
 export const STATUSES = ["Quiero ir", "Visitado"];
 export const PRICES = [1, 2, 3, 4];
@@ -8,13 +9,15 @@ export const initialFilters = () => ({
   statuses: [...STATUSES],
   prices: [...PRICES],
   tags: [],
+  soloSelloB: false,
 });
 
 export function matchesFilters(feature, filters) {
   const p = feature.properties ?? {};
   const price = p.precio == null || p.precio === "" ? null : Number(p.precio);
   const tags = Array.isArray(p.etiquetas) ? p.etiquetas : [];
-  return filters.types.includes(p.tipo) &&
+  return (!filters.soloSelloB || hasBuenSello(feature)) &&
+    filters.types.includes(p.tipo) &&
     filters.statuses.includes(p.estado) &&
     (price === null || filters.prices.includes(price)) &&
     filters.tags.every(tag => tags.includes(tag));
