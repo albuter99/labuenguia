@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, Circle, CircleMarker, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Circle, CircleMarker, Polyline, Marker, Tooltip, useMap } from "react-leaflet";
 import establecimientos from "../data/establecimientos.geojson.json";
 import rutas from "../data/rutas.json";
+import L from "leaflet";
 import { ratingFor, venueDetails, visitDate, visitRating, visitComment } from "./venueDetails.js";
 import { createVenueMarker, bindVenuePopup, TYPE_COLORS } from "./markers.js";
 import { TYPES, STATUSES, PRICES, TAGS, initialFilters, filterVenues } from "./filters.js";
@@ -51,6 +52,13 @@ function NearbyNavigator({ location }) {
   }, [map, location]);
   return null;
 }
+function FitRoute({ points, routeId }) {
+  const map = useMap();
+  useEffect(() => {
+    if (routeId && points.length) map.fitBounds(points, {padding:[65,65], maxZoom:15});
+  }, [map, points, routeId]);
+  return null;
+}
 function sortVenues(features, sort) {
   const collator = new Intl.Collator("es", { sensitivity: "base" });
   return [...features].sort((a, b) => {
@@ -94,6 +102,7 @@ export default function App() {
   const lastRemoteSearch = useRef(0);
   const firstFit = useRef(false);
   const activeRoute = rutas.find(item => item.id === selectedRoute);
+  const routePoints = useMemo(() => activeRoute ? activeRoute.paradas.map(stop => establecimientos.features.find(f => String(f.id) === String(stop.establecimientoId))).filter(f => f?.geometry?.coordinates?.length >= 2).map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]]) : [], [activeRoute]);
   const visible = useMemo(() => { const base = filterVenues(establecimientos, filters); return activeRoute ? { ...base, features: base.features.filter(f => activeRoute.paradas.some(p => String(p.establecimientoId) === String(f.id))) } : base; }, [filters, activeRoute]);
 
   function toggle(key, value) {
@@ -224,6 +233,8 @@ export default function App() {
           <GeoJSON key={JSON.stringify(filters) + selectedRoute} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
           <FitAllVenues features={establecimientos.features} fitted={firstFit} />
           <MapNavigator destination={destination} />
+          <FitRoute points={routePoints} routeId={selectedRoute} />
+          {activeRoute && <>{activeRoute.tipo === "ruta" && routePoints.length > 1 && <Polyline positions={routePoints} pathOptions={{color:"#253B73",weight:3,dashArray:"8 8"}} />}{routePoints.map((point,index) => <Marker key={index} position={point} icon={L.divIcon({className:"route-number-pin",html:"<span>"+(index+1)+"</span>",iconSize:[28,28],iconAnchor:[14,14]})}><Tooltip direction="top">{activeRoute.paradas[index]?.pedir || "Parada " + (index+1)}</Tooltip></Marker>)}</>}
           <NearbyNavigator location={myLocation} />
           {myLocation && <><Circle center={myLocation} radius={1000} pathOptions={{ color: "#253B73", weight: 2, fillColor: "#628bd2", fillOpacity: 0.10, interactive: false }} /><CircleMarker center={myLocation} radius={7} pathOptions={{ color: "#ffffff", weight: 3, fillColor: "#2769d6", fillOpacity: 1, interactive: false }} /></>}
         </MapContainer>
