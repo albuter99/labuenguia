@@ -60,3 +60,21 @@ main .leaflet-control-zoom a{width:36px;height:36px;line-height:36px;color:#253B
 /* Compact copy-address icon in map popups */
 .venue-popup .icon-copy-address{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;width:28px;height:28px;padding:0;margin-left:6px;border:1px solid #d8dee5;border-radius:7px;background:#f8fafc;color:#253B73;font-size:19px;font-weight:600;line-height:1;cursor:pointer}
 .venue-popup .icon-copy-address:hover{background:#eaf0f7;border-color:#aab9ca}
+
+/* List cards and reset filters */
+main>.filters .reset-inside-filters{display:block;width:100%;margin:14px 0 4px;padding:12px;border:1px solid #ccd4df;border-radius:10px;background:#f3f6fa;color:#253B73;font-size:14px;font-weight:700;cursor:pointer}
+main>.filters .reset-inside-filters:hover{background:#e8eff7}
+.venue-card{border-radius:17px;border-color:#e6e8ec;box-shadow:0 3px 16px #1d2c3b12;padding:20px}
+.venue-card h2{font-family:Georgia,"Times New Roman",serif;font-size:24px;line-height:1.2;color:#223b5d;margin:0 0 8px}
+.venue-card .card-eyebrow{font-size:12px;font-weight:700;color:#857267;margin-bottom:12px}
+.venue-card .card-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.venue-card .card-price{font-size:14px;font-weight:700;color:#394a5b}
+.venue-card .card-rating{display:inline-flex;align-items:center;gap:5px;padding:6px 10px;border-radius:99px;background:#fff2d6;color:#82580e;font-size:14px;font-weight:750}
+.venue-card .card-sun{font-size:22px;line-height:1;color:#e8a11c}
+.venue-card .card-tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.venue-card .card-tag{padding:5px 9px;border-radius:99px;background:#eef1f4;color:#52606b;font-size:11px;font-weight:600}
+.venue-card .card-section{font-size:13px;line-height:1.5;padding:12px 0;border-top:1px solid #eee9e2;color:#39495a}
+.venue-card .card-label{font-size:10px;font-weight:800;letter-spacing:.8px;color:#8a949d;margin-bottom:4px}
+.venue-card button.card-copy{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;padding:0;margin-left:5px;border:1px solid #d8dee5;border-radius:7px;background:#f8fafc;color:#253B73;font-size:19px;vertical-align:middle}
+.venue-card .visit-history{border-top:1px solid #eee9e2;padding-top:12px}
+.venue-card .visit-history summary{color:#253B73}
