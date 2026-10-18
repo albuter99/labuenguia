@@ -215,11 +215,13 @@ export default function App() {
         </select>
       </label>}
     </div>
+    {view === "routes" && <section className="routes-panel"><h2>Mis rutas y colecciones</h2>{rutas.length === 0 && <p>Aún no hay rutas publicadas.</p>}{rutas.map(item => <article key={item.id} className="route-card"><h3>{item.nombre}</h3><p>{item.ciudad} · {item.tipo === "coleccion" ? "Colección" : "Ruta"} · {item.paradas.length} paradas</p>{item.descripcion && <p>{item.descripcion}</p>}<ol>{item.paradas.map(stop => { const place = establecimientos.features.find(f => String(f.id) === String(stop.establecimientoId)); return place && <li key={stop.establecimientoId}><strong>{place.properties?.nombre}</strong>{stop.pedir && <span> · Pedir: {stop.pedir}</span>}</li>; })}</ol><button type="button" onClick={() => { setSelectedRoute(item.id); setFilters(initialFilters()); setView("map"); }}>Ver en el mapa</button></article>)}</section>}
+    {activeRoute && view === "map" && <div className="route-active"><strong>{activeRoute.nombre}</strong><button type="button" onClick={() => setSelectedRoute("")}>Salir de la ruta ✕</button></div>}
     <div style={{ display: view === "map" ? "block" : "none" }}>
       <section className="map-wrap" aria-label="Mapa de establecimientos">
         <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
           <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          <GeoJSON key={JSON.stringify(filters)} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
+          <GeoJSON key={JSON.stringify(filters) + selectedRoute} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
           <FitAllVenues features={establecimientos.features} fitted={firstFit} />
           <MapNavigator destination={destination} />
           <NearbyNavigator location={myLocation} />
