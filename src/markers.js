@@ -38,6 +38,13 @@ export function bindVenuePopup(feature, layer) {
   wrapper.className = "venue-popup";
   const name = document.createElement("h3");
   name.textContent = d.name;
+  if (d.selloB) {
+    const seal = document.createElement("span");
+    seal.className = "b-seal";
+    seal.textContent = "B";
+    seal.title = "Sello B de La BuenGuia";
+    name.prepend(seal);
+  }
   wrapper.append(name);
   addLine(wrapper, "", `${d.type} · ${d.status} · ${d.price}`);
   if (feature.geometry?.coordinates?.length >= 2) {
