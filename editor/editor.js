@@ -115,7 +115,14 @@ document.querySelector("#visit-cancel").addEventListener("click",resetVisit);
 function renderVisits() {
   const body=document.querySelector("#visit-rows");
   body.replaceChildren();
-  for(const v of [...visits].reverse()) {
+  const term = document.querySelector("#visit-history-search").value.trim().toLocaleLowerCase("es");
+  const limit = Number(document.querySelector("#visit-history-limit").value);
+  const filtered = [...visits].reverse().filter(v => {
+    const venue = venues.find(x => String(x.id) === String(v.establecimientoId));
+    return [venue?.properties.nombre, v.comentario, v.fecha].join(" ").toLocaleLowerCase("es").includes(term);
+  });
+  document.querySelector("#visit-history-count").textContent = "Mostrando " + (limit ? Math.min(limit,filtered.length) : filtered.length) + " de " + filtered.length + " visitas coincidentes";
+  for(const v of (limit ? filtered.slice(0,limit) : filtered)) {
     const tr=document.createElement("tr");
     const venue=venues.find(x=>String(x.id)===String(v.establecimientoId));
     for(const value of [venue?.properties.nombre || "Desconocido",v.fecha||"Sin fecha",v.valoracion==null?"Sin valorar":v.valoracion+" ☺",v.comentario||""]) {
@@ -148,6 +155,7 @@ function renderVisits() {
     td.append(edit,del);tr.append(td);body.append(tr);
   }
 }
+for (const id of ["visit-history-search","visit-history-limit"]) document.querySelector("#"+id).addEventListener(id === "visit-history-search" ? "input" : "change", renderVisits);
 async function deleteVenue(venue) {
   const count=visits.filter(v=>String(v.establecimientoId)===String(venue.id)).length;
   const message="¿Eliminar "+venue.properties.nombre+"?"+(count?" También se eliminarán sus "+count+" visitas.":"")+" Esta acción quedará pendiente de publicación.";
