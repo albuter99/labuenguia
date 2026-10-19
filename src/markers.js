@@ -96,5 +96,30 @@ export function bindVenuePopup(feature, layer) {
     details.append(item);
   }
   wrapper.append(details);
-  layer.bindPopup(wrapper, { maxWidth: 340, maxHeight: 380, className: "venue-leaflet-popup" });
+  layer.bindPopup(wrapper, { maxWidth: 340, maxHeight: 380, className: "venue-leaflet-popup", autoPan: false });
+  let overlay = null;
+  function removeOverlay() {
+    if (overlay) { overlay.remove(); overlay = null; }
+  }
+  layer.on("popupopen", () => {
+    if (!window.matchMedia("(max-width: 700px)").matches) return;
+    removeOverlay();
+    overlay = document.createElement("div");
+    overlay.className = "mobile-venue-overlay";
+    const panel = document.createElement("section");
+    panel.className = "mobile-venue-panel";
+    panel.setAttribute("role", "dialog");
+    panel.setAttribute("aria-label", d.name);
+    const close = document.createElement("button");
+    close.type = "button";
+    close.className = "mobile-venue-close";
+    close.textContent = "✕";
+    close.setAttribute("aria-label", "Cerrar ficha");
+    close.addEventListener("click", () => layer.closePopup());
+    panel.append(close, wrapper.cloneNode(true));
+    overlay.append(panel);
+    overlay.addEventListener("click", event => { if (event.target === overlay) layer.closePopup(); });
+    document.body.append(overlay);
+  });
+  layer.on("popupclose", removeOverlay);
 }
