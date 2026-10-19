@@ -74,7 +74,7 @@ async function loadVenues() {
 }
 function editVenue(venue) {
   editingId=venue.id; const p=venue.properties;
-  for(const key of ["nombre","tipo","estado","direccion","notas"])form.elements.namedItem(key).value=p[key]??"";
+  for(const key of ["nombre","tipo","estado","direccion","notas","googleMapsUrl"])form.elements.namedItem(key).value=p[key]??"";
   form.elements.namedItem("precio").value=p.precio??"";
   form.elements.namedItem("selloB").checked=p.selloB===true;
   form.elements.namedItem("icono").value=p.icono??"";
@@ -202,6 +202,7 @@ form.addEventListener("submit", async event => {
       icono: String(data.get("icono") || ""),
       selloB: data.get("selloB") === "on",
       direccion: String(data.get("direccion") || "").trim(),
+      googleMapsUrl: String(data.get("googleMapsUrl") || "").trim(),
       etiquetas: data.getAll("etiquetas"),
       notas: String(data.get("notas") || "").trim(),
       fechaCreacion: editingId ? venues.find(v => v.id === editingId).properties.fechaCreacion : new Date().toISOString(),
@@ -351,3 +352,35 @@ routeForm.addEventListener("submit", async event => {
   } catch(error) { routeMessage.textContent = error.message; }
 });
 loadRoutes().catch(error => { routeMessage.textContent = error.message; });
+
+const placeSearchButton = document.querySelector("#place-search-button");
+placeSearchButton.addEventListener("click", async () => {
+  const query = document.querySelector("#place-search").value.trim() || [form.elements.namedItem("nombre").value,form.elements.namedItem("direccion").value].filter(Boolean).join(", ");
+  const message = document.querySelector("#place-search-message");
+  const results = document.querySelector("#place-search-results");
+  results.replaceChildren();
+  if (query.length < 3) { message.textContent = "Escribe un nombre y una ciudad."; return; }
+  placeSearchButton.disabled = true;
+  message.textContent = "Buscando…";
+  try {
+    const response = await fetch("https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=5&q=" + encodeURIComponent(query), {headers:{"Accept":"application/json"}});
+    if (!response.ok) throw new Error("No se pudo consultar OpenStreetMap.");
+    const places = await response.json();
+    message.textContent = places.length ? "Selecciona la ubicación correcta:" : "Sin resultados. Prueba con otro nombre o dirección.";
+    for (const place of places) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "secondary";
+      button.textContent = place.display_name;
+      button.addEventListener("click", () => {
+        form.elements.namedItem("direccion").value = place.display_name;
+        form.elements.namedItem("lat").value = place.lat;
+        form.elements.namedItem("lon").value = place.lon;
+        message.textContent = "Ubicación aplicada. Revisa el punto antes de guardar.";
+        results.replaceChildren();
+      });
+      results.append(button);
+    }
+  } catch (error) { message.textContent = error.message; }
+  finally { placeSearchButton.disabled = false; }
+});
