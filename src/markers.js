@@ -61,9 +61,9 @@ export function bindVenuePopup(feature, layer) {
     const choices = document.createElement("div");
     choices.className = "map-directions-options";
     const coords = feature.geometry.coordinates;
-    const destination = encodeURIComponent(d.address?.trim() || coords[1] + "," + coords[0]);
+    const destination = encodeURIComponent([d.name, d.address].filter(Boolean).join(", ") || coords[1] + "," + coords[0]);
     for (const [text, url] of [
-      ["Google Maps", "https://www.google.com/maps/dir/?api=1&destination=" + destination],
+      ["Google Maps", feature.properties?.googleMapsUrl || "https://www.google.com/maps/search/?api=1&query=" + destination],
       ["Mapas de Apple", "https://maps.apple.com/?daddr=" + destination]
     ]) {
       const link = document.createElement("a");
@@ -96,5 +96,5 @@ export function bindVenuePopup(feature, layer) {
     details.append(item);
   }
   wrapper.append(details);
-  layer.bindPopup(wrapper, { maxWidth: 340, maxHeight: 380 });
+  layer.bindPopup(wrapper, { maxWidth: 340, maxHeight: 380, className: "venue-leaflet-popup" });
 }
