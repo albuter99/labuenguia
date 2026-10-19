@@ -2362,6 +2362,35 @@
         "fechaCreacion": "2026-10-18T21:46:06.247Z",
         "fechaActualizacion": "2026-10-18T21:46:06.247Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "bc753a59-4871-423e-9fa0-389bed038b0e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.804244,
+          43.464164
+        ]
+      },
+      "properties": {
+        "nombre": "Bodega del Riojano",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "C. Río de la Pila, 5, 39003 Santander, Cantabria, España",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-19T22:03:01.494Z",
+        "fechaActualizacion": "2026-10-19T22:03:01.494Z"
+      }
     }
   ]
 }
