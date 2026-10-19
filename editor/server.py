@@ -2,6 +2,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from datetime import datetime, timezone
 import json, os, shutil, tempfile, uuid, math, subprocess
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "establecimientos.geojson.json"
@@ -270,6 +271,13 @@ class Handler(SimpleHTTPRequestHandler):
                 raise ValueError("Tipo o estado inválido")
             if p["precio"] is not None and (type(p["precio"]) is not int or p["precio"] not in (1, 2, 3, 4)):
                 raise ValueError("Precio inválido")
+            maps_url = p.get("googleMapsUrl", "")
+            if not isinstance(maps_url, str) or len(maps_url) > 2048:
+                raise ValueError("Enlace de Google Maps inválido")
+            if maps_url:
+                parsed = urlparse(maps_url)
+                if parsed.scheme != "https" or parsed.hostname not in ("maps.google.com", "www.google.com", "google.com", "maps.app.goo.gl", "goo.gl"):
+                    raise ValueError("Introduce un enlace HTTPS de Google Maps")
             if "selloB" in p and type(p["selloB"]) is not bool:
                 raise ValueError("Sello B inválido")
             if not isinstance(p["etiquetas"], list) or any(not isinstance(t, str) for t in p["etiquetas"]):
