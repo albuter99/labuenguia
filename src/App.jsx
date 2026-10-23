@@ -230,7 +230,7 @@ export default function App() {
     <div style={{ display: view === "map" ? "block" : "none" }}>
       <section className="map-wrap" aria-label="Mapa de establecimientos">
         <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
-          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <GeoJSON key={JSON.stringify(filters) + selectedRoute} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
           <FitAllVenues features={establecimientos.features} fitted={firstFit} />
           <MapNavigator destination={destination} />
