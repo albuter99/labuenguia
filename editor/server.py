@@ -9,7 +9,7 @@ DATA = ROOT / "data" / "establecimientos.geojson.json"
 VISITS = ROOT / "data" / "visitas.json"
 ROUTES = ROOT / "data" / "rutas.json"
 BACKUPS = ROOT / "backups"
-HOST, PORT = "127.0.0.1", 8765
+HOST, PORT = "127.0.0.1", 8766
 
 class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
