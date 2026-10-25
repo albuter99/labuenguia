@@ -2391,6 +2391,89 @@
         "fechaCreacion": "2026-10-19T22:03:01.494Z",
         "fechaActualizacion": "2026-10-19T22:03:01.494Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "3f402a34-0855-4028-b796-91a7c1f701f9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4580011,
+          44.8156323
+        ]
+      },
+      "properties": {
+        "nombre": "Hari's Creperie Belgrade",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Hari's creperie, Космајски пролаз, Dorćol, Stari grad, Belgrado, Stari Grad Urban Municipality, Belgrado, Serbia Central, 11000, Serbia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Hari's+Creperie+Belgrade/@44.8155983,20.4580022,17z/data=!4m15!1m8!3m7!1s0x475a7bba956f556d:0x1988bf8985e4f2f4!2sHari's+Creperie+Belgrade!8m2!3d44.8155983!4d20.4580022!10e5!16s%2Fg%2F11gfnbvglz!3m5!1s0x475a7bba956f556d:0x1988bf8985e4f2f4!8m2!3d44.8155983!4d20.4580022!16s%2Fg%2F11gfnbvglz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Brunch",
+          "Desayuno"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:03:25.672Z",
+        "fechaActualizacion": "2026-10-25T17:03:25.672Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd474a9f-5b71-42c7-b605-47942957b118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.936751,
+          50.063865
+        ]
+      },
+      "properties": {
+        "nombre": "W Starej Kuchni Restaurant",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "W Starej Kuchni, 8, Thomasgasse, Old Town, Stare Miasto, Old Town, Cracovia, Voivodato de Pequeña Polonia, 31-014, Polonia",
+        "googleMapsUrl": "https://www.google.com/maps/place/W+Starej+Kuchni+Restaurant/@50.063913,19.9367041,21z/data=!3m1!5s0x47165b0ef91b1349:0xf729a56f67228a97!4m6!3m5!1s0x47165b0e4fd04cfb:0xaf1ba6a651c8918f!8m2!3d50.0638616!4d19.9367492!16s%2Fg%2F1td416wx?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:06:27.633Z",
+        "fechaActualizacion": "2026-10-25T17:06:27.633Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "31deb5f8-d004-4100-a5dc-b0f00601a70b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.936177,
+          50.063767
+        ]
+      },
+      "properties": {
+        "nombre": "Morskie Oko",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "plac Szczepański 8, 31-011 Kraków, Polonia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Morskie+Oko/@50.0637415,19.9360546,20z/data=!4m6!3m5!1s0x47165be55ed9d1df:0x31ba189e5de31515!8m2!3d50.0637414!4d19.9362482!16s%2Fg%2F11b6ygwqdp?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:08:11.698Z",
+        "fechaActualizacion": "2026-10-25T17:08:11.698Z"
+      }
     }
   ]
 }
