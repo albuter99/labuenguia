@@ -222,5 +222,33 @@
     "fecha": null,
     "valoracion": 3,
     "comentario": ""
+  },
+  {
+    "id": "819aab56-5d2a-4844-b244-d42411eafb8b",
+    "establecimientoId": "33fe023b-be90-4666-8c52-dc419e295ec2",
+    "fecha": null,
+    "valoracion": 3,
+    "comentario": ""
+  },
+  {
+    "id": "d3aeb8d7-6784-41e3-8a00-4071d2efa596",
+    "establecimientoId": "9c5b566f-316c-401d-bcae-ae6c15549f86",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "2ae5bb46-a2bf-4210-960b-e6d0d18d3564",
+    "establecimientoId": "af403b62-f348-44eb-9f83-60f610c78900",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "8c900105-e4d3-4875-8a4a-74a295660db0",
+    "establecimientoId": "78af1f3b-4df7-43de-b608-1d581d7d1e03",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
   }
 ]

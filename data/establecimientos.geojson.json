@@ -2434,7 +2434,7 @@
       "properties": {
         "nombre": "W Starej Kuchni Restaurant",
         "tipo": "Restaurante",
-        "estado": "Quiero ir",
+        "estado": "Visitado",
         "precio": 2,
         "icono": "cubiertos",
         "selloB": false,
@@ -2445,7 +2445,7 @@
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T17:06:27.633Z",
-        "fechaActualizacion": "2026-10-25T17:06:27.633Z"
+        "fechaActualizacion": "2026-10-25T17:16:51.677Z"
       }
     },
     {
@@ -2473,6 +2473,234 @@
         "notas": "",
         "fechaCreacion": "2026-10-25T17:08:11.698Z",
         "fechaActualizacion": "2026-10-25T17:08:11.698Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "84802d00-827f-448f-9972-1b8c59fec258",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.953399,
+          60.184344
+        ]
+      },
+      "properties": {
+        "nombre": "Way Bakery Kallio",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Way Bakery, 9, Agricolankatu, Torkkelinmäki, Kallio, Central major district, Helsinki, Helsinki sub-region, Uusimaa, Mainland Finland, 00530, Finlandia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Way+Bakery+Kallio/@60.1831742,24.9487723,15.5z/data=!4m15!1m8!3m7!1s0x4692096e327ca037:0xb894d51cc2b2b1e5!2sWay+Bakery+Kallio!8m2!3d60.1843425!4d24.9534058!10e5!16s%2Fg%2F11g4cy5437!3m5!1s0x4692096e327ca037:0xb894d51cc2b2b1e5!8m2!3d60.1843425!4d24.9534058!16s%2Fg%2F11g4cy5437?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Desayuno",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:12:46.508Z",
+        "fechaActualizacion": "2026-10-25T17:12:46.508Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "33fe023b-be90-4666-8c52-dc419e295ec2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.952837,
+          60.166174
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurant Story",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Vanha Kauppahalli, Eteläranta, 00130 Helsinki, Finlandia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurant+Story/@60.165902,24.9507139,17z/data=!3m1!5s0x46920bcf4f32b365:0x2e06752106df2051!4m6!3m5!1s0x46920bcf4e813d6b:0x6c9eace4c48bb34c!8m2!3d60.1661689!4d24.9528382!16s%2Fg%2F11bc7t1pst?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Tipico"
+        ],
+        "notas": "Sopa de salmón",
+        "fechaCreacion": "2026-10-25T17:15:04.821Z",
+        "fechaActualizacion": "2026-10-25T17:15:04.821Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a02b774b-a605-4a71-9ecd-d5f245cdc39c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.119401,
+          59.342794
+        ]
+      },
+      "properties": {
+        "nombre": "Stockholm Brewing Co",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Frihamnsgatan 26a, 115 56 Stockholm, Suecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Stockholm+Brewing+Co/@59.3426352,18.1183901,18z/data=!4m15!1m8!3m7!1s0x465f833d7ebc0765:0x2bbbd002b698776b!2sStockholm+Brewing+Co!8m2!3d59.3427749!4d18.1193993!10e5!16s%2Fg%2F11wbygm70q!3m5!1s0x465f833d7ebc0765:0x2bbbd002b698776b!8m2!3d59.3427749!4d18.1193993!16s%2Fg%2F11wbygm70q?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Brunch",
+          "Tipico"
+        ],
+        "notas": "Cerveza artesanal",
+        "fechaCreacion": "2026-10-25T17:21:06.584Z",
+        "fechaActualizacion": "2026-10-25T17:21:06.584Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9c5b566f-316c-401d-bcae-ae6c15549f86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0776901,
+          59.3359085
+        ]
+      },
+      "properties": {
+        "nombre": "Östermalms Food Hall",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Östermalms Saluhall, Humlegårdsgatan, Östermalm, Norra innerstadens stadsdelsområde, Estocolmo, Provincia de Estocolmo, 114 39, Suecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/%C3%96stermalms+Food+Hall/@59.3359036,18.0774066,18.5z/data=!4m6!3m5!1s0x465f9d5b24096139:0x3d784e22bab4355a!8m2!3d59.3360006!4d18.0780049!16s%2Fg%2F120vsvh6?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:23:23.361Z",
+        "fechaActualizacion": "2026-10-25T17:23:23.361Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3c8580ef-a987-413e-9d77-0cb2b5f2e7c1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.070531,
+          59.322723
+        ]
+      },
+      "properties": {
+        "nombre": "Nystekt Strömming",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Kornhamnstorg 2, 111 27 Stockholm, Suecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Nystekt+Str%C3%B6mming/@59.3228054,18.0702868,19z/data=!4m6!3m5!1s0x465f77001d35af19:0x7d937680bbaa025b!8m2!3d59.3227205!4d18.070539!16s%2Fg%2F11xvbllffm?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Pescado",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:27:51.619Z",
+        "fechaActualizacion": "2026-10-25T17:27:51.619Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "af403b62-f348-44eb-9f83-60f610c78900",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.055506,
+          59.316776
+        ]
+      },
+      "properties": {
+        "nombre": "Brunos korvbar",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Rosenlundsgatan 20, 118 53 Stockholm, Suecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Brunos+korvbar/@59.3167671,18.0550182,19.25z/data=!4m6!3m5!1s0x465f77e62f322831:0x8a5bc794c358faa0!8m2!3d59.316768!4d18.055536!16s%2Fg%2F11c1ndzh0v?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:31:36.828Z",
+        "fechaActualizacion": "2026-10-25T17:31:36.828Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c477544a-c0fb-4477-867c-639007d02e4d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.545497,
+          55.675393
+        ]
+      },
+      "properties": {
+        "nombre": "Hart",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Gl. Kongevej 109, 1850 Frederiksberg, Dinamarca",
+        "googleMapsUrl": "https://www.google.com/maps/place/Hart/@55.6703064,12.5223307,12.75z/data=!3m1!5s0x465253a19708d661:0x5a158004473e280f!4m10!1m2!2m1!1shart+bageri!3m6!1s0x46525352f094be63:0x852bf40f2cef931c!8m2!3d55.6753846!4d12.5455049!15sCgtoYXJ0IGJhZ2VyaVoNIgtoYXJ0IGJhZ2VyaZIBBmJha2VyeZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOU2FIUkRkM05uUlJBQuABAPoBBAgAECc!16s%2Fg%2F11gr31fb64?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Desayuno",
+          "Pasteleria"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:34:09.638Z",
+        "fechaActualizacion": "2026-10-25T17:34:09.638Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "78af1f3b-4df7-43de-b608-1d581d7d1e03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.238364,
+          42.163753
+        ]
+      },
+      "properties": {
+        "nombre": "O Palancas - Restaurante",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Villar, Bº da Nogueira 6, 36429, Pontevedra, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/O+Palancas+-+Restaurante/@42.1638473,-8.2402657,17z/data=!4m15!1m8!3m7!1s0xd25640c430c9645:0xcddefea6ce9612ca!2sO+Palancas+-+Restaurante!8m2!3d42.163728!4d-8.2383559!10e5!16s%2Fg%2F11xdfwqm0!3m5!1s0xd25640c430c9645:0xcddefea6ce9612ca!8m2!3d42.163728!4d-8.2383559!16s%2Fg%2F11xdfwqm0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Pescado",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:39:10.928Z",
+        "fechaActualizacion": "2026-10-25T17:39:10.928Z"
       }
     }
   ]
