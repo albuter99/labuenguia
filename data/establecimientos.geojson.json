@@ -2924,6 +2924,215 @@
         "fechaCreacion": "2026-10-25T18:05:17.517Z",
         "fechaActualizacion": "2026-10-25T18:05:17.517Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "9c797eb4-8d81-443e-b7c6-08ed747f547f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.173177,
+          44.00623
+        ]
+      },
+      "properties": {
+        "nombre": "MANI PIZZA & CUCINA ALASSIO",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Passeggiata Dino Grollero, 7, 17021 Alassio SV, Italia",
+        "googleMapsUrl": "https://www.google.com/maps/place/MANI+PIZZA+%26+CUCINA+ALASSIO/@43.9420943,6.6871725,7.5z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12d25db393a827bb:0xba001f8932ba5d13!8m2!3d44.0062296!4d8.1731788!16s%2Fg%2F11bc8yvk21?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "De autor",
+          "Italiano",
+          "Postre",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "Pizzas distintas y tiramisú INCREIBLE",
+        "fechaCreacion": "2026-10-25T18:08:53.030Z",
+        "fechaActualizacion": "2026-10-25T18:08:53.030Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f908ce42-da20-4915-a0ca-f6ec5e1702a4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.333902,
+          48.87079
+        ]
+      },
+      "properties": {
+        "nombre": "Hippopotamus",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "1, Boulevard des Capucines, Gaillon, 2nd Arrondissement, París, Isla de Francia, Francia metropolitana, 75009, Francia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Hippopotamus/@48.870975,2.3323393,16.75z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x47e66e30a8961f27:0xf7852b1d0cc4cafc!8m2!3d48.870713!4d2.3339189!16s%2Fg%2F1tfpn_rc?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:11:15.711Z",
+        "fechaActualizacion": "2026-10-25T18:11:15.711Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51f05614-cee8-422d-bf4a-aea3adf524a4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32327,
+          48.844282
+        ]
+      },
+      "properties": {
+        "nombre": "Bouillon Chartier Montparnasse",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "59 Bd du Montparnasse, 75006 Paris, Francia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bouillon+Chartier+Montparnasse/@48.8442908,2.3233219,11z/data=!4m6!3m5!1s0x47e671cd1edf1cdd:0x99c359a4151a16a4!8m2!3d48.8442908!4d2.3233219!16s%2Fg%2F1td6lzr9?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:12:48.384Z",
+        "fechaActualizacion": "2026-10-25T18:12:48.384Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7f86f35c-08b7-4677-a85c-1712da5dd5a1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.133291,
+          42.000775
+        ]
+      },
+      "properties": {
+        "nombre": "Mooma",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Mas Saulot S/N, 17256, 17256, Girona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Mooma/@41.9715845,3.081557,12.29z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12ba57abe3778b11:0x9d8697cb7df0985e!8m2!3d42.0007312!4d3.133318!16s%2Fg%2F11c4b6b84w?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Paella",
+          "Pescado",
+          "Reservado",
+          "Tipico",
+          "Vino",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:15:11.704Z",
+        "fechaActualizacion": "2026-10-25T18:15:11.704Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0d47b01-2ee1-49eb-8961-8356bacf3378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.148526,
+          41.397547
+        ]
+      },
+      "properties": {
+        "nombre": "Els Pinxus",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Carrer de Marià Cubí, 79-81, Sarrià-Sant Gervasi, 08006 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Els+Pinxus/@41.3974645,2.1200332,13.25z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12a4a29eeb31bb41:0x7fe75f354c46b8fc!8m2!3d41.3975062!4d2.1485555!16s%2Fg%2F11b6xdjytl?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:17:51.346Z",
+        "fechaActualizacion": "2026-10-25T18:17:51.346Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4e70b6e0-75bd-4a59-aad4-02484f7b2226",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166638,
+          41.389008
+        ]
+      },
+      "properties": {
+        "nombre": "La Bodega Anxoita",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Rambla de Catalunya, 20, Eixample, 08007 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/La+Bodega+Anxoita/@41.3890062,2.1666459,5z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12a4a3f798996ca9:0xee33e8710ad59143!8m2!3d41.3890062!4d2.1666459!16s%2Fg%2F11trffk8s3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:19:16.203Z",
+        "fechaActualizacion": "2026-10-25T18:19:16.203Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "44dc16c9-06e3-4799-a7cb-b34e0a364ab7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.154644,
+          41.392107
+        ]
+      },
+      "properties": {
+        "nombre": "Casa Antonio | Aribau",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Carrer d'Aribau, 152, Eixample, 08036 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Casa+Antonio+%7C+Aribau/@41.4031862,2.1301066,13.75z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12a4a31080c0a6b1:0x8025200ebd444924!8m2!3d41.3921096!4d2.1546697!16s%2Fg%2F11z2kn_2_j?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:21:25.244Z",
+        "fechaActualizacion": "2026-10-25T18:21:25.244Z"
+      }
     }
   ]
 }

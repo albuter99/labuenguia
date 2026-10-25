@@ -271,5 +271,19 @@
     "fecha": null,
     "valoracion": 5,
     "comentario": ""
+  },
+  {
+    "id": "7b29a24c-1cb3-4f7f-b4fe-cef9dc15a5e0",
+    "establecimientoId": "9c797eb4-8d81-443e-b7c6-08ed747f547f",
+    "fecha": null,
+    "valoracion": 5,
+    "comentario": ""
+  },
+  {
+    "id": "e96890d8-291f-4187-87b2-0419540983f0",
+    "establecimientoId": "7f86f35c-08b7-4677-a85c-1712da5dd5a1",
+    "fecha": "2026-07-19",
+    "valoracion": 5,
+    "comentario": "Top comidas y grandes momentos"
   }
 ]
