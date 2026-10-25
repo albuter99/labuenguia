@@ -3334,6 +3334,315 @@
         "fechaCreacion": "2026-10-25T18:41:03.149Z",
         "fechaActualizacion": "2026-10-25T18:41:03.149Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "06cf4453-41ea-45d6-addb-d1281f8024f6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1766788,
+          41.4285464
+        ]
+      },
+      "properties": {
+        "nombre": "La Cholita",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "La Cholita, 244, Carrer de Felip II, Vilapicina, Vilapicina i la Torre Llobeta, Nou Barris, Barcelona, Barcelonés, Barcelona, Cataluña, 08016, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/La+Cholita/@41.4285738,2.1767204,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4bd2ec743162f:0x9b474d10acc825a6!8m2!3d41.4285738!4d2.1767204!16s%2Fg%2F11b77r_2qf?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tapas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:43:14.533Z",
+        "fechaActualizacion": "2026-10-25T18:43:14.533Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1416b35d-3aaa-47b1-8290-36f9ac98aae7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.173007,
+          41.411647
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurant BelleBuòn",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Travessera de Gràcia, 441, bajo, Horta-Guinardó, 08025 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurant+BelleBu%C3%B2n/@41.4116135,2.173002,17z/data=!3m2!4b1!5s0x12a4a2cf8d4057fb:0x1a4fd72062dd7849!4m6!3m5!1s0x12a4a2cff2dcc3a1:0x4a02d1b6a0751721!8m2!3d41.4116135!4d2.173002!16s%2Fg%2F1tcxltml?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Italiano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:44:50.407Z",
+        "fechaActualizacion": "2026-10-25T18:44:50.407Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "139a5764-275c-44e1-bf38-edad632aab36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1350804,
+          41.3764154
+        ]
+      },
+      "properties": {
+        "nombre": "Bodega Montferry",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Bodega Montferry, 13, Passatge de Serra i Arola, Sants, Sants-Montjuïc, Barcelona, Barcelonés, Barcelona, Cataluña, 08028, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bodega+Montferry/@41.376392,2.1350326,15z/data=!4m15!1m8!3m7!1s0x12a49889a46b8dfb:0x975dfd4f58b44b15!2sBodega+Montferry!8m2!3d41.376392!4d2.1350326!10e5!16s%2Fg%2F11b6gq2gr4!3m5!1s0x12a49889a46b8dfb:0x975dfd4f58b44b15!8m2!3d41.376392!4d2.1350326!16s%2Fg%2F11b6gq2gr4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:46:31.128Z",
+        "fechaActualizacion": "2026-10-25T18:46:31.128Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9ecf1e3e-2615-4396-bd90-a9c3c6410e47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.132193,
+          41.405012
+        ]
+      },
+      "properties": {
+        "nombre": "Bar Mandri",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Carrer de Mandri, 60, Sarrià-Sant Gervasi, 08022 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bar+Mandri/@41.4048069,2.1310688,18z/data=!4m15!1m8!3m7!1s0x12a49813b9fda885:0x38355320f251b400!2sBar+Mandri!8m2!3d41.405!4d2.1322222!10e5!16s%2Fg%2F12qg9_770!3m5!1s0x12a49813b9fda885:0x38355320f251b400!8m2!3d41.405!4d2.1322222!16s%2Fg%2F12qg9_770?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:48:45.313Z",
+        "fechaActualizacion": "2026-10-25T18:48:45.313Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "66146ba1-252a-488d-8400-6947af4f3c08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.123067,
+          41.397554
+        ]
+      },
+      "properties": {
+        "nombre": "Bar El Tomás de Sarrià",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": true,
+        "direccion": "Carrer Major de Sarrià, 49, Sarrià-Sant Gervasi, 08017 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bar+El+Tom%C3%A1s+de+Sarri%C3%A0/@41.3974821,2.1228918,21z/data=!4m6!3m5!1s0x12a498419c437b81:0xeeb1992dda99a27b!8m2!3d41.3975392!4d2.1230538!16s%2Fg%2F1td__mjc?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "Bravas",
+        "fechaCreacion": "2026-10-25T18:50:12.617Z",
+        "fechaActualizacion": "2026-10-25T18:50:12.617Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8edba41d-3ac4-4224-84c2-b3b0b9433b79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1607634,
+          41.3951595
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Harry's",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Harry's, 2, Passatge de la Concepció, la Dreta de l'Eixample, l'Eixample, Barcelona, Barcelonés, Barcelona, Cataluña, 08008, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+Harry's/@41.3948645,2.1604198,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a3167dd9f9f5:0x8065f3c970537426!8m2!3d41.3948645!4d2.1604198!16s%2Fg%2F11j8x1kv80?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Italiano",
+          "Romantico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:52:00.506Z",
+        "fechaActualizacion": "2026-10-25T18:52:00.506Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "63da926b-5730-47c8-9f47-11c90fa28fe6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160973,
+          41.394156
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Gala",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "",
+        "selloB": false,
+        "direccion": "Carrer de Provença, 286, Eixample, 08008 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+Gala+-+Restaurante+Italiano+Barcelona/@41.3941101,2.160968,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a3a3d47d1f5b:0x95ec38652d92bf7b!8m2!3d41.3941101!4d2.160968!16s%2Fg%2F11p5bnpywv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Italiano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:54:07.644Z",
+        "fechaActualizacion": "2026-10-25T18:54:07.644Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "602c2f41-b4a7-467d-8e11-42db0b39d40b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1588,
+          41.39234
+        ]
+      },
+      "properties": {
+        "nombre": "Petit Bangkok",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Petit Bangkok, Carrer de Balmes, la Dreta de l'Eixample, l'Eixample, Barcelona, Barcelonés, Barcelona, Cataluña, 08008, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Petit+Bangkok/@41.3912717,2.1511294,15z/data=!3m1!5s0x12a4a291935d7805:0xdc36c0eeb4d74b14!4m10!1m2!2m1!1sPetit+Bangkok!3m6!1s0x12a4a29194a60e4f:0x59045d0a6d2ebaad!8m2!3d41.3923508!4d2.1588269!15sCg1QZXRpdCBCYW5na29rIgOIAQFaDyINcGV0aXQgYmFuZ2tva5IBD3RoYWlfcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVSbmVXUkViMVJSRUFF4AEA-gEECAAQGQ!16s%2Fg%2F11cs3807gb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Chino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:55:16.060Z",
+        "fechaActualizacion": "2026-10-25T18:55:16.060Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19da963d-8a2e-4b70-be42-c511848086ce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1668833,
+          41.3888272
+        ]
+      },
+      "properties": {
+        "nombre": "Ciudad Condal",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Ciutat Comtal, 18, Rambla de Catalunya, la Dreta de l'Eixample, l'Eixample, Barcelona, Barcelonés, Barcelona, Cataluña, 08007, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Ciudad+Condal/@41.3888547,2.1670033,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a2f2fb952999:0x9e8658bf28dbb5d6!8m2!3d41.3888547!4d2.1670033!16s%2Fg%2F1tkgtb29?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:56:32.861Z",
+        "fechaActualizacion": "2026-10-25T18:56:32.861Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1cbc3a87-cd72-4241-8864-ef9311f898b5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170711,
+          41.379074
+        ]
+      },
+      "properties": {
+        "nombre": "Fat Cat",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Plaça de Salvador Seguí, 13, Ciutat Vella, 08001 Barcelona, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Fat+Cat/@41.3790703,2.1707164,17z/data=!4m15!1m8!3m7!1s0x12a4a336d96c846d:0xdd96bbfbce809293!2sFat+Cat!8m2!3d41.3790703!4d2.1707164!10e5!16s%2Fg%2F11rd7kw951!3m5!1s0x12a4a336d96c846d:0xdd96bbfbce809293!8m2!3d41.3790703!4d2.1707164!16s%2Fg%2F11rd7kw951?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "De autor",
+          "Tapas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:59:02.269Z",
+        "fechaActualizacion": "2026-10-25T18:59:02.269Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "276d0f8b-ede9-4c42-8ccd-84a132856e83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173138,
+          41.3791405
+        ]
+      },
+      "properties": {
+        "nombre": "Bar cañete",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Bar Cañete, 17, Carrer de la Unió, el Raval, Ciutat Vella, Barcelona, Barcelonés, Barcelona, Cataluña, 08002, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bar+Ca%C3%B1ete/@41.3791528,2.173125,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a258412bcb19:0x1c77b2f8f4cdfb63!8m2!3d41.3791528!4d2.173125!16s%2Fg%2F1tf89fdb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T19:00:31.887Z",
+        "fechaActualizacion": "2026-10-25T19:00:31.887Z"
+      }
     }
   ]
 }
