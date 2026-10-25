@@ -250,5 +250,26 @@
     "fecha": null,
     "valoracion": 4,
     "comentario": ""
+  },
+  {
+    "id": "cc1f9578-10cd-448d-93ac-6236f6fcc875",
+    "establecimientoId": "d58bb5d7-8f38-4912-a457-cacf3af49397",
+    "fecha": null,
+    "valoracion": 5,
+    "comentario": ""
+  },
+  {
+    "id": "7e9c15fe-c4fe-4bfb-a9b8-d25e8d12f345",
+    "establecimientoId": "d043f0a9-e355-4c2f-b7fc-dcf258ccb340",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "f1f58419-0771-4979-a13e-69bcf1ae5827",
+    "establecimientoId": "d71f29da-fc00-4512-8e6b-6dd888b348c7",
+    "fecha": null,
+    "valoracion": 5,
+    "comentario": ""
   }
 ]

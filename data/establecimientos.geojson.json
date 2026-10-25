@@ -2702,6 +2702,228 @@
         "fechaCreacion": "2026-10-25T17:39:10.928Z",
         "fechaActualizacion": "2026-10-25T17:39:10.928Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "abf16f8b-6f27-40a5-ae59-d14a12d8bb7f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3749938,
+          -34.6098431
+        ]
+      },
+      "properties": {
+        "nombre": "D'oro Italian Bar",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "D'Oro Italian Bar, 159, Perú, Monserrat, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, C1067AAC, Argentina",
+        "googleMapsUrl": "https://www.google.com/maps/place/D'oro+Italian+Bar/@-34.6097227,-58.4053063,13z/data=!4m6!3m5!1s0x95bccad39c74042d:0x174871edd9b428b7!8m2!3d-34.6097093!4d-58.3749556!16s%2Fg%2F1w9y28k9?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Italiano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:47:12.709Z",
+        "fechaActualizacion": "2026-10-25T17:47:12.709Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c4f629df-41ba-4f81-9a8f-41c9cb41bb36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3793429,
+          -34.5918219
+        ]
+      },
+      "properties": {
+        "nombre": "Floreria Atlántico",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "Florería Atlántico, 872, Arroyo, Retiro, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, C1007AAB, Argentina",
+        "googleMapsUrl": "https://www.google.com/maps/place/Floreria+Atl%C3%A1ntico/@-34.6097227,-58.4053063,13z/data=!4m6!3m5!1s0x95bccab12e318f25:0x71a53cd8a90c0a1a!8m2!3d-34.5915325!4d-58.3797127!16s%2Fg%2F11bwyxgj5d?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Copas",
+          "De autor"
+        ],
+        "notas": "Empanada",
+        "fechaCreacion": "2026-10-25T17:48:22.164Z",
+        "fechaActualizacion": "2026-10-25T17:48:22.164Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d58bb5d7-8f38-4912-a457-cacf3af49397",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.900975,
+          52.369811
+        ]
+      },
+      "properties": {
+        "nombre": "Coffeeshop Reefer",
+        "tipo": "Otros",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "",
+        "selloB": false,
+        "direccion": "Sint Antoniesbreestraat 77, 1011 HB Amsterdam, Países Bajos",
+        "googleMapsUrl": "https://www.google.com/maps/place/Coffeeshop+Reefer/@52.3698106,4.8862499,14z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x47c609be9b5c16a7:0xcd7234eb132cf902!8m2!3d52.3698126!4d4.9009828!16s%2Fg%2F11b8_6lrns?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Coffeeshop",
+          "De autor"
+        ],
+        "notas": "Brownies \"de lujo\"",
+        "fechaCreacion": "2026-10-25T17:53:04.383Z",
+        "fechaActualizacion": "2026-10-25T17:55:04.007Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d043f0a9-e355-4c2f-b7fc-dcf258ccb340",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.906466,
+          52.367338
+        ]
+      },
+      "properties": {
+        "nombre": "De Overkant",
+        "tipo": "Otros",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "",
+        "selloB": false,
+        "direccion": "Nieuwe Herengracht 71, 1011 RC Amsterdam, Países Bajos",
+        "googleMapsUrl": "https://www.google.com/maps/place/De+Overkant/@52.3674374,4.9060129,19.25z/data=!4m6!3m5!1s0x47c609bd410ee0c7:0x5750b8cf4afe3736!8m2!3d52.3673263!4d4.9064658!16s%2Fg%2F1tk8ms_r?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Coffeeshop",
+          "Tipico"
+        ],
+        "notas": "No para turistas",
+        "fechaCreacion": "2026-10-25T17:54:44.616Z",
+        "fechaActualizacion": "2026-10-25T17:54:44.616Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c2d537e5-c7fb-45b9-8bb8-280ade73f3f5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.000113,
+          53.545563
+        ]
+      },
+      "properties": {
+        "nombre": "WASSERSCHLOSS Speicherstadt",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Dienerreihe 4, 20457 Hamburg, Alemania",
+        "googleMapsUrl": "https://www.google.com/maps/place/WASSERSCHLOSS+Speicherstadt/@53.5455514,10.0001168,15z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x47b18efd3dda753b:0x790bf534ded6c4b9!8m2!3d53.5455514!4d10.0001168!16s%2Fg%2F11c55c9cs1?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T17:57:42.001Z",
+        "fechaActualizacion": "2026-10-25T17:57:42.001Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ec993631-dcb8-4cbf-8766-77ad0743f96e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9863202,
+          53.5522531
+        ]
+      },
+      "properties": {
+        "nombre": "Edelcurry",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Edelcurry, 68, Große Bleichen, Neustadt, Hamburg-Mitte, Hamburgo, 20354, Alemania",
+        "googleMapsUrl": "https://www.google.com/maps/place/Edelcurry/@53.5522601,9.9775708,15z/data=!4m6!3m5!1s0x47b18f1a0c8766e5:0x73024b2f1d20468e!8m2!3d53.5522595!4d9.9863282!16s%2Fg%2F1tcx0l6p?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "Miticas currywurst",
+        "fechaCreacion": "2026-10-25T17:59:15.113Z",
+        "fechaActualizacion": "2026-10-25T17:59:15.113Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d71f29da-fc00-4512-8e6b-6dd888b348c7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.981713,
+          53.55098
+        ]
+      },
+      "properties": {
+        "nombre": "Zum Spätzle - schwäbischer Imbiss",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Wexstraße 31, 20355 Hamburg, Alemania",
+        "googleMapsUrl": "https://www.google.com/maps/@53.5522601,9.9775708,15z?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:00:32.554Z",
+        "fechaActualizacion": "2026-10-25T18:00:32.554Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f57c13f5-0c19-4d24-bcef-94c9a70d9be7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.263299,
+          40.849765
+        ]
+      },
+      "properties": {
+        "nombre": "Pizzeria Da Michele",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Via Cesare Sersale, 1, 80139 Napoli NA, Italia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Pizzeria+Da+Michele/@40.9960316,13.7556241,9z/data=!3m1!5s0x133b083f8c37f599:0xae0ad3e3cb1579ac!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x133b083f8db6b079:0x5ab2972d7365b642!8m2!3d40.8497563!4d14.2633002!16s%2Fg%2F1tdbyxpz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Italiano",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-25T18:05:17.517Z",
+        "fechaActualizacion": "2026-10-25T18:05:17.517Z"
+      }
     }
   ]
 }
