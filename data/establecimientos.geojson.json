@@ -3520,7 +3520,7 @@
         "tipo": "Restaurante",
         "estado": "Quiero ir",
         "precio": 3,
-        "icono": "",
+        "icono": "cubiertos",
         "selloB": false,
         "direccion": "Carrer de Provença, 286, Eixample, 08008 Barcelona, España",
         "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+Gala+-+Restaurante+Italiano+Barcelona/@41.3941101,2.160968,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a3a3d47d1f5b:0x95ec38652d92bf7b!8m2!3d41.3941101!4d2.160968!16s%2Fg%2F11p5bnpywv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
@@ -3529,7 +3529,7 @@
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:54:07.644Z",
-        "fechaActualizacion": "2026-10-25T18:54:07.644Z"
+        "fechaActualizacion": "2026-10-25T19:06:11.490Z"
       }
     },
     {
