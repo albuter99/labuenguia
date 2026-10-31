@@ -4252,6 +4252,356 @@
         "fechaCreacion": "2026-10-31T22:50:15.051Z",
         "fechaActualizacion": "2026-10-31T22:50:15.051Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "fb46b9bb-bd33-44ae-acc1-801060ac5887",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0221528,
+          42.9516843
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Hostal Garcia",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Hostal Restaurante Garcia, Travesía García Miranda, Villasecino, San Emiliano, León, Castilla y León, 24145, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+Hostal+Garcia/@42.9516767,-6.6317998,81814m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd371fef0b07a825:0xf267d7f81bbc6f72!8m2!3d42.9516767!4d-6.0220586!16s%2Fg%2F11hdjc7pk6?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Español",
+          "Tipico"
+        ],
+        "notas": "Restaurante de los típicos antiguos. Mantel de papel.",
+        "fechaCreacion": "2026-10-31T22:52:42.948Z",
+        "fechaActualizacion": "2026-10-31T22:52:42.948Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d30adf0b-a497-4d90-885e-393f6db03aa3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.443275,
+          42.859205
+        ]
+      },
+      "properties": {
+        "nombre": "Fuente del Oso",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "C. de Abajo, 5-7, 24849 Aviados, León, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Fuente+del+Oso/@42.8592002,-5.5957096,20484m/data=!3m1!1e3!4m13!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m8!1s0xd37b9afbc80c657:0x40133e62931bf72c!5m2!4m1!1i2!8m2!3d42.8592002!4d-5.4432743!16s%2Fg%2F1tjdy5pm?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "Restaurante de los de siempre.",
+        "fechaCreacion": "2026-10-31T22:55:23.605Z",
+        "fechaActualizacion": "2026-10-31T22:55:23.605Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2feb663f-0c00-4656-aa41-8b7676d073ae",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.399205,
+          43.545762
+        ]
+      },
+      "properties": {
+        "nombre": "El Uría",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Puerto de Tazones, 33316 San Roque, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/El+Ur%C3%ADa/@43.5457528,-5.4004713,316m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd3672d721f93197:0x1c180d3f3b3a5b34!8m2!3d43.5458131!4d-5.3992341!16s%2Fg%2F11d_w9r3x7?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Pescado",
+          "Tipico",
+          "Vino",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T22:57:30.398Z",
+        "fechaActualizacion": "2026-10-31T22:57:30.398Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "25b6b1c0-80f5-40f8-853b-26c8fa9da6fd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.91732,
+          43.151277
+        ]
+      },
+      "properties": {
+        "nombre": "EL Desván Valdeón",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Travesía de Prada, 10, 24915 Posada de Valdeón, León, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/EL+Desv%C3%A1n+Valde%C3%B3n/@43.1512668,-4.9194429,319m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd49d18b841adf67:0x6036a50b593dd72c!8m2!3d43.1512668!4d-4.9173209!16s%2Fg%2F11bw46nf_p?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "De los de siempre",
+        "fechaCreacion": "2026-10-31T22:59:08.271Z",
+        "fechaActualizacion": "2026-10-31T22:59:08.271Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fe84a163-9978-417a-9024-f97c799ad9a0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9118485,
+          42.976505
+        ]
+      },
+      "properties": {
+        "nombre": "Venta de Eslonza",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Venta de Eslonza, Calle San Antonio, Villafrea de la Reina, Boca de Huérgano, León, Castilla y León, 24911, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Venta+de+Eslonza/@42.9081135,-5.455673,137692m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd482e148cda8b1d:0x8ead53fa34ae66c2!8m2!3d42.97651!4d-4.91178!16s%2Fg%2F11b6d41kym?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:02:30.864Z",
+        "fechaActualizacion": "2026-10-31T23:02:30.864Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d895b3fc-17f2-4482-a5e6-0426f1dd8fdc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9963171,
+          43.2372509
+        ]
+      },
+      "properties": {
+        "nombre": "Oianume",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Oianume sagardotegia, Polígono Erratzu, Lategi, Urnieta, Guipúzcoa, País Vasco, 20130, España",
+        "googleMapsUrl": "",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "Sidra y menú sidreria. Top",
+        "fechaCreacion": "2026-10-31T23:04:02.735Z",
+        "fechaActualizacion": "2026-10-31T23:04:02.735Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "278007aa-e07f-47a9-9098-00fd13fe3a65",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.879199,
+          42.997831
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Venta Muguiro",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Calle San Francisco, S/N, Autovía de Leizarán, Salida 123, 31878 Mugiro, Navarra, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+Venta+Muguiro/@42.9395184,-2.1010441,48657m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd5059c502c6b4b3:0xe30538fb6f7cd705!8m2!3d42.997826!4d-1.8791977!16s%2Fg%2F1tgptymn?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:06:29.377Z",
+        "fechaActualizacion": "2026-10-31T23:06:29.377Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f551235d-f9d7-4d7c-80b9-4a8eb9ba70d5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0148595,
+          52.2410373
+        ]
+      },
+      "properties": {
+        "nombre": "Rooftop Bar w DOCK19",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Wybrzeże Kościuszkowskie 43C, 00-347 Warszawa, Polonia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Rooftop+Bar+w+DOCK19/@52.2410373,21.0148595,2139m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x471ecd003a768b57:0x8f6ff188e88c099d!8m2!3d52.2410373!4d21.0283326!16s%2Fg%2F11y3n72bxj?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cocteles",
+          "Copas",
+          "Rooftop",
+          "Tapas",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:09:02.706Z",
+        "fechaActualizacion": "2026-10-31T23:09:02.706Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6274fcdf-918d-4b44-878c-0e5f1c360eac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0239444,
+          52.2407869
+        ]
+      },
+      "properties": {
+        "nombre": "Oma",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Oma, 13, Radna, Powiśle-Skarpa, Powiśle, Midtown, Varsovia, Voivodato de Mazovia, 00-341, Polonia",
+        "googleMapsUrl": "https://www.google.com/maps/place/OMA/@52.2407708,21.0189223,535m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x471ecd0d97f25ba7:0x3737ce43c33e432c!8m2!3d52.2407711!4d21.0238252!16s%2Fg%2F11l363plq1?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:10:09.721Z",
+        "fechaActualizacion": "2026-10-31T23:10:09.721Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d37587f1-b6e8-4175-8d39-002947e11d54",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.872518,
+          51.4140369
+        ]
+      },
+      "properties": {
+        "nombre": "The Dickens Inn",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "The Dickens Inn, Fourth Avenue, Berryfield, Eastchurch, Swale, Kent, Inglaterra, ME12 4EW, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Dickens+Inn/@51.5068228,-0.071978,272m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48760337c70285d5:0x5c5c34cb9e3a58b7!8m2!3d51.5068228!4d-0.0701937!16s%2Fg%2F1td9p_s5?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Hamburguesa",
+          "Irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:14:09.876Z",
+        "fechaActualizacion": "2026-10-31T23:14:09.876Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bfc16660-15fe-4dd2-8322-a5b66b38b963",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1036381,
+          51.5121465
+        ]
+      },
+      "properties": {
+        "nombre": "The Blackfriar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "The Blackfriar, 174, Queen Victoria Street, Blackfriars, City de Londres, Gran Londres, Inglaterra, EC4V 4EG, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Blackfriar/@51.5121162,-0.2318959,17391m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x487604a57e5bab29:0x158016f71c08680e!8m2!3d51.5121153!4d-0.1037137!16s%2Fm%2F0_83mnn?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Hamburguesa",
+          "Irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:15:03.818Z",
+        "fechaActualizacion": "2026-10-31T23:15:03.818Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ff5d1419-6579-485c-aca5-4565b89ddba9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4896058,
+          51.4589277
+        ]
+      },
+      "properties": {
+        "nombre": "White Cross",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Riverside House, Water Ln, Richmond TW9 1TH, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/White+Cross/@51.4589277,-0.4896058,34823m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48760c470ed0a25b:0x97a5c19d6066202f!8m2!3d51.4589277!4d-0.3083286!16s%2Fm%2F051t9sw?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Hamburguesa",
+          "Irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:16:27.091Z",
+        "fechaActualizacion": "2026-10-31T23:16:27.091Z"
+      }
     }
   ]
 }
