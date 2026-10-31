@@ -299,5 +299,12 @@
     "fecha": null,
     "valoracion": 4,
     "comentario": ""
+  },
+  {
+    "id": "2c772f89-c416-47cd-9a91-42261d07a060",
+    "establecimientoId": "49af9cff-baf6-4533-985a-a0a7a0a9e428",
+    "fecha": null,
+    "valoracion": 5,
+    "comentario": "Grandes comidas con los de vascos de Dinamarca"
   }
 ]

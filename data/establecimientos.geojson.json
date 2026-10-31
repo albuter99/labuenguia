@@ -3643,6 +3643,264 @@
         "fechaCreacion": "2026-10-25T19:00:31.887Z",
         "fechaActualizacion": "2026-10-25T19:00:31.887Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "49af9cff-baf6-4533-985a-a0a7a0a9e428",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4148041,
+          38.3640613
+        ]
+      },
+      "properties": {
+        "nombre": "Arrocería Casa Pepe",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Arrocería Casa Pepe, Avenida de Cataluña, Entreplatges, Alicante, L'Alacantí, Alicante, Comunidad Valenciana, 03540, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Arrocer%C3%ADa+Casa+Pepe/@38.3689082,-0.4739339,12z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd6239a970b645f3:0xbe9e30ae5e5bb345!8m2!3d38.3640842!4d-0.4148144!16s%2Fg%2F1tdkcdhy?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Paella",
+          "Tipico"
+        ],
+        "notas": "Arroz de pato increíble",
+        "fechaCreacion": "2026-10-31T20:48:07.674Z",
+        "fechaActualizacion": "2026-10-31T20:48:07.674Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a625f4fb-f1ba-49f2-a05d-97f960a56014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5975992,
+          37.1761877
+        ]
+      },
+      "properties": {
+        "nombre": "Heladería Los Italianos",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Heladería Los Italianos, 4, Calle Gran Vía de Colón, Sagrario, Centro - Sagrario, Centro, Granada, Comarca de la Vega de Granada, Granada, Andalucía, 18001, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Helader%C3%ADa+Los+Italianos/@37.1762121,-9.3984902,6z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd71fcbf21ff288b:0x2471971a4064d4e1!8m2!3d37.176212!4d-3.5976216!16s%2Fg%2F1vj60k7n?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T20:50:42.322Z",
+        "fechaActualizacion": "2026-10-31T20:50:42.322Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "84c9b547-e5b4-41de-965c-a95d9a000500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.439002,
+          36.694532
+        ]
+      },
+      "properties": {
+        "nombre": "Chiringuito Gutiérrez Playa",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "C/ Pacífico, 29, Carretera de Cádiz, 29004 Málaga, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Chiringuito+Guti%C3%A9rrez+Playa/@36.6946444,-4.441541,17.75z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd72f9d4adcea77f:0xbf355eb4d3e19de1!8m2!3d36.6944724!4d-4.439007!16s%2Fg%2F11c0rnkv7j?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Pescado",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T20:52:44.459Z",
+        "fechaActualizacion": "2026-10-31T20:52:44.459Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c88a6e2d-5f57-4364-a273-8e79c988d870",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9343448,
+          37.0129672
+        ]
+      },
+      "properties": {
+        "nombre": "Vila Adentro",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Vila Adentro, 17, Praça Afonso III, Faro (Sé e São Pedro), Faro, 8000-149, Portugal",
+        "googleMapsUrl": "https://www.google.com/maps/place/Vila+Adentro/@37.0130064,-7.9366912,18z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd0552c1a96330bf:0x4941aec02929fa1b!8m2!3d37.0130064!4d-7.9343094!16s%2Fg%2F11b6glk4z9?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T20:54:15.227Z",
+        "fechaActualizacion": "2026-10-31T20:54:15.227Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bf2652e7-bcfa-4a28-b4a4-f3272b7d7860",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.3910323,
+          38.7957148
+        ]
+      },
+      "properties": {
+        "nombre": "Tascantiga",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Tascantiga, 2-4, Escadinhas da Fonte da Pipa, Sintra - São Martinho, Sintra - Santa Maria, Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra, Lisboa, 2710-557, Portugal",
+        "googleMapsUrl": "https://www.google.com/maps/place/Tascantiga/@38.7957533,-9.4988626,12z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd1edac0408a72cd:0x6d1a3e458fc7f117!8m2!3d38.7957533!4d-9.3910746!16s%2Fg%2F11c4lnznsr?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T20:56:28.228Z",
+        "fechaActualizacion": "2026-10-31T20:56:28.228Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b700aeaf-0338-47bc-b388-bf72d23c7966",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8674019,
+          38.9960033
+        ]
+      },
+      "properties": {
+        "nombre": "Brocata - spanish sandwich",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Brocata, Calle Hermanos Jiménez, Fátima, Distrito 2, Albacete, Castilla-La Mancha, 02004, España",
+        "googleMapsUrl": "",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "Bocadillo Comeorejas",
+        "fechaCreacion": "2026-10-31T20:57:50.061Z",
+        "fechaActualizacion": "2026-10-31T20:57:50.061Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "28eaf633-79a5-4865-9e08-764e953eb5c9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.882361,
+          39.461066
+        ]
+      },
+      "properties": {
+        "nombre": "A fuego lento",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "C. Ballesteros, 10, 10200 Trujillo, Cáceres, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/A+fuego+lento/@39.4610436,-5.8824757,21z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd15a3aa691e80f3:0xbec968eacaf7c8b0!8m2!3d39.4610632!4d-5.8823596!16s%2Fg%2F11nvz141pd?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T20:59:57.862Z",
+        "fechaActualizacion": "2026-10-31T20:59:57.862Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "50d6e0c7-9242-43e9-a12a-534855a86c30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711033,
+          40.416021
+        ]
+      },
+      "properties": {
+        "nombre": "FIVE Madrid Natural Wine & Dine",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "vino",
+        "selloB": false,
+        "direccion": "C. de Calderón de la Barca, 8, Centro, 28013 Madrid, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/FIVE+Madrid+Natural+Wine+%26+Dine/@40.5091493,-3.8148342,11.25z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd4229f632dc6ddb:0xf754e1297e0c437b!8m2!3d40.4160068!4d-3.7110273!16s%2Fg%2F11mc9lgb7l?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "De autor",
+          "Tapas",
+          "Vino"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T21:02:10.853Z",
+        "fechaActualizacion": "2026-10-31T21:02:10.853Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "577bd188-59ce-417f-927f-725bdc8f3223",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0711,
+          40.729964
+        ]
+      },
+      "properties": {
+        "nombre": "Los Sarmientos de Gómez",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Av. de Francisco Fernández Ochoa, 6, 28470 Cercedilla, Madrid, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Los+Sarmientos+de+G%C3%B3mez/@40.7299438,-4.0791085,16z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd4112aa4d3f6f4b:0x1fdaf22d821995f7!8m2!3d40.7299439!4d-4.071097!16s%2Fg%2F1tf3q5y7?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T21:04:01.911Z",
+        "fechaActualizacion": "2026-10-31T21:05:01.422Z"
+      }
     }
   ]
 }
