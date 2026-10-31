@@ -1,5 +1,7 @@
-const TAGS = ["Michelin","Menu degustacion","Vino","Vegano","Irlandes","Copas","Vistas","Coffeeshop","Italiano","Carne","Español","Tipico","Pescado","Barato","Chino","Hamburguesa","Postre","Paella","Sushi","Kebab","Mexicano","Musica en directo","Reservado","Helados","Brunch","Desayuno","Cocteles","Pasteleria","Rooftop","Romantico","Buffet","Tapas","De autor"].sort((a,b)=>a.localeCompare(b,"es",{sensitivity:"base"}));
+const TAGS = ["Michelin","Menu degustacion","Vino","Vegano","Pub britanico e irlandes","Copas","Vistas","Coffeeshop","Italiano","Carne","Español","Tipico","Pescado","Barato","Asiatico","Hamburguesa","Postre","Paella","Sushi","Kebab","Mexicano","Musica en directo","Reservado","Helados","Brunch","Desayuno","Cocteles","Pasteleria","Rooftop","Romantico","Buffet","Picar","De autor","Cerveza","De pueblo"].sort((a,b)=>a.localeCompare(b,"es",{sensitivity:"base"}));
 const form = document.querySelector("#venue-form");
+const venueTagFilter = document.querySelector("#venue-tag-filter");
+for (const tag of TAGS) venueTagFilter.add(new Option(tag, tag));
 let venues = [];
 let editingId = null;
 let visits = [];
@@ -34,12 +36,13 @@ function renderTable() {
   const term = document.querySelector("#venue-search").value.toLocaleLowerCase("es").trim();
   const type = document.querySelector("#venue-type-filter").value;
   const status = document.querySelector("#venue-status-filter").value;
+  const tag = document.querySelector("#venue-tag-filter").value;
   const tbody = document.querySelector("#venue-rows");
   tbody.replaceChildren();
   const matches = venues.filter(venue => {
     const p = venue.properties;
     const haystack = [p.nombre,p.direccion].join(" ").toLocaleLowerCase("es");
-    return haystack.includes(term) && (!type || p.tipo === type) && (!status || p.estado === status);
+    return haystack.includes(term) && (!type || p.tipo === type) && (!status || p.estado === status) && (!tag || (p.etiquetas || []).includes(tag));
   }).sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre,"es"));
   const pages = Math.max(1, Math.ceil(matches.length / VENUE_PAGE_SIZE));
   venuePage = Math.min(venuePage, pages - 1);
@@ -87,7 +90,7 @@ function editVenue(venue) {
   form.scrollIntoView({behavior:"smooth"});
 }
 document.querySelector("#new-venue").addEventListener("click",()=>{editingId=null;form.reset();document.querySelector("#form-heading").textContent="Nuevo establecimiento";form.scrollIntoView({behavior:"smooth"});});
-for (const id of ["venue-search","venue-type-filter","venue-status-filter"]) document.querySelector("#"+id).addEventListener(id === "venue-search" ? "input" : "change", () => {venuePage=0;renderTable();});
+for (const id of ["venue-search","venue-type-filter","venue-status-filter","venue-tag-filter"]) document.querySelector("#"+id).addEventListener(id === "venue-search" ? "input" : "change", () => {venuePage=0;renderTable();});
 document.querySelector("#venue-prev").addEventListener("click",()=>{venuePage--;renderTable();});
 document.querySelector("#venue-next").addEventListener("click",()=>{venuePage++;renderTable();});
 visitForm.addEventListener("submit",async event=>{
