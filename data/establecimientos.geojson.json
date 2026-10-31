@@ -46,13 +46,16 @@
         "estado": "Visitado",
         "precio": 2,
         "icono": "cerveza",
+        "selloB": false,
         "direccion": "C. de Sagasta, 26, Centro, 28004 Madrid, España",
+        "googleMapsUrl": "",
         "etiquetas": [
+          "Cerveza",
           "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-17T22:56:45.800Z",
-        "fechaActualizacion": "2026-10-18T12:01:01.895Z"
+        "fechaActualizacion": "2026-10-31T23:35:44.337Z"
       }
     },
     {
@@ -4539,12 +4542,13 @@
         "direccion": "50 St Katharine's Way, London E1W 1LA, Reino Unido",
         "googleMapsUrl": "https://www.google.com/maps/place/The+Dickens+Inn/@51.5068228,-0.071978,272m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48760337c70285d5:0x5c5c34cb9e3a58b7!8m2!3d51.5068228!4d-0.0701937!16s%2Fg%2F1td9p_s5?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
+          "Cerveza",
           "Hamburguesa",
           "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-31T23:14:09.876Z",
-        "fechaActualizacion": "2026-10-31T23:27:19.769Z"
+        "fechaActualizacion": "2026-10-31T23:36:01.961Z"
       }
     },
     {
@@ -4567,12 +4571,13 @@
         "direccion": "The Blackfriar, 174, Queen Victoria Street, Blackfriars, City de Londres, Gran Londres, Inglaterra, EC4V 4EG, Reino Unido",
         "googleMapsUrl": "https://www.google.com/maps/place/The+Blackfriar/@51.5121162,-0.2318959,17391m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x487604a57e5bab29:0x158016f71c08680e!8m2!3d51.5121153!4d-0.1037137!16s%2Fm%2F0_83mnn?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
+          "Cerveza",
           "Hamburguesa",
           "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-31T23:15:03.818Z",
-        "fechaActualizacion": "2026-10-31T23:15:03.818Z"
+        "fechaActualizacion": "2026-10-31T23:35:52.833Z"
       }
     },
     {
@@ -4595,12 +4600,42 @@
         "direccion": "Riverside House, Water Ln, Richmond TW9 1TH, Reino Unido",
         "googleMapsUrl": "https://www.google.com/maps/place/White+Cross/@51.4589277,-0.4896058,34823m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48760c470ed0a25b:0x97a5c19d6066202f!8m2!3d51.4589277!4d-0.3083286!16s%2Fm%2F051t9sw?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
+          "Cerveza",
           "Hamburguesa",
           "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-31T23:16:27.091Z",
-        "fechaActualizacion": "2026-10-31T23:16:27.091Z"
+        "fechaActualizacion": "2026-10-31T23:36:13.665Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a3bf6beb-3181-4d30-9c0e-20c6a281375c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6289441,
+          56.0548019
+        ]
+      },
+      "properties": {
+        "nombre": "The Red Lion Inn",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Low Causeway, Dunfermline KY12 8HN, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Red+Lion+Inn/@56.0548019,-4.0596422,62417m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887d6735d61b787:0xabc4ef09d6747d01!8m2!3d56.0548019!4d-3.6289441!16s%2Fg%2F1thvxvqw?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Hamburguesa",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:35:16.178Z",
+        "fechaActualizacion": "2026-10-31T23:35:16.179Z"
       }
     }
   ]
