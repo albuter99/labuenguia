@@ -2913,7 +2913,7 @@
         "estado": "Quiero ir",
         "precio": 1,
         "icono": "cubiertos",
-        "selloB": true,
+        "selloB": false,
         "direccion": "Via Cesare Sersale, 1, 80139 Napoli NA, Italia",
         "googleMapsUrl": "https://www.google.com/maps/place/Pizzeria+Da+Michele/@40.9960316,13.7556241,9z/data=!3m1!5s0x133b083f8c37f599:0xae0ad3e3cb1579ac!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x133b083f8db6b079:0x5ab2972d7365b642!8m2!3d40.8497563!4d14.2633002!16s%2Fg%2F1tdbyxpz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
@@ -2922,7 +2922,7 @@
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:05:17.517Z",
-        "fechaActualizacion": "2026-10-25T18:05:17.517Z"
+        "fechaActualizacion": "2026-10-31T23:29:08.287Z"
       }
     },
     {
