@@ -4074,6 +4074,155 @@
         "fechaCreacion": "2026-10-31T21:19:57.388Z",
         "fechaActualizacion": "2026-10-31T21:19:57.388Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "4975181c-8ee7-4236-bae1-1e9aee622a5c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8030435,
+          42.192471
+        ]
+      },
+      "properties": {
+        "nombre": "Fogar do Santiso Allariz",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Fogar do Santiso, Ponte Románica de Vilanova, O Fuxón, Frieira, Allariz, Allariz-Maceda, Ourense, Galicia, 32660, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Fogar+do+Santiso+Allariz+-+Restaurante+Museo/@42.1924444,-9.0225677,9z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd255370729de7e3:0x896747e6ada8d2d9!8m2!3d42.1924444!4d-7.8030853!16s%2Fg%2F11h15wz5bf?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T22:35:45.393Z",
+        "fechaActualizacion": "2026-10-31T22:35:45.393Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b4f6a9b4-895a-4214-b831-63c2ac41c36a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.4092421,
+          43.354575
+        ]
+      },
+      "properties": {
+        "nombre": "Pulpeira de Arzúa",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Pulpeira de Arzúa, Rúa Francisco Catoira, A Falperra, Os Mallos, A Coruña, La Coruña, Galicia, 15007, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Pulpeira+de+Arz%C3%BAa/@43.3545946,-8.4205858,15z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2e7c8c5b0c6ec7:0xf55d8f9d0b619563!8m2!3d43.3545947!4d-8.4092559!16s%2Fg%2F11cmj2qksm?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T22:40:46.530Z",
+        "fechaActualizacion": "2026-10-31T22:40:46.530Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "df11d89b-99b5-44b6-964c-af1497eed4a6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.398336,
+          43.371995
+        ]
+      },
+      "properties": {
+        "nombre": "Pontejos",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "R. Pío XII, 3, bajo, 15001 A Coruña, España",
+        "googleMapsUrl": "",
+        "etiquetas": [
+          "Desayuno",
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "Tortilla top",
+        "fechaCreacion": "2026-10-31T22:42:48.585Z",
+        "fechaActualizacion": "2026-10-31T22:42:48.585Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0bc0fcc-6e90-488b-9c1b-512c65dad879",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.345333,
+          43.346619
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante El Cotarro",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Av. Emilia Pardo Bazán, 15179 Santa Cruz, A Coruña, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+El+Cotarro/@43.3473508,-8.3468573,17.88z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2e7bcf21458b87:0x62a19035ba267bcc!8m2!3d43.3465933!4d-8.345336!16s%2Fg%2F11f9xwhs5v?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Romantico",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T22:44:27.155Z",
+        "fechaActualizacion": "2026-10-31T22:44:27.155Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9a35bf88-9d09-4c47-8836-8088bddab33c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.357678,
+          43.318984
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante Ruas",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": true,
+        "direccion": "Rúa Constitución, 18, 15679 Cambre, A Coruña, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+Ruas/@43.318971,-8.3600606,318m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2e64d96750f3f1:0x91b9e4c7d270afc1!8m2!3d43.3189711!4d-8.3576787!16s%2Fg%2F11b6lmgwmm?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tapas"
+        ],
+        "notas": "Increible. \nRaxo con patatas (salsa de queso)+ estrella",
+        "fechaCreacion": "2026-10-31T22:47:56.707Z",
+        "fechaActualizacion": "2026-10-31T22:47:56.707Z"
+      }
     }
   ]
 }
