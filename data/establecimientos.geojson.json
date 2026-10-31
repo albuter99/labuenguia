@@ -3901,6 +3901,179 @@
         "fechaCreacion": "2026-10-31T21:04:01.911Z",
         "fechaActualizacion": "2026-10-31T21:05:01.422Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "77804445-7998-4ee9-9877-f5dcd961521e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1330726,
+          38.7114585
+        ]
+      },
+      "properties": {
+        "nombre": "Pastelaria Santo António",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Pastelaria Santo António, Rua do Milagre de Santo António, Santiago, Santa Maria Maior, Madalena, Lisboa, 1149-079, Portugal",
+        "googleMapsUrl": "https://www.google.com/maps/place/Santo+Ant%C3%B3nio/@38.7098998,-9.1505187,13.75z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd193477a0fd35dd:0xad46474d0df57bb4!8m2!3d38.7114227!4d-9.1329889!16s%2Fg%2F11dfl16qgp?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Desayuno",
+          "Pasteleria",
+          "Postre"
+        ],
+        "notas": "Pasteles de Belem",
+        "fechaCreacion": "2026-10-31T21:06:58.815Z",
+        "fechaActualizacion": "2026-10-31T21:06:58.815Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c6e08e48-9e81-4681-a602-32d0c307f359",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1531727,
+          38.7141619
+        ]
+      },
+      "properties": {
+        "nombre": "Nannarella",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Nannarella - Gelati alla Romana, 64A, Rua Nova da Piedade, Mercês, Misericórdia, Lisboa, 1200-299, Portugal",
+        "googleMapsUrl": "https://www.google.com/maps/place/Nannarella/@38.7141621,-9.2294085,13z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd19337da52f7347:0xcedd305f1b14a838!8m2!3d38.7141848!4d-9.1532046!16s%2Fg%2F11b6jkr_9b?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T21:08:10.919Z",
+        "fechaActualizacion": "2026-10-31T21:08:10.919Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b2f22e4a-2217-4587-821b-89b887879da5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.134462,
+          38.733167
+        ]
+      },
+      "properties": {
+        "nombre": "Azevedo & Vidal Lda (Casa dos Bolos)",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Av. Alm. Reis 149 A, 1150-015 Lisboa, Portugal",
+        "googleMapsUrl": "https://www.google.com/maps/place/Azevedo+%26+Vidal+Lda+(Casa+dos+Bolos)/@38.7101001,-9.2966087,11.75z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd1933978b3b803f:0x2befb3ffc6371ee0!8m2!3d38.7331634!4d-9.1344754!16s%2Fg%2F1tdr9g36?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Desayuno",
+          "Pasteleria"
+        ],
+        "notas": "Pastelería nocturna. De 21.00 a 06.00",
+        "fechaCreacion": "2026-10-31T21:10:02.976Z",
+        "fechaActualizacion": "2026-10-31T21:10:02.976Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "83c83b26-d424-4539-9abf-bab1757605be",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.725614,
+          42.239997
+        ]
+      },
+      "properties": {
+        "nombre": "Calle de las Ostras",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Rúa Pescadería, 1, 36202 Vigo, Pontevedra, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Calle+de+las+Ostras/@42.2401082,-8.7261105,18.79z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2f630058f818f3:0x21c65ce4509d96ef!8m2!3d42.2399822!4d-8.7256035!16s%2Fg%2F11w1hzwn9z?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "Ostras y pulpo",
+        "fechaCreacion": "2026-10-31T21:12:39.552Z",
+        "fechaActualizacion": "2026-10-31T21:12:39.552Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "547c8014-df1e-426f-86f3-f95264ad11c6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.725415,
+          42.238414
+        ]
+      },
+      "properties": {
+        "nombre": "Cosmos Café",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Praza da Princesa, 6, 36202 Vigo, Pontevedra, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Cosmos+Caf%C3%A9/@42.2384103,-8.7267889,18z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2f626aa81a14c7:0x89bfec2bbe9de2e2!8m2!3d42.2384103!4d-8.725413!16s%2Fg%2F11bc70_21f?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Tapas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T21:15:49.545Z",
+        "fechaActualizacion": "2026-10-31T21:15:49.545Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0818857-b0ee-4ebc-bc89-cd9892357c6d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.731418,
+          42.133398
+        ]
+      },
+      "properties": {
+        "nombre": "Furancho Vincios",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Lugar Casas, 9",
+        "googleMapsUrl": "",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Español",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "Mayo y junio\nviernes: 18:00 a 23:00\nsábado y domingo: 11:00 a 23:00",
+        "fechaCreacion": "2026-10-31T21:19:57.388Z",
+        "fechaActualizacion": "2026-10-31T21:19:57.388Z"
+      }
     }
   ]
 }
