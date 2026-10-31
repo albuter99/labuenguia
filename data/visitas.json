@@ -362,5 +362,12 @@
     "fecha": "2026-03-15",
     "valoracion": 5,
     "comentario": ""
+  },
+  {
+    "id": "bd7cd475-80c7-4d9b-9629-557ec508bd63",
+    "establecimientoId": "2feb663f-0c00-4656-aa41-8b7676d073ae",
+    "fecha": null,
+    "valoracion": 4,
+    "comentario": ""
   }
 ]

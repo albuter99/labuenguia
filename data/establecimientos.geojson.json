@@ -3918,7 +3918,7 @@
       "properties": {
         "nombre": "Pastelaria Santo António",
         "tipo": "Cafetería",
-        "estado": "Visitado",
+        "estado": "Quiero ir",
         "precio": null,
         "icono": "cafe",
         "selloB": false,
@@ -3931,7 +3931,7 @@
         ],
         "notas": "Pasteles de Belem",
         "fechaCreacion": "2026-10-31T21:06:58.815Z",
-        "fechaActualizacion": "2026-10-31T21:06:58.815Z"
+        "fechaActualizacion": "2026-10-31T23:37:06.200Z"
       }
     },
     {
