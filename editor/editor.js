@@ -387,3 +387,37 @@ placeSearchButton.addEventListener("click", async () => {
   } catch (error) { message.textContent = error.message; }
   finally { placeSearchButton.disabled = false; }
 });
+
+function coordinatesFromGoogleMapsUrl(raw) {
+  try {
+    const url = new URL(raw);
+    const host = url.hostname.toLowerCase();
+    if (!["google.com","www.google.com","maps.google.com","maps.app.goo.gl","goo.gl"].includes(host)) return null;
+    // !3d / !4d identify the selected place, while @lat,lon is only the map camera.
+    const place = [...url.href.matchAll(/!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/g)];
+    const camera = url.href.match(/@(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/);
+    const pair = place.length ? [place[place.length-1][1], place[place.length-1][2]] : camera ? [camera[1],camera[2]] : null;
+    if (!pair) return null;
+    const lat = Number(pair[0]), lon = Number(pair[1]);
+    if (!Number.isFinite(lat) || !Number.isFinite(lon) || Math.abs(lat)>90 || Math.abs(lon)>180) return null;
+    return {lat,lon,fromPlace:place.length>0};
+  } catch { return null; }
+}
+const googleMapsInput = form.elements.namedItem("googleMapsUrl");
+const googleMapsHelp = document.querySelector("#google-maps-coordinates-message");
+function fillCoordinatesFromGoogleMaps() {
+  const raw = googleMapsInput.value.trim();
+  if (!raw) { googleMapsHelp.textContent = ""; return; }
+  const coords = coordinatesFromGoogleMapsUrl(raw);
+  if (!coords) {
+    googleMapsHelp.textContent = "No se han encontrado coordenadas en este enlace. Puedes introducirlas manualmente.";
+    return;
+  }
+  form.elements.namedItem("lat").value = coords.lat;
+  form.elements.namedItem("lon").value = coords.lon;
+  googleMapsHelp.textContent = coords.fromPlace
+    ? "Coordenadas del establecimiento extraídas automáticamente."
+    : "Coordenadas del centro del mapa extraídas. Comprueba que coinciden con el establecimiento.";
+}
+googleMapsInput.addEventListener("input",fillCoordinatesFromGoogleMaps);
+googleMapsInput.addEventListener("change",fillCoordinatesFromGoogleMaps);
