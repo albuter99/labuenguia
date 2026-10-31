@@ -48,7 +48,7 @@
         "icono": "cerveza",
         "direccion": "C. de Sagasta, 26, Centro, 28004 Madrid, España",
         "etiquetas": [
-          "Irlandes"
+          "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-17T22:56:45.800Z",
@@ -836,7 +836,7 @@
         "direccion": "Juan Ramírez de Velasco 1456, C1414 Cdad. Autónoma de Buenos Aires, Argentina",
         "etiquetas": [
           "Romantico",
-          "Tapas",
+          "Picar",
           "Vino"
         ],
         "notas": "",
@@ -2061,7 +2061,7 @@
         "direccion": "Guldbergsgade 29, 2200 København, Dinamarca",
         "etiquetas": [
           "Hamburguesa",
-          "Tapas"
+          "Picar"
         ],
         "notas": "Cerveza artesanal",
         "fechaCreacion": "2026-10-18T21:31:30.067Z",
@@ -2088,7 +2088,7 @@
         "direccion": "Nørrebrogade 88, 2200 København, Dinamarca",
         "etiquetas": [
           "De autor",
-          "Tapas",
+          "Picar",
           "Vino"
         ],
         "notas": "",
@@ -2383,7 +2383,7 @@
         "direccion": "C. Río de la Pila, 5, 39003 Santander, Cantabria, España",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico",
           "Vino"
         ],
@@ -3068,7 +3068,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Els+Pinxus/@41.3974645,2.1200332,13.25z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12a4a29eeb31bb41:0x7fe75f354c46b8fc!8m2!3d41.3975062!4d2.1485555!16s%2Fg%2F11b6xdjytl?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3097,7 +3097,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/La+Bodega+Anxoita/@41.3890062,2.1666459,5z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12a4a3f798996ca9:0xee33e8710ad59143!8m2!3d41.3890062!4d2.1666459!16s%2Fg%2F11trffk8s3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3126,7 +3126,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Casa+Antonio+%7C+Aribau/@41.4031862,2.1301066,13.75z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x12a4a31080c0a6b1:0x8025200ebd444924!8m2!3d41.3921096!4d2.1546697!16s%2Fg%2F11z2kn_2_j?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3210,7 +3210,7 @@
         "direccion": "Restaurant Nomo - Club Nàutic, GR-92, Sant Feliu de Guíxols, Bajo Ampurdán, Gerona, Cataluña, 17220, España",
         "googleMapsUrl": "https://www.google.com/maps/place/Nomo+N%C3%A0utic/@41.7786301,3.0389004,17z/data=!3m2!4b1!5s0x12bb06eaea3d99f7:0x10f0bff1646d921b!4m6!3m5!1s0x12bb06eaadceaec3:0xcead28bb059f867!8m2!3d41.7786301!4d3.0389004!16s%2Fg%2F11f556yp4v?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
-          "Chino",
+          "Asiatico",
           "Sushi"
         ],
         "notas": "",
@@ -3240,7 +3240,7 @@
         "etiquetas": [
           "Carne",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3270,7 +3270,7 @@
         "etiquetas": [
           "Barato",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3355,7 +3355,7 @@
         "direccion": "La Cholita, 244, Carrer de Felip II, Vilapicina, Vilapicina i la Torre Llobeta, Nou Barris, Barcelona, Barcelonés, Barcelona, Cataluña, 08016, España",
         "googleMapsUrl": "https://www.google.com/maps/place/La+Cholita/@41.4285738,2.1767204,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4bd2ec743162f:0x9b474d10acc825a6!8m2!3d41.4285738!4d2.1767204!16s%2Fg%2F11b77r_2qf?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
-          "Tapas"
+          "Picar"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:43:14.533Z",
@@ -3411,7 +3411,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Bodega+Montferry/@41.376392,2.1350326,15z/data=!4m15!1m8!3m7!1s0x12a49889a46b8dfb:0x975dfd4f58b44b15!2sBodega+Montferry!8m2!3d41.376392!4d2.1350326!10e5!16s%2Fg%2F11b6gq2gr4!3m5!1s0x12a49889a46b8dfb:0x975dfd4f58b44b15!8m2!3d41.376392!4d2.1350326!16s%2Fg%2F11b6gq2gr4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas"
+          "Picar"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:46:31.128Z",
@@ -3439,7 +3439,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Bar+Mandri/@41.4048069,2.1310688,18z/data=!4m15!1m8!3m7!1s0x12a49813b9fda885:0x38355320f251b400!2sBar+Mandri!8m2!3d41.405!4d2.1322222!10e5!16s%2Fg%2F12qg9_770!3m5!1s0x12a49813b9fda885:0x38355320f251b400!8m2!3d41.405!4d2.1322222!16s%2Fg%2F12qg9_770?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3469,7 +3469,7 @@
         "etiquetas": [
           "Barato",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "Bravas",
@@ -3552,7 +3552,7 @@
         "direccion": "Petit Bangkok, Carrer de Balmes, la Dreta de l'Eixample, l'Eixample, Barcelona, Barcelonés, Barcelona, Cataluña, 08008, España",
         "googleMapsUrl": "https://www.google.com/maps/place/Petit+Bangkok/@41.3912717,2.1511294,15z/data=!3m1!5s0x12a4a291935d7805:0xdc36c0eeb4d74b14!4m10!1m2!2m1!1sPetit+Bangkok!3m6!1s0x12a4a29194a60e4f:0x59045d0a6d2ebaad!8m2!3d41.3923508!4d2.1588269!15sCg1QZXRpdCBCYW5na29rIgOIAQFaDyINcGV0aXQgYmFuZ2tva5IBD3RoYWlfcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVSbmVXUkViMVJSRUFF4AEA-gEECAAQGQ!16s%2Fg%2F11cs3807gb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
-          "Chino"
+          "Asiatico"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:55:16.060Z",
@@ -3580,7 +3580,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Ciudad+Condal/@41.3888547,2.1670033,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a2f2fb952999:0x9e8658bf28dbb5d6!8m2!3d41.3888547!4d2.1670033!16s%2Fg%2F1tkgtb29?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas"
+          "Picar"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:56:32.861Z",
@@ -3608,7 +3608,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Fat+Cat/@41.3790703,2.1707164,17z/data=!4m15!1m8!3m7!1s0x12a4a336d96c846d:0xdd96bbfbce809293!2sFat+Cat!8m2!3d41.3790703!4d2.1707164!10e5!16s%2Fg%2F11rd7kw951!3m5!1s0x12a4a336d96c846d:0xdd96bbfbce809293!8m2!3d41.3790703!4d2.1707164!16s%2Fg%2F11rd7kw951?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "De autor",
-          "Tapas"
+          "Picar"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-25T18:59:02.269Z",
@@ -3636,7 +3636,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Bar+Ca%C3%B1ete/@41.3791528,2.173125,17z/data=!3m1!4b1!4m6!3m5!1s0x12a4a258412bcb19:0x1c77b2f8f4cdfb63!8m2!3d41.3791528!4d2.173125!16s%2Fg%2F1tf89fdb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -3865,7 +3865,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/FIVE+Madrid+Natural+Wine+%26+Dine/@40.5091493,-3.8148342,11.25z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd4229f632dc6ddb:0xf754e1297e0c437b!8m2!3d40.4160068!4d-3.7110273!16s%2Fg%2F11mc9lgb7l?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "De autor",
-          "Tapas",
+          "Picar",
           "Vino"
         ],
         "notas": "",
@@ -4007,7 +4007,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Calle+de+las+Ostras/@42.2401082,-8.7261105,18.79z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2f630058f818f3:0x21c65ce4509d96ef!8m2!3d42.2399822!4d-8.7256035!16s%2Fg%2F11w1hzwn9z?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Pescado",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "Ostras y pulpo",
@@ -4036,7 +4036,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/Cosmos+Caf%C3%A9/@42.2384103,-8.7267889,18z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2f626aa81a14c7:0x89bfec2bbe9de2e2!8m2!3d42.2384103!4d-8.725413!16s%2Fg%2F11bc70_21f?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -4127,7 +4127,7 @@
         "etiquetas": [
           "Barato",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -4157,7 +4157,7 @@
         "etiquetas": [
           "Desayuno",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "Tortilla top",
@@ -4217,7 +4217,7 @@
         "etiquetas": [
           "Barato",
           "Carne",
-          "Tapas"
+          "Picar"
         ],
         "notas": "Increible. \nRaxo con patatas (salsa de queso)+ estrella",
         "fechaCreacion": "2026-10-31T22:47:56.707Z",
@@ -4305,7 +4305,7 @@
           "Barato",
           "Carne",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "Restaurante de los de siempre.",
@@ -4396,7 +4396,7 @@
           "Barato",
           "Carne",
           "Español",
-          "Tapas",
+          "Picar",
           "Tipico"
         ],
         "notas": "",
@@ -4484,7 +4484,7 @@
           "Cocteles",
           "Copas",
           "Rooftop",
-          "Tapas",
+          "Picar",
           "Vistas"
         ],
         "notas": "",
@@ -4540,7 +4540,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/The+Dickens+Inn/@51.5068228,-0.071978,272m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48760337c70285d5:0x5c5c34cb9e3a58b7!8m2!3d51.5068228!4d-0.0701937!16s%2Fg%2F1td9p_s5?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Hamburguesa",
-          "Irlandes"
+          "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-31T23:14:09.876Z",
@@ -4568,7 +4568,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/The+Blackfriar/@51.5121162,-0.2318959,17391m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x487604a57e5bab29:0x158016f71c08680e!8m2!3d51.5121153!4d-0.1037137!16s%2Fm%2F0_83mnn?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Hamburguesa",
-          "Irlandes"
+          "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-31T23:15:03.818Z",
@@ -4596,7 +4596,7 @@
         "googleMapsUrl": "https://www.google.com/maps/place/White+Cross/@51.4589277,-0.4896058,34823m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48760c470ed0a25b:0x97a5c19d6066202f!8m2!3d51.4589277!4d-0.3083286!16s%2Fm%2F051t9sw?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
         "etiquetas": [
           "Hamburguesa",
-          "Irlandes"
+          "Pub britanico e irlandes"
         ],
         "notas": "",
         "fechaCreacion": "2026-10-31T23:16:27.091Z",
