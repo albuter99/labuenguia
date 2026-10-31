@@ -4223,6 +4223,35 @@
         "fechaCreacion": "2026-10-31T22:47:56.707Z",
         "fechaActualizacion": "2026-10-31T22:47:56.707Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "674ff4cc-84da-4f9a-8c18-b7062166a711",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3681623,
+          43.3176714
+        ]
+      },
+      "properties": {
+        "nombre": "O Carrabouxo",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "O Carrabouxo, 8, Rúa Ramón Cabanillas, Acea de Ama, O Burgo, Culleredo, La Coruña, Galicia, 15670, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/O+Carrabouxo/@43.3176535,-8.3687776,79m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd2e64c40ef84ff5:0xb96ad25b4cb22857!8m2!3d43.3176535!4d-8.3681992!16s%2Fg%2F11c1ndt99s?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T22:50:15.051Z",
+        "fechaActualizacion": "2026-10-31T22:50:15.051Z"
+      }
     }
   ]
 }

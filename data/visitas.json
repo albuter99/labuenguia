@@ -348,5 +348,12 @@
     "fecha": "2026-07-18",
     "valoracion": 5,
     "comentario": ""
+  },
+  {
+    "id": "20b00915-2118-4c63-ac6a-f8a764cf740c",
+    "establecimientoId": "674ff4cc-84da-4f9a-8c18-b7062166a711",
+    "fecha": "2024-07-22",
+    "valoracion": 4,
+    "comentario": ""
   }
 ]
