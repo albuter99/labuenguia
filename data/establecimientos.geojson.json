@@ -5484,6 +5484,96 @@
         "fechaCreacion": "2026-11-01T00:29:17.528Z",
         "fechaActualizacion": "2026-11-01T00:30:59.426Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "05e947ce-14c5-455c-97e4-54498bdffb52",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9743342,
+          43.3260048
+        ]
+      },
+      "properties": {
+        "nombre": "ZMARE",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Zurriola Hiribidea, 41, 20002 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/ZMARE/@43.3254745,-1.9810593,1271m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x29d1ed0d639cf00f:0x82d646e9e50e5cda!8m2!3d43.3260048!4d-1.9743342!16s%2Fg%2F11vpt8w63l?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Paella",
+          "Picar",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:36:13.984Z",
+        "fechaActualizacion": "2026-11-01T00:36:13.984Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40378109-5586-42b9-a202-f953effb5a85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9823271,
+          43.3240953
+        ]
+      },
+      "properties": {
+        "nombre": "Asador Aldanondo",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Euskal Herria Kalea, 6, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Asador+Aldanondo/@43.3235853,-1.9869514,1271m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51a59ba9adc2a1:0x76e79d17987012d3!8m2!3d43.3240953!4d-1.9823271!16s%2Fg%2F1td2cnmk?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:37:20.882Z",
+        "fechaActualizacion": "2026-11-01T00:37:20.882Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1af5c242-9724-4d09-9010-81af3d2b0b87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9846493,
+          43.3226983
+        ]
+      },
+      "properties": {
+        "nombre": "Juantxo Taberna",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Enbeltran Kalea, 6, BAJO, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Juantxo+Taberna/@43.3232418,-1.9892044,1271m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51a54d92d52fad:0x5e35adc4ba2bc6ad!8m2!3d43.3226983!4d-1.9846493!16s%2Fg%2F1td6tkdn?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Español",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Bocadillos y tortilla de patata",
+        "fechaCreacion": "2026-11-01T00:38:26.331Z",
+        "fechaActualizacion": "2026-11-01T00:38:26.331Z"
+      }
     }
   ]
 }

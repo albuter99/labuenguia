@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "750ec1a3-aaa3-4018-90af-7a9d6258f8fb",
+    "nombre": "San Sebastian/Donostia",
+    "tipo": "coleccion",
+    "ciudad": "San Sebastian",
+    "descripcion": "",
+    "paradas": [
+      {
+        "establecimientoId": "1af5c242-9724-4d09-9010-81af3d2b0b87",
+        "pedir": "Bocadillo o Tortilla"
+      }
+    ]
+  }
+]
