@@ -4637,6 +4637,348 @@
         "fechaCreacion": "2026-10-31T23:35:16.178Z",
         "fechaActualizacion": "2026-10-31T23:35:16.179Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "dfde628d-085c-46dd-85c4-c40893458b40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6682763,
+          56.0577303
+        ]
+      },
+      "properties": {
+        "nombre": "Drift",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "",
+        "selloB": false,
+        "direccion": "Sands Drift, Quarrel, North Berwick EH39 5PL, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Drift/@56.0577303,-2.7323784,7802m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x488707435c221c73:0xf12fe355f9cde35e!8m2!3d56.0577303!4d-2.6682763!16s%2Fg%2F11gjxtm82p?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Brunch",
+          "Desayuno",
+          "Pasteleria",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:39:32.243Z",
+        "fechaActualizacion": "2026-10-31T23:39:32.243Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ff377e4d-58e4-4e50-8f55-3994c95b7334",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7185032,
+          56.058614
+        ]
+      },
+      "properties": {
+        "nombre": "Bostock Bakery",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Bostock Bakery, 42, High Street, Heugh, North Berwick, East Lothian, Escocia, EH39 4HQ, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bostock+Bakery/@56.059579,-2.7262266,1379m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48870761c13eeb6d:0x5d27c3e20a68f83b!8m2!3d56.058614!4d-2.7185032!16s%2Fg%2F1q64b37qq?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pasteleria",
+          "Postre"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:40:37.729Z",
+        "fechaActualizacion": "2026-10-31T23:40:37.729Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aa5d3830-3da7-4a6f-979c-27b20d5d0212",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7185201,
+          56.0615553
+        ]
+      },
+      "properties": {
+        "nombre": "The Lobster Shack",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "The Harbour, North Berwick EH39 4SS, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Lobster+Shack/@56.059579,-2.7262266,1379m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887077af363d6f5:0x6599c5dab395876c!8m2!3d56.0615553!4d-2.7185201!16s%2Fg%2F11h128bvqj?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Brunch",
+          "De pueblo",
+          "Tipico"
+        ],
+        "notas": "Puestecito",
+        "fechaCreacion": "2026-10-31T23:42:01.282Z",
+        "fechaActualizacion": "2026-10-31T23:42:01.282Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c9d73959-0e30-4acf-8239-5c02885ba246",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1879449,
+          55.9570619
+        ]
+      },
+      "properties": {
+        "nombre": "Mathers",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "25 Broughton St, Edinburgh EH1 3JU, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Mathers/@55.9570619,-3.2014184,1955m/data=!3m2!1e3!5s0x4887c78c397f0679:0x456e92aaa3d28cad!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c78c39860b95:0x92d53f2f4e2f0c5b!8m2!3d55.9570619!4d-3.1879449!16s%2Fg%2F1tczk192?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:54:32.966Z",
+        "fechaActualizacion": "2026-10-31T23:54:32.966Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c8f4363f-332b-4883-9560-611731ddb815",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1976009,
+          55.95468
+        ]
+      },
+      "properties": {
+        "nombre": "Chez Jules",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "109 Hanover St, Edinburgh EH2 1DJ, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Chez+Jules/@55.9547793,-3.1999317,581m/data=!3m2!1e3!5s0x4887c7916bcdd119:0x5c9b2cb28d9879c7!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c7916a04019b:0xb6699d7bd5f80a6!8m2!3d55.95468!4d-3.1976009!16s%2Fg%2F1tpc7jy7?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:56:21.414Z",
+        "fechaActualizacion": "2026-10-31T23:56:21.414Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "07286a69-5388-430c-bc61-b4f9d2fb887c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1980459,
+          55.9544607
+        ]
+      },
+      "properties": {
+        "nombre": "Boston Bar New Town",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Boston Bar, 104, Hanover Street, Silvermills, New Town, New Town/Broughton, Edimburgo, Escocia, EH2 1DR, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Boston+Bar+New+Town/@55.9544607,-3.2075731,978m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c71d0b25f9ef:0xd311c49f756af386!8m2!3d55.9544607!4d-3.1980459!16s%2Fg%2F11wbdr249x?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Hamburguesa",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:57:21.087Z",
+        "fechaActualizacion": "2026-10-31T23:57:21.087Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e2391505-1125-4b44-8751-4c5c60bf77ea",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2060765,
+          55.9482513
+        ]
+      },
+      "properties": {
+        "nombre": "The Caley Picture House",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "The Caley Picture House, 31, Lothian Road, Lauriston, Tollcross, Edimburgo, Escocia, EH1 2DJ, Reino Unido",
+        "googleMapsUrl": "",
+        "etiquetas": [
+          "Barato",
+          "Cerveza",
+          "Hamburguesa",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-10-31T23:59:44.927Z",
+        "fechaActualizacion": "2026-10-31T23:59:44.927Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "597ac051-fbd1-4c73-8a35-24d13c9fc879",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1952767,
+          55.9478572
+        ]
+      },
+      "properties": {
+        "nombre": "The Last Drop",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "The Last Drop, 74,76,78, Grassmarket, Abbeyhill, Old Town, Edimburgo, Escocia, EH1 2JR, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Last+Drop/@55.9497611,-3.2097648,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c79a5669b663:0x4b5cd27d8ffd1b32!8m2!3d55.9478572!4d-3.1952767!16s%2Fg%2F1tcz_2jp?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:02:20.233Z",
+        "fechaActualizacion": "2026-11-01T00:02:20.233Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "871d683a-102b-4be5-89e9-3b2792a0666a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1941781,
+          55.9484535
+        ]
+      },
+      "properties": {
+        "nombre": "The Bow Bar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "80 W Bow, Edinburgh EH1 2HH, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Bow+Bar/@55.9484655,-3.2001863,978m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c79aefe8b561:0x3276586be2f706f0!8m2!3d55.9484535!4d-3.1941781!16s%2Fg%2F1tds68kc?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:03:27.145Z",
+        "fechaActualizacion": "2026-11-01T00:03:27.145Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0a006de8-4f69-4e42-b3bc-3b803d0b65f1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1936562,
+          55.9485878
+        ]
+      },
+      "properties": {
+        "nombre": "Bertie's Proper Fish & Chips",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "9 Victoria St, Edinburgh EH1 2HE, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bertie's+Proper+Fish+%26+Chips/@55.9485878,-3.1948472,122m/data=!3m2!1e3!5s0x4887c79aebd7c755:0xc95e4af5801c9e2d!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c7d4bfdce495:0x83ee8e95c4ddaf55!8m2!3d55.9485878!4d-3.1936562!16s%2Fg%2F11ffm1dym0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:05:11.265Z",
+        "fechaActualizacion": "2026-11-01T00:05:11.265Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aeede0b6-a614-483b-afff-492091c65c7d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1935392,
+          55.948557
+        ]
+      },
+      "properties": {
+        "nombre": "Finnegan's Wake Edinburgh",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "Finnegan's Wake, 9B, Victoria Street, Abbeyhill, Old Town, Edimburgo, Escocia, EH1 2HE, Reino Unido",
+        "googleMapsUrl": "",
+        "etiquetas": [
+          "Cerveza",
+          "Copas",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:06:13.219Z",
+        "fechaActualizacion": "2026-11-01T00:06:13.219Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b229e862-910e-46be-a169-756a1d199517",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1848951,
+          55.9507253
+        ]
+      },
+      "properties": {
+        "nombre": "The Haggis Box",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "The Haggis Box, 43, High Street, Canongate, Old Town, Edimburgo, Escocia, EH1 1SR, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Haggis+Box/@55.9513492,-3.1882012,691m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c75ca808a897:0xd56d4e983319cf5!8m2!3d55.9507253!4d-3.1848951!16s%2Fg%2F11fj6jpgtd?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:08:07.713Z",
+        "fechaActualizacion": "2026-11-01T00:08:07.713Z"
+      }
     }
   ]
 }
