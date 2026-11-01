@@ -5574,6 +5574,95 @@
         "fechaCreacion": "2026-11-01T00:38:26.331Z",
         "fechaActualizacion": "2026-11-01T00:38:26.331Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "1fc865f4-4d1d-4c7b-810f-84d487a5b408",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9859278,
+          43.3234424
+        ]
+      },
+      "properties": {
+        "nombre": "Bar Restaurante Bare bare",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Portu Kalea, 7, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bar+Restaurante+Bare+bare/@43.3234423,-1.9899334,635m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51baa2ae6176db:0xac7751294aea8de6!8m2!3d43.3234424!4d-1.9859278!16s%2Fg%2F11f01v81_p?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:45:23.179Z",
+        "fechaActualizacion": "2026-11-01T00:45:23.179Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4b0188cf-6316-498a-a9f1-20e99e46b1d7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9862715,
+          43.3234144
+        ]
+      },
+      "properties": {
+        "nombre": "Ubarrechena",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Calle Mayor, Portu Kalea, 16 esquina, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Ubarrechena/@43.3234144,-1.9910351,635m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51a54d1296481f:0xe1abe1c7de96b3c7!8m2!3d43.3234144!4d-1.9862715!16s%2Fg%2F1wn_7dwl?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Paella",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:46:04.747Z",
+        "fechaActualizacion": "2026-11-01T00:46:04.747Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7166f650-627a-4761-aaa3-4789b98afe33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9865099,
+          43.3232572
+        ]
+      },
+      "properties": {
+        "nombre": "Cervecerías La Mejillonera",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Portu Kalea, 15, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Cervecer%C3%ADas+La+Mejillonera/@43.3234144,-1.9910351,635m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51a54d1307dd21:0xe6c4a4f6ce1096ca!8m2!3d43.3232572!4d-1.9865099!16s%2Fg%2F1tv3p_qx?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Bravas y Mejillones",
+        "fechaCreacion": "2026-11-01T00:46:54.797Z",
+        "fechaActualizacion": "2026-11-01T00:46:54.797Z"
+      }
     }
   ]
 }
