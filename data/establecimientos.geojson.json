@@ -6614,6 +6614,92 @@
         "fechaCreacion": "2026-11-01T13:05:22.225Z",
         "fechaActualizacion": "2026-11-01T13:05:22.225Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "2dfa3756-6619-4bce-867e-18323c2e29b6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5329803,
+          53.1703623
+        ]
+      },
+      "properties": {
+        "nombre": "Macari's Take Away and pizzeria",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Main St, Blessington, Co. Wicklow, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/Macari's+Take+Away+and+pizzeria/@53.17044,-6.5331144,523m/data=!3m1!1e3!4m15!1m8!3m7!1s0x48679d1e842f02d5:0x81d72e8d15c07bd4!2sMacari's+Take+Away+and+pizzeria!8m2!3d53.1703623!4d-6.5329803!10e5!16s%2Fg%2F1pzv1sbpx!3m5!1s0x48679d1e842f02d5:0x81d72e8d15c07bd4!8m2!3d53.1703623!4d-6.5329803!16s%2Fg%2F1pzv1sbpx?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T13:11:15.756Z",
+        "fechaActualizacion": "2026-11-01T13:11:15.756Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a17718de-68f9-4546-b607-e5c8760a04e8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.4766411,
+          51.8967466
+        ]
+      },
+      "properties": {
+        "nombre": "The Oval",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "25 S Main St, Centre, Cork, T12 Y15D, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Oval/@51.8967466,-8.479216,539m/data=!3m3!1e3!4b1!5s0x48449010a84c4851:0x18df3acfc80a748d!4m6!3m5!1s0x48449010a9c7faa3:0xec08c58544e5a6ce!8m2!3d51.8967466!4d-8.4766411!16s%2Fg%2F124sq5vst?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Copas",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T13:13:34.302Z",
+        "fechaActualizacion": "2026-11-01T13:13:34.302Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f781b20c-9d8c-4955-9c59-53207f9635fb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8498122,
+          51.6127046
+        ]
+      },
+      "properties": {
+        "nombre": "Kitty Macs",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Kitty Macs, Ring, Clonakilty, Co. Cork, P85 KV02, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/Kitty+Macs/@51.6127046,-8.8498122,17z/data=!4m6!3m5!1s0x4844573a04db176f:0xed21fc7c8b4e0aca!8m2!3d51.6127046!4d-8.8498122!16s%2Fg%2F11bbrn4kph?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Tipico"
+        ],
+        "notas": "Cerca del Deasys (cerrado). Fish and chips",
+        "fechaCreacion": "2026-11-01T13:17:45.687Z",
+        "fechaActualizacion": "2026-11-01T13:17:45.687Z"
+      }
     }
   ]
 }
