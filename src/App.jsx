@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { MapContainer, TileLayer, GeoJSON, Circle, CircleMarker, Polyline, Marker, Tooltip, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Circle, CircleMarker, Polyline, Marker, Popup, Tooltip, useMap } from "react-leaflet";
 import establecimientos from "../data/establecimientos.geojson.json";
 import rutas from "../data/rutas.json";
 import L from "leaflet";
@@ -231,11 +231,11 @@ export default function App() {
       <section className="map-wrap" aria-label="Mapa de establecimientos">
         <MapContainer center={[49.6116, 6.1319]} zoom={12} scrollWheelZoom style={{ height: "100%", width: "100%" }}>
           <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          <GeoJSON key={JSON.stringify(filters) + selectedRoute} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />
+          {!activeRoute && <GeoJSON key={JSON.stringify(filters) + selectedRoute} data={visible} pointToLayer={createVenueMarker} onEachFeature={bindVenuePopup} />}
           <FitAllVenues features={establecimientos.features} fitted={firstFit} />
           <MapNavigator destination={destination} />
           <FitRoute points={routePoints} routeId={selectedRoute} />
-          {activeRoute && <>{activeRoute.tipo === "ruta" && routePoints.length > 1 && <Polyline positions={routePoints} pathOptions={{color:"#253B73",weight:3,dashArray:"8 8"}} />}{routePoints.map((point,index) => <Marker key={index} position={point} icon={L.divIcon({className:"route-number-pin",html:"<span>"+(index+1)+"</span>",iconSize:[28,28],iconAnchor:[14,14]})}><Tooltip direction="top">{activeRoute.paradas[index]?.pedir || "Parada " + (index+1)}</Tooltip></Marker>)}</>}
+          {activeRoute && <>{activeRoute.tipo === "ruta" && routePoints.length > 1 && <Polyline positions={routePoints} pathOptions={{color:"#253B73",weight:3,dashArray:"8 8"}} />}{activeRoute.paradas.map((stop,index) => { const place = establecimientos.features.find(f => String(f.id) === String(stop.establecimientoId)); const coords = place?.geometry?.coordinates; if (!coords || coords.length < 2) return null; const p = place.properties || {}; const destination = encodeURIComponent([p.nombre,p.direccion].filter(Boolean).join(", ") || coords[1]+","+coords[0]); return <Marker key={stop.establecimientoId} position={[coords[1],coords[0]]} icon={L.divIcon({className:"route-number-pin",html:"<span>"+(index+1)+"</span>",iconSize:[32,32],iconAnchor:[16,16]})}><Tooltip direction="top">{index+1}. {p.nombre}</Tooltip><Popup><div className="route-stop-popup"><strong className="route-stop-title">{index+1}. {p.nombre}</strong>{stop.pedir && <p><strong>Recomendación:</strong> {stop.pedir}</p>}<p><strong>Dirección:</strong> {p.direccion || "Ubicación en el mapa"}</p><div className="route-stop-links"><a href={p.googleMapsUrl || "https://www.google.com/maps/search/?api=1&query="+destination} target="_blank" rel="noopener noreferrer">Cómo llegar con Google Maps</a><a href={"https://maps.apple.com/?daddr="+destination} target="_blank" rel="noopener noreferrer">Mapas de Apple</a></div></div></Popup></Marker>; })}</>}
           <NearbyNavigator location={myLocation} />
           {myLocation && <><Circle center={myLocation} radius={1000} pathOptions={{ color: "#253B73", weight: 2, fillColor: "#628bd2", fillOpacity: 0.10, interactive: false }} /><CircleMarker center={myLocation} radius={7} pathOptions={{ color: "#ffffff", weight: 3, fillColor: "#2769d6", fillOpacity: 1, interactive: false }} /></>}
         </MapContainer>
