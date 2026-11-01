@@ -6014,6 +6014,606 @@
         "fechaCreacion": "2026-11-01T01:10:14.512Z",
         "fechaActualizacion": "2026-11-01T01:10:14.512Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "8cd63e6a-8efb-4027-917d-01a915685182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1650878,
+          50.1454008
+        ]
+      },
+      "properties": {
+        "nombre": "Zom Stüffje",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Oberbachstraße 14, 56812 Cochem, Alemania",
+        "googleMapsUrl": "https://www.google.com/maps/place/Zom+St%C3%BCffje/@50.1454007,7.1009967,8954m/data=!3m2!1e3!5s0x47be47745840196f:0x51c61dcf01f00cf!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x47be47745804429f:0x877a584a24e9c8d5!8m2!3d50.1454008!4d7.1650878!16s%2Fg%2F1tvdhxwd?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:16:35.224Z",
+        "fechaActualizacion": "2026-11-01T12:16:35.226Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "368b6a4f-da1d-4e4f-a448-f4398b1a99b3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2393913,
+          50.1102752
+        ]
+      },
+      "properties": {
+        "nombre": "Hotel Klapperburg",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Bachstraße 33, 56814 Beilstein, Alemania",
+        "googleMapsUrl": "https://www.google.com/maps/place/Hotel+Klapperburg/@50.1102752,6.8082393,71685m/data=!3m1!1e3!4m13!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m8!1s0x47be3f6fa943822f:0x30d49d2845583617!5m2!4m1!1i2!8m2!3d50.1102752!4d7.2393913!16s%2Fg%2F1tr8kpzb?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:35:49.482Z",
+        "fechaActualizacion": "2026-11-01T12:35:49.482Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13f241c3-443e-413c-b164-ea02260121fd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0924104,
+          40.9830465
+        ]
+      },
+      "properties": {
+        "nombre": "HaBu Döner",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Sahrayı Cedit, Halk Sk. No: 41/1, 34734 Kadıköy/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/HaBu+D%C3%B6ner/@40.9992219,29.0394286,10545m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cac73170e39d51:0x15086df8fba9034a!8m2!3d40.9830465!4d29.0924104!16s%2Fg%2F11y5gqx6nm?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:46:55.984Z",
+        "fechaActualizacion": "2026-11-01T12:46:55.984Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f044e52c-d0cb-4868-89e0-89063d75eb83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.038209,
+          40.9937855
+        ]
+      },
+      "properties": {
+        "nombre": "Haçapuri",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Hasanpaşa, Fahrettin Kerim Gökay Cd No:11, 34722 Kadıköy/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Ha%C3%A7apuri/@40.9969148,29.0118134,5273m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab873a43f0001:0x4d78718cf8fcffa5!8m2!3d40.9937855!4d29.038209!16s%2Fg%2F11c5s5ls2p?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "Pide",
+        "fechaCreacion": "2026-11-01T12:47:45.208Z",
+        "fechaActualizacion": "2026-11-01T12:47:45.208Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1f8ffae8-1826-4682-bdcc-4848a3a030ab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0278099,
+          40.9884906
+        ]
+      },
+      "properties": {
+        "nombre": "Sayla Manti",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Osmanağa mahallesi Bahariye caddesi, Nail Bey Sk. No:32, 34710 Kadıköy/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Sayla+Manti/@40.9899433,29.0210938,1318m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab867a8bd08f5:0x2d1b71cbc4adf4d8!8m2!3d40.9884906!4d29.0278099!16s%2Fg%2F1tf84f0s?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "Manti y borek",
+        "fechaCreacion": "2026-11-01T12:48:47.760Z",
+        "fechaActualizacion": "2026-11-01T12:48:47.760Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "77c336c1-e2be-41f8-8d44-7156e01b276e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0269364,
+          40.9895987
+        ]
+      },
+      "properties": {
+        "nombre": "Borsam Taşfırın Bahariye",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Osmanağa, Serasker Cd. No:78, 34714 Kadıköy/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Borsam+Ta%C5%9Ff%C4%B1r%C4%B1n+Bahariye/@40.9895987,29.0174092,1318m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cacf7309948121:0x487c1330925a7567!8m2!3d40.9895987!4d29.0269364!16s%2Fg%2F1td3bfyb?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:49:38.114Z",
+        "fechaActualizacion": "2026-11-01T12:49:38.114Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e0092bdd-1771-434c-b941-2e5bd736fe3b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0252986,
+          40.9904524
+        ]
+      },
+      "properties": {
+        "nombre": "Nisan Fish Restaurant",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Osmanağa, Yasa Cd. No:54, 34710 Kadıköy/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Nisan+Fish+Restaurant/@40.9895987,29.0174092,1318m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab867d97459f7:0xb8523e6b0624ea59!8m2!3d40.9904524!4d29.0252986!16s%2Fg%2F1ptxcphy4?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:50:27.690Z",
+        "fechaActualizacion": "2026-11-01T12:50:27.690Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e5c109bd-01fe-4cb6-9ee9-bc15a9131286",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0168766,
+          41.0251421
+        ]
+      },
+      "properties": {
+        "nombre": "Çayona Cafe & Restoran Karadeniz Akustik Lezzetler",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Mimar Sinan, 7, &, Selman-ı Pak Caddesi, Atlas Sk., 34672 Üsküdar/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/%C3%87ayona+Cafe+%26+Restoran+Karadeniz+Akustik+Lezzetler/@41.0251421,29.0073493,1318m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab70facdff1cb:0x95fdc20608940ecb!8m2!3d41.0251421!4d29.0168766!16s%2Fg%2F11fmzj75ws?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Brunch",
+          "Desayuno",
+          "Kebab",
+          "Rooftop",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:52:00.154Z",
+        "fechaActualizacion": "2026-11-01T12:52:00.154Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2b550487-4f0d-4990-8a63-9763e1500d1c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9805076,
+          41.0044829
+        ]
+      },
+      "properties": {
+        "nombre": "Balikci Sabahattin",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Cankurtaran, Şht. Hasan Kuyu Sk. No:1, 34122 Fatih/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Balikci+Sabahattin/@41.0044829,28.9709807,1318m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9bb8ff946a9:0x9ac247ce5e289e8e!8m2!3d41.0044829!4d28.9805076!16s%2Fg%2F1tfm3p6c?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Postre",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:53:38.907Z",
+        "fechaActualizacion": "2026-11-01T12:53:38.907Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "21d8301d-5e94-402c-8458-58777d50fa61",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9752568,
+          41.0139781
+        ]
+      },
+      "properties": {
+        "nombre": "Şehzade Cağ Kebap",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Hoca Paşa, Hocapaşa Camii Sok. No:6 D:4, 34110 Fatih/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/%C5%9Eehzade+Ca%C4%9F+Kebap/@41.0139781,28.9718884,659m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9957a8076bf:0x3a3126ac9d5344f7!8m2!3d41.0139781!4d28.9752568!16s%2Fg%2F1wf4qrt4?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:54:36.086Z",
+        "fechaActualizacion": "2026-11-01T12:54:36.086Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4a1bd2cb-07ef-417c-9d58-60a75932300b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9735845,
+          41.0148267
+        ]
+      },
+      "properties": {
+        "nombre": "Mavi Bufe",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Hobyar, Büyük Postane Cd. No:11, 34112 Fatih/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Mavi+Bufe/@41.0143259,28.9707025,659m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9eac54644a5:0x93dbb51bb7c56f52!8m2!3d41.0148267!4d28.9735845!16s%2Fg%2F1tcw0mt1?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:55:32.700Z",
+        "fechaActualizacion": "2026-11-01T12:55:32.700Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "de9104ba-0d32-4c9c-9d69-a788d75c212b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.969065,
+          41.0174465
+        ]
+      },
+      "properties": {
+        "nombre": "Köfteci Yaşar",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Rüstem Paşa, Mahkeme Altı Cd. No:21, 34087 Fatih/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/K%C3%B6fteci+Ya%C5%9Far/@41.0174465,28.9539412,2636m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9ec5f498a8d:0xece00cdce7c9b39a!8m2!3d41.0174465!4d28.969065!16s%2Fg%2F11c0vlq9vx?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "De pueblo",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:56:39.637Z",
+        "fechaActualizacion": "2026-11-01T12:56:39.637Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eb0c1b1b-095f-43d5-964a-a36bea86a718",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.953531,
+          41.017239
+        ]
+      },
+      "properties": {
+        "nombre": "Siirt Şeref Buryan1892",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Zeyrek, Ömer Efendi Sk. no:2, 34083 Fatih/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Siirt+%C5%9Eeref+Buryan1892/@41.017239,28.8010957,12z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9e43a49239d:0xdfe633f168e01444!8m2!3d41.017239!4d28.953531!16s%2Fg%2F1ptzsb68d?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Reservado",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:58:37.590Z",
+        "fechaActualizacion": "2026-11-01T12:58:37.590Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "22fbc8ac-355c-452b-864d-c01a90aeffce",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9809764,
+          41.024886
+        ]
+      },
+      "properties": {
+        "nombre": "Karaköy Güllüoğlu - Nadir Güllü",
+        "tipo": "Cafetería",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cafe",
+        "selloB": false,
+        "direccion": "Kemankeş Karamustafa Paşa, Kemankeş Cd. No:67, 34425 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Karak%C3%B6y+G%C3%BCll%C3%BCo%C4%9Flu+-+Nadir+G%C3%BCll%C3%BC/@41.0288972,28.9537952,14.25z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9e8144a79f5:0xf03e0f395d361ad8!8m2!3d41.024886!4d28.9809764!16s%2Fg%2F1thzxlzv?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Desayuno",
+          "Pasteleria",
+          "Postre"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T12:59:27.260Z",
+        "fechaActualizacion": "2026-11-01T12:59:27.260Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51ced884-4fd9-4f2c-8b7c-87510c5b0dcf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9717518,
+          41.0271067
+        ]
+      },
+      "properties": {
+        "nombre": "Dönerci Engin Usta`nın Yeri",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Bereketzade, Okçu Musa Cd. no:3-B, 34425 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/D%C3%B6nerci+Engin+Usta%60n%C4%B1n+Yeri/@41.0274305,28.9577307,15z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9e66080ddcb:0x6681fda65ada8e10!8m2!3d41.0271067!4d28.9717518!16s%2Fg%2F11gbz0k614?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T13:00:14.839Z",
+        "fechaActualizacion": "2026-11-01T13:00:14.839Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0ad939e4-3898-49aa-b4b0-39dea46a57cc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9746007,
+          41.0285083
+        ]
+      },
+      "properties": {
+        "nombre": "HASAN FEHMİ ÖZSÜT 1915",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "istiklal caddesi no:261 41.0284988, 28.9746145, 34421 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/HASAN+FEHM%C4%B0+%C3%96ZS%C3%9CT+1915/@41.0274305,28.9577307,15z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab9e819a45085:0x457dfe06f608d823!8m2!3d41.0285083!4d28.9746007!16s%2Fg%2F1ptvywrlc?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Brunch",
+          "Desayuno",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Queso con miel",
+        "fechaCreacion": "2026-11-01T13:01:05.207Z",
+        "fechaActualizacion": "2026-11-01T13:01:05.207Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b490d618-83e0-4fc7-b6ab-1388ea461afb",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9808312,
+          41.0345944
+        ]
+      },
+      "properties": {
+        "nombre": "Lades Menemen",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Mahallesi, Katip Mustafa Çelebi, Sadri Alışık Sk. No:11 D:12 11/12 11 D:12, 34435 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Lades+Menemen/@41.0342695,28.9678712,15.5z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab76410b66163:0xe4209e430f1f2b10!8m2!3d41.0345944!4d28.9808312!16s%2Fg%2F1td82f1r?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Menemen",
+        "fechaCreacion": "2026-11-01T13:02:21.583Z",
+        "fechaActualizacion": "2026-11-01T13:02:21.583Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a0f51c45-b698-4fb3-a98a-b15cdaf3c03f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9846528,
+          41.0358725
+        ]
+      },
+      "properties": {
+        "nombre": "Kızılkayalar Taksim",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Katip Mustafa Çelebi, Sıraselviler Cd. No:2/C, 34433 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/K%C4%B1z%C4%B1lkayalar+Taksim/@41.0342695,28.9678712,15.5z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab71517b73097:0xa690ac7c4308aa40!8m2!3d41.0358725!4d28.9846528!16s%2Fg%2F1thfbsg1?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "Wet burger",
+        "fechaCreacion": "2026-11-01T13:03:03.263Z",
+        "fechaActualizacion": "2026-11-01T13:03:03.263Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8f2c1d39-59ea-43c0-8df7-ad923408b88b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.982088,
+          41.0364995
+        ]
+      },
+      "properties": {
+        "nombre": "Zübeyir Ocakbaşı/Taksim",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Şehit Muhtar Mahallesi Bekar Sokak No::28, 34435 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Z%C3%BCbeyir+Ocakba%C5%9F%C4%B1%2FTaksim/@41.0364995,28.9686145,15z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14caa1a41c667939:0x4b0015036a486a8b!8m2!3d41.0364995!4d28.982088!16s%2Fg%2F1tx1kn90?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Reservado",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T13:03:50.393Z",
+        "fechaActualizacion": "2026-11-01T13:03:50.393Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d8723fff-3b63-478c-b699-d4f0474da6e3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9855047,
+          41.0431336
+        ]
+      },
+      "properties": {
+        "nombre": "BY ANTAKYALI",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "İnönü, Papa Roncalli Sk. No:26/A, 34373 Şişli/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/BY+ANTAKYALI/@41.0431336,28.9316107,13z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab76e42450191:0x9044943933bf9218!8m2!3d41.0431336!4d28.9855047!16s%2Fg%2F11b7d_1c56?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Kebab",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T13:04:45.441Z",
+        "fechaActualizacion": "2026-11-01T13:04:45.441Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e97b9163-b815-4219-be00-57110a08ba2c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.963691,
+          41.037165
+        ]
+      },
+      "properties": {
+        "nombre": "Gorele Sakir Usta Pide",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "No:53/A, Kulaksız, Kulaksız Cd., 34440 Beyoğlu/İstanbul, Turquía",
+        "googleMapsUrl": "https://www.google.com/maps/place/Gorele+Sakir+Usta+Pide/@41.0428747,28.9237143,13z/data=!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x14cab75790132bb5:0x2e7da32e18f74671!8m2!3d41.037165!4d28.963691!16s%2Fg%2F11hchz9_60?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T13:05:22.225Z",
+        "fechaActualizacion": "2026-11-01T13:05:22.225Z"
+      }
     }
   ]
 }
