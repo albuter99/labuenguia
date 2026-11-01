@@ -5663,6 +5663,65 @@
         "fechaCreacion": "2026-11-01T00:46:54.797Z",
         "fechaActualizacion": "2026-11-01T00:46:54.797Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "36919bf1-436a-4434-9c03-3ae9cc15978c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9913124,
+          43.3230211
+        ]
+      },
+      "properties": {
+        "nombre": "Restaurante La Rampa",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Kaiko Pasealekua, 26-27, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Restaurante+La+Rampa/@43.323021,-1.9960761,635m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51bab268798a91:0x80605df1c0339d32!8m2!3d43.3230211!4d-1.9913124!16s%2Fg%2F1tfv1wl_?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Picar",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:50:02.412Z",
+        "fechaActualizacion": "2026-11-01T00:50:02.412Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cfc3d1a8-d7e1-4819-b33d-97df4fba7781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9916164,
+          43.3239502
+        ]
+      },
+      "properties": {
+        "nombre": "Urgulleko polboriña",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Monte Urgull Kalea, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Urgulleko+polbori%C3%B1a/@43.3230211,-1.996076,635m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0xd51bab24961b69f:0x8eae2270bb514e6e!8m2!3d43.3239502!4d-1.9916164!16s%2Fg%2F11dxcgy5vy?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Picar",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:50:55.053Z",
+        "fechaActualizacion": "2026-11-01T00:50:55.053Z"
+      }
     }
   ]
 }
