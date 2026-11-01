@@ -4979,6 +4979,323 @@
         "fechaCreacion": "2026-11-01T00:08:07.713Z",
         "fechaActualizacion": "2026-11-01T00:08:07.713Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "8d77ff84-e467-42ec-a427-ccc65a7ed9e2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.187218,
+          55.9499513
+        ]
+      },
+      "properties": {
+        "nombre": "Whistlebinkies",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "4-6 South Bridge, Edinburgh EH1 1LL, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Whistlebinkies/@55.9499492,-3.1938612,978m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c785857af64f:0x4cdc9dcb6410bb01!8m2!3d55.9499513!4d-3.187218!16s%2Fg%2F1tfb1kr0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Copas",
+          "Musica en directo",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:09:17.370Z",
+        "fechaActualizacion": "2026-11-01T00:09:17.370Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "807950f3-e9b3-4cd4-84e7-b1ea07b5d2d9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1859302,
+          55.9486733
+        ]
+      },
+      "properties": {
+        "nombre": "Pilgrim Bar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Pilgrim, 3, Robertson's Close, Abbeyhill, Old Town, Edimburgo, Escocia, EH1 1LY, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Pilgrim+Bar/@55.9492005,-3.1973024,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c785c7ae0061:0x3dcdeaf899f2f52!8m2!3d55.9486733!4d-3.1859302!16s%2Fg%2F12hkpqyv7?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:10:39.795Z",
+        "fechaActualizacion": "2026-11-01T00:10:39.795Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "20b9395b-d600-44c5-af4e-1c959c3f22db",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1877799,
+          55.9485769
+        ]
+      },
+      "properties": {
+        "nombre": "Stramash",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Stramash, 209, Cowgate, Abbeyhill, Old Town, Edimburgo, Escocia, EH1 1JQ, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Stramash/@55.9485769,-3.206834,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c785a6fffd93:0x46278552ec61ed9f!8m2!3d55.9485769!4d-3.1877799!16s%2Fg%2F1tfptvk9?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Copas",
+          "Musica en directo",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:12:05.378Z",
+        "fechaActualizacion": "2026-11-01T00:12:05.378Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13fe01d6-83d4-4fe5-b322-84ffd996df90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1902167,
+          55.9482514
+        ]
+      },
+      "properties": {
+        "nombre": "The Three Sisters",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "139 Cowgate, Edinburgh EH1 1JS, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Las+Tres+Hermanas/@55.9482514,-3.209271,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c7853ae35439:0xa9c3e5711e1e11ab!8m2!3d55.9482514!4d-3.1902167!16s%2Fg%2F1tdw3174?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:13:48.852Z",
+        "fechaActualizacion": "2026-11-01T00:13:48.852Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dcb1bf58-7386-4344-9ae2-fcc9af4f125f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1915123,
+          55.9482278
+        ]
+      },
+      "properties": {
+        "nombre": "Sneaky Pete's",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Sneaky Pete's, 73, Cowgate, Abbeyhill, Old Town, Edimburgo, Escocia, EH1 1JW, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Sneaky+Pete's/@55.9482514,-3.209271,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c7852d6fb069:0xeaa6b3e9d91da507!8m2!3d55.9482278!4d-3.1915123!16s%2Fm%2F0lk18pl?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Copas",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "Noche",
+        "fechaCreacion": "2026-11-01T00:14:53.228Z",
+        "fechaActualizacion": "2026-11-01T00:14:53.228Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2ff6d490-2fd8-4eb4-b50e-3dce7333ce17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1914225,
+          55.9478095
+        ]
+      },
+      "properties": {
+        "nombre": "Dropkick Murphys",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "Dropkick Murphys, 7, Merchant Street, Abbeyhill, Old Town, Edimburgo, Escocia, EH1 2QD, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Dropkick+Murphys/@55.9482514,-3.209271,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c79ad6dfde3b:0xd81ed5ab10632abf!8m2!3d55.9478095!4d-3.1914225!16s%2Fg%2F1tlbj3ys?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Copas"
+        ],
+        "notas": "Discoteca",
+        "fechaCreacion": "2026-11-01T00:15:46.308Z",
+        "fechaActualizacion": "2026-11-01T00:15:46.308Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "49a98ca4-fd81-41b5-a48f-f9e361bb5a82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1908953,
+          55.9455473
+        ]
+      },
+      "properties": {
+        "nombre": "Doctors",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "32 Forrest Rd, Edinburgh EH1 2QN, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Doctors/@55.9455599,-3.2043357,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c784ad883b9f:0x5cf5f8c53b60c6f4!8m2!3d55.9455473!4d-3.1908953!16s%2Fg%2F1td421r4?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Copas",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:16:44.140Z",
+        "fechaActualizacion": "2026-11-01T00:16:44.140Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "333f7131-2ceb-4782-9f92-456ad455e853",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.183743,
+          55.9452128
+        ]
+      },
+      "properties": {
+        "nombre": "Southsider",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "3-7 W Richmond St, Edinburgh EH8 9EF, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Southsider/@55.9454663,-3.1959341,1956m/data=!3m1!1e3!4m13!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m8!1s0x4887c78406a70ac5:0x8d8773320697c54!5m2!4m1!1i2!8m2!3d55.9452128!4d-3.183743!16s%2Fg%2F1hhp03phw?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:17:43.717Z",
+        "fechaActualizacion": "2026-11-01T00:17:43.717Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fe1edef9-ab7d-405d-8e1e-b1e20f819944",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1852918,
+          55.9444329
+        ]
+      },
+      "properties": {
+        "nombre": "The Pear Tree",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "38 W Nicolson St, Edinburgh EH8 9DD, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Pear+Tree/@55.9454663,-3.1959341,1956m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c783f30967df:0x201ea4cb6abb5bc7!8m2!3d55.9444329!4d-3.1852918!16s%2Fg%2F1v_s5gd4?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:18:25.325Z",
+        "fechaActualizacion": "2026-11-01T00:18:25.325Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "984fe781-5a9b-460b-9375-435ff0eb4565",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.203631,
+          55.9398435
+        ]
+      },
+      "properties": {
+        "nombre": "The Golf Tavern",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "The Golf Tavern, 30-31, Wright's Houses, Lauriston, Bruntsfield, Edimburgo, Escocia, EH10 4HR, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Golf+Tavern/@55.9398437,-3.2064629,489m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c79fea63a4a1:0x836abb542431ad63!8m2!3d55.9398435!4d-3.203631!16s%2Fg%2F1tjdwgzx?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes",
+          "Tipico"
+        ],
+        "notas": "Jugar al golf",
+        "fechaCreacion": "2026-11-01T00:19:57.228Z",
+        "fechaActualizacion": "2026-11-01T00:19:57.228Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ac1428dc-3d4e-4510-bbf0-ce3f823ae911",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2084341,
+          55.949916
+        ]
+      },
+      "properties": {
+        "nombre": "The Shaker",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "9 Shandwick Pl, Edinburgh EH2 4RG, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Shaker/@55.9303026,-3.3216568,22139m/data=!3m2!1e3!5s0x4887c7a2cb4919bd:0x1b5bcda1b643bc7d!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x4887c73dc15f47bd:0x1e765f9ceaee8a5d!8m2!3d55.949916!4d-3.2084341!16s%2Fg%2F11zfbb6hhr?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cocteles",
+          "Copas",
+          "Musica en directo"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:20:40.933Z",
+        "fechaActualizacion": "2026-11-01T00:20:40.933Z"
+      }
     }
   ]
 }
