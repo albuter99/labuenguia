@@ -254,18 +254,35 @@ function addRouteStop(id = "", pedir = "") {
   const row = document.createElement("div");
   row.className = "route-stop";
   const select = document.createElement("select");
-  select.setAttribute("aria-label", "Establecimiento");
-  const empty = document.createElement("option");
-  empty.value = "";
-  empty.textContent = "Selecciona un establecimiento";
-  select.append(empty);
-  for (const v of [...venues].sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre, "es"))) {
-    const option = document.createElement("option");
-    option.value = v.id;
-    option.textContent = v.properties.nombre;
-    select.append(option);
+  select.hidden = true;
+  select.setAttribute("aria-label", "Establecimiento seleccionado");
+  const search = document.createElement("input");
+  search.type = "search";
+  search.placeholder = "Escribe el nombre del establecimiento...";
+  search.setAttribute("aria-label", "Buscar establecimiento para la ruta");
+  search.autocomplete = "off";
+  const suggestions = document.createElement("datalist");
+  suggestions.id = "route-places-" + crypto.randomUUID();
+  search.setAttribute("list", suggestions.id);
+  const options = [...venues].sort((a,b) => a.properties.nombre.localeCompare(b.properties.nombre,"es")).map(v => ({
+    id:String(v.id), label:v.properties.nombre + (v.properties.direccion ? " · " + v.properties.direccion : "")
+  }));
+  select.add(new Option("Selecciona un establecimiento",""));
+  for (const option of options) {
+    select.add(new Option(option.label,option.id));
+    suggestions.append(new Option(option.label));
   }
-  select.value = id;
+  select.value = String(id);
+  search.value = options.find(v=>v.id===String(id))?.label || "";
+  const resolveSearch = () => {
+    const found = options.find(v=>v.label===search.value) ||
+      options.find(v=>v.label.toLocaleLowerCase("es")===search.value.trim().toLocaleLowerCase("es")) ||
+      options.find(v=>v.label.split(" · ")[0].toLocaleLowerCase("es")===search.value.trim().toLocaleLowerCase("es"));
+    select.value = found?.id || "";
+    search.setCustomValidity(search.value && !found ? "Selecciona una sugerencia de la lista." : "");
+  };
+  search.addEventListener("input",resolveSearch);
+  search.addEventListener("change",resolveSearch);
   const input = document.createElement("input");
   input.placeholder = "Qué pedir o recomendación";
   input.maxLength = 1000;
@@ -279,7 +296,7 @@ function addRouteStop(id = "", pedir = "") {
   const remove = document.createElement("button");
   remove.type = "button"; remove.textContent = "✕"; remove.title = "Quitar parada";
   remove.onclick = () => row.remove();
-  row.append(select, input, up, down, remove);
+  row.append(search, suggestions, select, input, up, down, remove);
   stopsBox.append(row);
 }
 function clearRoute() {
