@@ -5722,6 +5722,298 @@
         "fechaCreacion": "2026-11-01T00:50:55.053Z",
         "fechaActualizacion": "2026-11-01T00:50:55.053Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "fbc6290b-d8aa-4260-9412-30d18bdfc2e3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9847454,
+          43.3253631
+        ]
+      },
+      "properties": {
+        "nombre": "ZAZPI",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Zazpi, Plaza de Zuloaga, Parte Vieja, Centro, San Sebastián, Guipúzcoa, País Vasco, 20003, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/ZAZPI+STM/@43.3251991,-1.9863341,267m/data=!3m1!1e3!4m10!1m2!2m1!1szazpi!3m6!1s0xd51a550f6ecba01:0x427e5818f2bc1f28!8m2!3d43.3253631!4d-1.9847454!15sCgV6YXpwaVoHIgV6YXpwaZIBCnJlc3RhdXJhbnSaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhaTkdSVlVuRldiWGhEVTFSU2IyVkhhR2xpVlhoclpVaG5OVTFHUlJBQuABAPoBBQiGAhA1!16s%2Fg%2F11x9d5j2x?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "De autor",
+          "Picar"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:57:25.896Z",
+        "fechaActualizacion": "2026-11-01T00:57:25.896Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f83c91d1-2e1e-4bd3-af99-54847890a186",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9847944,
+          43.3243861
+        ]
+      },
+      "properties": {
+        "nombre": "La Viña",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "31 de Agosto Kalea, 3, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/La+Vi%C3%B1a/@43.324645,-1.9859114,318m/data=!3m1!1e3!4m9!1m2!2m1!1szazpi!3m5!1s0xd51a54c4a671fb5:0x445db0f87ff7dacb!8m2!3d43.3243861!4d-1.9847944!16s%2Fg%2F1td6c63w?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Picar",
+          "Postre",
+          "Tipico"
+        ],
+        "notas": "Tarta de queso",
+        "fechaCreacion": "2026-11-01T00:58:46.137Z",
+        "fechaActualizacion": "2026-11-01T00:58:46.137Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8f2169c9-59f5-4e1a-8df3-fe7d88c7283e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9853227,
+          43.3245016
+        ]
+      },
+      "properties": {
+        "nombre": "La Cuchara de San Telmo",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "La Cuchara de San Telmo, 28, Calle 31 de Agosto, Parte Vieja, Centro, San Sebastián, Guipúzcoa, País Vasco, 20003, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/La+Cuchara+de+San+Telmo/@43.3244733,-1.9869038,318m/data=!3m1!1e3!4m9!1m2!2m1!1szazpi!3m5!1s0xd51a54dac8167ed:0x189474ae514bff1!8m2!3d43.3245016!4d-1.9853227!16s%2Fg%2F1ttpcmf6?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Tipico",
+          "Vino"
+        ],
+        "notas": "Tosta de foie",
+        "fechaCreacion": "2026-11-01T01:00:06.258Z",
+        "fechaActualizacion": "2026-11-01T01:00:06.258Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a9f81a78-3e59-4d30-8cf9-7c6c4357b1c2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9859155,
+          43.3241418
+        ]
+      },
+      "properties": {
+        "nombre": "Parrilla Txuleta",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Pl. de la Trinidad, 2, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Parrilla+Txuleta/@43.3240655,-1.9857822,79m/data=!3m1!1e3!4m6!3m5!1s0xd51a54d03d8c339:0x86aa86eb4f447856!8m2!3d43.3241418!4d-1.9859155!16s%2Fg%2F1q5bpkxj5?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Español",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Croqueta de Txuleta\nPimiento con Txangurro",
+        "fechaCreacion": "2026-11-01T01:01:49.357Z",
+        "fechaActualizacion": "2026-11-01T01:01:49.357Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "25d06d2b-e9d6-49ec-98d4-2f3d9d81262c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9857835,
+          43.3240228
+        ]
+      },
+      "properties": {
+        "nombre": "Gandarias",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "31 de Agosto Kalea, 23, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Gandarias/@43.3240655,-1.9857822,79m/data=!3m1!1e3!4m6!3m5!1s0xd51a54c4a671fb5:0xdc7e07e1ca483ca8!8m2!3d43.3240228!4d-1.9857835!16s%2Fg%2F1tjmfzvz?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Solomillo",
+        "fechaCreacion": "2026-11-01T01:03:15.814Z",
+        "fechaActualizacion": "2026-11-01T01:03:15.814Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6a358595-9ed2-4c86-8608-025ebc2cce08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9840577,
+          43.3237381
+        ]
+      },
+      "properties": {
+        "nombre": "Bar Txepetxa",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Arrandegi Kalea, 5, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bar+Txepetxa/@43.3237381,-1.9849681,318m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd51a54dc5bc057d:0x16b8fd2f9371de45!8m2!3d43.3237381!4d-1.9840577!16s%2Fg%2F1tmpg7jf?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Pescado",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Centollo con anchoa",
+        "fechaCreacion": "2026-11-01T01:04:33.585Z",
+        "fechaActualizacion": "2026-11-01T01:04:33.585Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fab68ec4-08e3-43a7-8942-fb1951f07acd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9836219,
+          43.3235354
+        ]
+      },
+      "properties": {
+        "nombre": "MendaurBerria",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Fermin Calbeton Kalea, 8, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/MendaurBerria/@43.3235354,-1.9849094,318m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd51a54ddbe9aab5:0x43c6442da1e5c135!8m2!3d43.3235354!4d-1.9836219!16s%2Fg%2F12hm_gp3y?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Rabo de toro con tuetano\nPanceta baja temperatura",
+        "fechaCreacion": "2026-11-01T01:06:02.338Z",
+        "fechaActualizacion": "2026-11-01T01:06:02.338Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4a59497f-87ad-4fcf-8361-cca7985084a8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9838915,
+          43.3234901
+        ]
+      },
+      "properties": {
+        "nombre": "Borda Berri",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Fermin Calbeton Kalea, 12, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bar+Borda+Berri/@43.3234821,-1.984184,67m/data=!3m1!1e3!4m6!3m5!1s0xd51a54ddca11a6b:0xb812fdf2e4be1ff7!8m2!3d43.3234901!4d-1.9838915!16s%2Fg%2F11b6g46h9_?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Pescado",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Oreja\nFalso rissoto\nCocochas al pil pil",
+        "fechaCreacion": "2026-11-01T01:07:41.606Z",
+        "fechaActualizacion": "2026-11-01T01:07:41.606Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "125bfb2d-dbbd-4825-9b84-4ce7d1229fc5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9844592,
+          43.3233372
+        ]
+      },
+      "properties": {
+        "nombre": "Casa Urola",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Fermin Calbeton Kalea, 20, 20003 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Casa+Urola/@43.3234378,-1.9843193,67m/data=!3m1!1e3!4m6!3m5!1s0xd51a54d98c7a9c9:0x799ffbebbb7d7872!8m2!3d43.3233372!4d-1.9844592!16s%2Fg%2F1tf_pm7d?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Tartaleta de hongos\nVieira con ajo blanco",
+        "fechaCreacion": "2026-11-01T01:08:42.392Z",
+        "fechaActualizacion": "2026-11-01T01:08:42.392Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "df4530e0-0881-4404-aca6-98ee6e1e318d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9807402,
+          43.315401
+        ]
+      },
+      "properties": {
+        "nombre": "Casa Vallés",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Calle Los Reyes Católicos, 10, 20006 Donostia / San Sebastián, Gipuzkoa, España",
+        "googleMapsUrl": "https://www.google.com/maps/place/Casa+Valles/@43.315401,-1.9833151,635m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd51a5571cd61475:0x424f7fa48fd6f268!8m2!3d43.315401!4d-1.9807402!16s%2Fg%2F1tmqsppp?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Español",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "Gilda",
+        "fechaCreacion": "2026-11-01T01:10:14.512Z",
+        "fechaActualizacion": "2026-11-01T01:10:14.512Z"
+      }
     }
   ]
 }
