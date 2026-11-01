@@ -5296,6 +5296,178 @@
         "fechaCreacion": "2026-11-01T00:20:40.933Z",
         "fechaActualizacion": "2026-11-01T00:20:40.933Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "87fe1d85-99d8-43b9-b842-0f515c36d52b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2816896,
+          53.3503769
+        ]
+      },
+      "properties": {
+        "nombre": "Walsh's",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "6 Stoneybatter, Dublin 7, D07 A382, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/Walsh's/@53.3503768,-6.3197984,4170m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48670c2dec624095:0x69a1cf5bcb95a604!8m2!3d53.3503769!4d-6.2816896!16s%2Fg%2F11b73zppsh?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:24:09.286Z",
+        "fechaActualizacion": "2026-11-01T00:24:09.286Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "45e55c07-edbb-443a-b788-e37c6cf698b9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2596063,
+          53.3458948
+        ]
+      },
+      "properties": {
+        "nombre": "The Palace Bar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "21 Fleet St, Temple Bar, Dublin 2, D02 H950, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Palace+Bar/@53.3486348,-6.300744,4170m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48670e84ca01c163:0x754042cd7609c648!8m2!3d53.3458948!4d-6.2596063!16s%2Fg%2F1td6045g?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:26:31.832Z",
+        "fechaActualizacion": "2026-11-01T00:26:31.832Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ca7eb7ac-ccab-4f83-a370-17e3c0116a1c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2578933,
+          53.3458614
+        ]
+      },
+      "properties": {
+        "nombre": "Bowe's Lounge Bar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "31 Fleet St, Dublin 2, D02 DF77, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/Bowe's+Lounge+Bar/@53.3466113,-6.2721568,1475m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48670e84d58aa037:0x2b056273eb2de981!8m2!3d53.3458614!4d-6.2578933!16s%2Fg%2F1tdxvflk?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:27:08.311Z",
+        "fechaActualizacion": "2026-11-01T00:27:08.311Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d3016bcd-4b25-4f90-a177-72766495edf7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2637511,
+          53.341233
+        ]
+      },
+      "properties": {
+        "nombre": "The Hairy Lemon",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "41- 42 Stephen Street Lower, Dublin 2, D02 NV08, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/The+Hairy+Lemon/@53.3408171,-6.2823833,2949m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48670e9c32ff07d9:0x91d4ac39c24aaea3!8m2!3d53.341233!4d-6.2637511!16s%2Fg%2F1vyk1y9r?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:27:52.223Z",
+        "fechaActualizacion": "2026-11-01T00:27:52.223Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3004feee-6240-4193-85eb-e0d20fb5d83d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2594277,
+          53.3411639
+        ]
+      },
+      "properties": {
+        "nombre": "Kehoes Pub",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "9 Anne St S, Dublin, D02 NY88, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/Kehoes+Pub/@53.3408171,-6.2823833,2949m/data=!3m1!1e3!4m10!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m5!1s0x48670e9bf21905f3:0xe1fcfcdcea7af663!8m2!3d53.3411639!4d-6.2594277!16s%2Fg%2F12jsw1dl9?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:28:31.543Z",
+        "fechaActualizacion": "2026-11-01T00:28:31.543Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cc459d7a-da6f-4165-9564-cced59e699bf",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2542292,
+          53.3382083
+        ]
+      },
+      "properties": {
+        "nombre": "O'Donoghues Bar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "15 Merrion Row, Dublin, D02 PF50, Irlanda",
+        "googleMapsUrl": "https://www.google.com/maps/place/O'Donoghues+Bar/@53.3408171,-6.2823833,2949m/data=!3m1!1e3!4m13!1m3!11m2!2sKj_Xwlm49YTHLkBSaGv9LfrQKBs6rA!3e3!3m8!1s0x48670e99bae1e0c3:0xeb7140f18a9bf8cc!5m2!4m1!1i2!8m2!3d53.3382083!4d-6.2542292!16zL20vMGNzYjF4?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Pub britanico e irlandes",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-01T00:29:17.528Z",
+        "fechaActualizacion": "2026-11-01T00:29:17.528Z"
+      }
     }
   ]
 }
