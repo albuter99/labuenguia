@@ -12,6 +12,12 @@ BACKUPS = ROOT / "backups"
 HOST, PORT = "127.0.0.1", 8766
 
 class Handler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        # Prevent browsers from keeping obsolete editor HTML and JavaScript.
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        super().end_headers()
+
     def do_GET(self):
         if self.path == "/api/establecimientos":
             try:
