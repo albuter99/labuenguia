@@ -1,4 +1,4 @@
-const TAGS = ["Michelin","Menu degustacion","Vino","Vegano","Pub britanico e irlandes","Copas","Vistas","Coffeeshop","Italiano","Carne","Español","Tipico","Pescado","Barato","Asiatico","Hamburguesa","Postre","Paella","Sushi","Kebab","Mexicano","Musica en directo","Reservado","Helados","Brunch","Desayuno","Cocteles","Pasteleria","Rooftop","Romantico","Buffet","Picar","De autor","Cerveza","De pueblo"].sort((a,b)=>a.localeCompare(b,"es",{sensitivity:"base"}));
+const TAGS = ["Michelin","Menu degustacion","Vino","Vegano","Pub britanico e irlandes","Copas","Vistas","Coffeeshop","Italiano","Carne","Español","Tipico","Pescado","Barato","Asiatico","Hamburguesa","Postre","Paella","Sushi","Kebab","Mexicano","Musica en directo","Reservado","Helados","Brunch","Desayuno","Cocteles","Pasteleria","Rooftop","Romantico","Buffet","Picar","De autor","Cerveza","De pueblo","Indio"].sort((a,b)=>a.localeCompare(b,"es",{sensitivity:"base"}));
 const form = document.querySelector("#venue-form");
 const venueTagFilter = document.querySelector("#venue-tag-filter");
 for (const tag of TAGS) venueTagFilter.add(new Option(tag, tag));
