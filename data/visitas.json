@@ -369,5 +369,19 @@
     "fecha": null,
     "valoracion": 4,
     "comentario": ""
+  },
+  {
+    "id": "d9a3d1ab-67e0-4b08-bf74-9cb581ccb183",
+    "establecimientoId": "e2ee88b4-2fed-4c45-bfec-78cc31b54159",
+    "fecha": "2021-12-10",
+    "valoracion": 4,
+    "comentario": ""
+  },
+  {
+    "id": "4e4dc86a-fb6d-431c-83f8-a51fb51e5e03",
+    "establecimientoId": "f7b7995a-db0f-4660-bd3f-76ec8e85b439",
+    "fecha": "2021-12-10",
+    "valoracion": 3,
+    "comentario": ""
   }
 ]

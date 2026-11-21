@@ -6700,6 +6700,253 @@
         "fechaCreacion": "2026-11-01T13:17:45.687Z",
         "fechaActualizacion": "2026-11-01T13:17:45.687Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "4d096030-c396-48ab-89fc-0445157f6a5c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3580359,
+          48.0739611
+        ]
+      },
+      "properties": {
+        "nombre": "Wistub de la Petite Venise",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "4 Rue de la Poissonnerie, 68000 Colmar, Francia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Wistub+de+la+Petite+Venise/@48.0739611,7.355461,577m/data=!3m2!1e3!4b1!4m6!3m5!1s0x479165e626a8eeab:0x624718db3cf2bda5!8m2!3d48.0739611!4d7.3580359!16s%2Fg%2F1tkv8pl4?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "Chucrut. Ultimo restaurante de Anthony Bourdain",
+        "fechaCreacion": "2026-11-21T20:07:32.115Z",
+        "fechaActualizacion": "2026-11-21T20:07:32.115Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e2ee88b4-2fed-4c45-bfec-78cc31b54159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1469688,
+          51.5420455
+        ]
+      },
+      "properties": {
+        "nombre": "Coyote Ugly Saloon Camden",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "The Stables Market, Camden Market, Chalk Farm Rd, Chalk Farm, London NW1 8AH, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Coyote+Ugly+Saloon+Camden/@51.5420455,-5.9478375,1100159m/data=!3m1!1e3!4m10!1m2!2m1!1sCoyote+Ugly+Saloon!3m6!1s0x48761bbbaffb5bb5:0x8b8da7bf609ec55d!8m2!3d51.5420455!4d-0.1469688!15sChJDb3lvdGUgVWdseSBTYWxvb24iA4gBAVoUIhJjb3lvdGUgdWdseSBzYWxvb26SAQNiYXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUXROVjk1ZFRoQlJSQULgAQD6AQQIABA_!16s%2Fg%2F11t6nsnhl9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Musica en directo"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T20:09:54.721Z",
+        "fechaActualizacion": "2026-11-21T20:09:54.721Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f7305fa2-4eb0-4045-a380-104dac245207",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1386031,
+          51.5176218
+        ]
+      },
+      "properties": {
+        "nombre": "ROVI by Ottolenghi",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "59 Wells Street, Fitzrovia, 59-65 Wells St, London W1A 3AE, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/ROVI+by+Ottolenghi/@51.5176218,-0.141178,537m/data=!3m3!1e3!4b1!5s0x48761b2a58d42661:0x9ded683d712a1d58!4m6!3m5!1s0x48761b277a0418d9:0xdf34d009ce1c0467!8m2!3d51.5176218!4d-0.1386031!16s%2Fg%2F11g0lcgqd_?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Picar",
+          "Vegano"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T20:11:34.281Z",
+        "fechaActualizacion": "2026-11-21T20:11:34.281Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1f597b4a-e1ff-45ab-8502-fb4d984a0b05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1396885,
+          51.5055381
+        ]
+      },
+      "properties": {
+        "nombre": "Dukes Bar",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "35 St James's Pl, London SW1A 1NY, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Dukes+Bar/@51.5055381,-0.1396885,67m/data=!3m1!1e3!4m6!3m5!1s0x487605493837db2d:0xdae7922e33378971!8m2!3d51.5055381!4d-0.1396885!16s%2Fg%2F11rd8nzb3v?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Copas"
+        ],
+        "notas": "Martini",
+        "fechaCreacion": "2026-11-21T20:13:31.201Z",
+        "fechaActualizacion": "2026-11-21T20:14:09.474Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f7b7995a-db0f-4660-bd3f-76ec8e85b439",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1229779,
+          51.5118074
+        ]
+      },
+      "properties": {
+        "nombre": "Punch & Judy",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": null,
+        "icono": "cerveza",
+        "selloB": false,
+        "direccion": "40 The Market, London WC2E 8RF, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Punch+%26+Judy/@51.5117819,-0.1231489,20.5z/data=!3m1!5s0x487604cb8491eb43:0xde73a0c5aab39775!4m6!3m5!1s0x487604cb815e79ed:0xf05a0ba0ea1b607c!8m2!3d51.5118074!4d-0.1229779!16s%2Fg%2F1td3fhks?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cerveza",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T20:17:40.272Z",
+        "fechaActualizacion": "2026-11-21T20:17:40.272Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5bf4e35b-d887-4bc4-b233-046afad922b1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0221367,
+          51.5429436
+        ]
+      },
+      "properties": {
+        "nombre": "CRATE Bar & Pizzeria Hackney Wick",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Unit 7 Queen's Yard, London E9 5EN, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/CRATE+Bar+%26+Pizzeria+Hackney+Wick/@51.5429436,-0.0221367,17z/data=!4m15!1m8!3m7!1s0x48761d6cc179a7cf:0xf10e028226dd377e!2sCRATE+Bar+%26+Pizzeria+Hackney+Wick!8m2!3d51.5429436!4d-0.0221367!10e5!16s%2Fg%2F11r9hdr3c!3m5!1s0x48761d6cc179a7cf:0xf10e028226dd377e!8m2!3d51.5429436!4d-0.0221367!16s%2Fg%2F11r9hdr3c?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Copas"
+        ],
+        "notas": "Pizzas",
+        "fechaCreacion": "2026-11-21T20:19:34.192Z",
+        "fechaActualizacion": "2026-11-21T20:19:34.192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c6ac8264-81f7-43be-87a2-41b1f8e439f1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0938851,
+          51.4533384
+        ]
+      },
+      "properties": {
+        "nombre": "Ken’s Fish Bar",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "131 Half Moon Ln, London SE24 9JY, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Ken%E2%80%99s+Fish+Bar/@51.4533384,-0.09646,17z/data=!3m1!4b1!4m6!3m5!1s0x4876047560816f2b:0xd258e812feb1d9fb!8m2!3d51.4533384!4d-0.0938851!16s%2Fg%2F1vxdxrwc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T20:21:43.880Z",
+        "fechaActualizacion": "2026-11-21T20:21:43.880Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cfe2f4ff-9503-4aae-924b-662e946c2ff5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0904808,
+          51.5055826
+        ]
+      },
+      "properties": {
+        "nombre": "Borough Market",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "London SE1 9AH, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Borough+Market/@51.5055826,-0.0930557,17z/data=!3m2!4b1!5s0x4871234f9ff75309:0x6150567746343bce!4m6!3m5!1s0x4876035775cf660f:0x3128e7e59ca044b9!8m2!3d51.5055826!4d-0.0904808!16zL20vMDF6cDZ2?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Picar"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T20:22:44.257Z",
+        "fechaActualizacion": "2026-11-21T20:22:44.257Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3c24475a-1815-48af-a05f-3c413e4557a9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.078409,
+          51.5181303
+        ]
+      },
+      "properties": {
+        "nombre": "Dilchad",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "24 Widegate St, London E1 7HP, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Dilchad/@51.5181303,-0.078409,17z/data=!4m15!1m8!3m7!1s0x48761cb3a49716e5:0x673d4f5186afe461!2sDilchad!8m2!3d51.5181303!4d-0.078409!10e5!16s%2Fg%2F1tkl2t7f!3m5!1s0x48761cb3a49716e5:0x673d4f5186afe461!8m2!3d51.5181303!4d-0.078409!16s%2Fg%2F1tkl2t7f?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T20:24:21.480Z",
+        "fechaActualizacion": "2026-11-21T20:24:21.480Z"
+      }
     }
   ]
 }
