@@ -285,6 +285,7 @@ function addRouteStop(id = "", pedir = "") {
   search.addEventListener("input",resolveSearch);
   search.addEventListener("change",resolveSearch);
   const input = document.createElement("input");
+  input.className = "route-stop-recommendation";
   input.placeholder = "Qué pedir o recomendación";
   input.maxLength = 1000;
   input.value = pedir;
@@ -350,7 +351,7 @@ routeForm.addEventListener("submit", async event => {
   event.preventDefault();
   const paradas = [...stopsBox.children].map(row => ({
     establecimientoId: row.querySelector("select").value,
-    pedir: row.querySelector("input").value.trim()
+    pedir: row.querySelector(".route-stop-recommendation").value.trim()
   }));
   if (!paradas.length || paradas.some(p => !p.establecimientoId) || new Set(paradas.map(p => p.establecimientoId)).size !== paradas.length) {
     routeMessage.textContent = "Añade paradas válidas sin establecimientos repetidos.";
