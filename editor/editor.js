@@ -175,6 +175,7 @@ async function deleteVenue(venue) {
 loadVenues().catch(error=>{document.querySelector("#save-message").textContent=error.message;});
 const tagContainer = document.querySelector("#tag-options");
 for (const tag of TAGS) {
+  if ([...tagContainer.querySelectorAll('input[name="etiquetas"]')].some(input => input.value === tag)) continue;
   const label = document.createElement("label");
   const input = document.createElement("input");
   input.type = "checkbox";
