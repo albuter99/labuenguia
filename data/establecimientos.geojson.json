@@ -6942,10 +6942,685 @@
         "selloB": false,
         "direccion": "24 Widegate St, London E1 7HP, Reino Unido",
         "googleMapsUrl": "https://www.google.com/maps/place/Dilchad/@51.5181303,-0.078409,17z/data=!4m15!1m8!3m7!1s0x48761cb3a49716e5:0x673d4f5186afe461!2sDilchad!8m2!3d51.5181303!4d-0.078409!10e5!16s%2Fg%2F1tkl2t7f!3m5!1s0x48761cb3a49716e5:0x673d4f5186afe461!8m2!3d51.5181303!4d-0.078409!16s%2Fg%2F1tkl2t7f?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
-        "etiquetas": [],
+        "etiquetas": [
+          "Indio"
+        ],
         "notas": "",
         "fechaCreacion": "2026-11-21T20:24:21.480Z",
-        "fechaActualizacion": "2026-11-21T20:24:21.480Z"
+        "fechaActualizacion": "2026-11-21T23:25:52.432Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b5917162-6426-4e99-8d6c-d69edf581167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0717608,
+          51.5244985
+        ]
+      },
+      "properties": {
+        "nombre": "Beigel Bake",
+        "tipo": "Cafetería",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "159 Brick Ln, London E1 6SB, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Beigel+Bake/@51.5244985,-0.0717608,15z/data=!4m15!1m8!3m7!1s0x48761cb3a49716e5:0x673d4f5186afe461!2sDilchad!8m2!3d51.5181303!4d-0.078409!10e5!16s%2Fg%2F1tkl2t7f!3m5!1s0x48761dad861a488d:0xc9e1e09acd76b50c!8m2!3d51.5244985!4d-0.0717608!16s%2Fm%2F0hzpb5p?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Desayuno"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:28:21.555Z",
+        "fechaActualizacion": "2026-11-21T23:28:21.555Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6633ff15-c92a-4c68-b0f5-892559ccd591",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0742918,
+          51.5257669
+        ]
+      },
+      "properties": {
+        "nombre": "Rochelle Canteen",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "16 Playground Gardens, London E2 7FA, Reino Unido",
+        "googleMapsUrl": "https://www.google.com/maps/place/Rochelle+Canteen/@51.5258483,-0.0745308,18a,75y,151.9h,94.22t/data=!3m7!1e1!3m5!1sTJZ-LGDIFiivBIS76Uki4Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-4.222481102216818%26panoid%3DTJZ-LGDIFiivBIS76Uki4Q%26yaw%3D151.8981525101746!7i16384!8i8192!4m6!3m5!1s0x48761cb9d954f035:0x761c3b782e228426!8m2!3d51.5257669!4d-0.0742918!16s%2Fg%2F1thxvq7v?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Brunch",
+          "De autor"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:31:11.404Z",
+        "fechaActualizacion": "2026-11-21T23:31:11.404Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c42f30b8-583f-45f8-9ab5-64b25c088980",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3799105,
+          36.462097
+        ]
+      },
+      "properties": {
+        "nombre": "Lycabettus Restaurant",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "",
+        "googleMapsUrl": "https://www.google.com/maps/place/Lycabettus+Restaurant/@36.462097,25.3799105,15z/data=!4m15!1m8!3m7!1s0x1499cc7fe7a5a149:0x7551bfe438862b85!2sLycabettus+Restaurant!8m2!3d36.462097!4d25.3799105!10e5!16s%2Fg%2F11c5955s5p!3m5!1s0x1499cc7fe7a5a149:0x7551bfe438862b85!8m2!3d36.462097!4d25.3799105!16s%2Fg%2F11c5955s5p?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:33:27.388Z",
+        "fechaActualizacion": "2026-11-21T23:33:27.388Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5e26e7e0-09b8-4103-a4bd-e014d899be5b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4193853,
+          37.4347277
+        ]
+      },
+      "properties": {
+        "nombre": "Spilia Restaurant",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Kalafati, 846 00, Grecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Spilia+Restaurant/@37.4347277,25.4168104,17z/data=!3m1!4b1!4m6!3m5!1s0x14a2b8f3e34750fb:0x2f5112e9e5f9108e!8m2!3d37.4347277!4d25.4193853!16s%2Fg%2F11c3n1v5kj?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:35:37.508Z",
+        "fechaActualizacion": "2026-11-21T23:35:37.508Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "85cd68ab-9cbb-46f8-b646-308e90ab0132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3255624,
+          37.4470364
+        ]
+      },
+      "properties": {
+        "nombre": "Kastro's Restaurant",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 3,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Kastro's, Paraportianis, Μικρή Βενετία, Mykonos Community, Miconos, Municipality of Mykonos, Mykonos Regional Unit, South Aegean, Aegean, 846 00, Grecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Kastro's+Restaurant/@37.4470364,25.3229875,17z/data=!3m1!4b1!4m6!3m5!1s0x14a2bfa9497115bf:0x525a9e4b476eab1b!8m2!3d37.4470364!4d25.3255624!16s%2Fg%2F11b7q2gylv?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:36:55.354Z",
+        "fechaActualizacion": "2026-11-21T23:36:55.354Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51dd29f1-ca1a-4d8a-8ee1-b6c459b48ae8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2367462,
+          42.1241587
+        ]
+      },
+      "properties": {
+        "nombre": "Han Dyavolski Vodi",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "107 5, 2631 Pastra, Bulgaria",
+        "googleMapsUrl": "https://www.google.com/maps/place/Han+Dyavolski+Vodi/@42.1241904,23.2367227,17.25z/data=!4m21!1m11!3m10!1s0x14aafcab4f460a89:0x91a51219f1870c0c!2sHan+Dyavolski+Vodi!5m2!4m1!1i2!8m2!3d42.1241587!4d23.2367462!10e5!16s%2Fg%2F11c1mkp6fz!3m8!1s0x14aafcab4f460a89:0x91a51219f1870c0c!5m2!4m1!1i2!8m2!3d42.1241587!4d23.2367462!16s%2Fg%2F11c1mkp6fz?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Pescado",
+          "Picar",
+          "Tipico",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:39:15.307Z",
+        "fechaActualizacion": "2026-11-21T23:39:15.307Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0d4a7d37-499f-41ad-a191-ebcd581d4b07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.316224,
+          42.6829446
+        ]
+      },
+      "properties": {
+        "nombre": "Chevermeto",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "София, пл. България 1, Ндк, Проното, Pencho Slaveykov Boulevard, 1463 Sofia, Bulgaria",
+        "googleMapsUrl": "https://www.google.com/maps/place/Chevermeto/@42.6829446,23.316224,17z/data=!4m15!1m8!3m7!1s0x40aa850fbc98251f:0xce965c9c0c3a93c!2sChevermeto!8m2!3d42.6829446!4d23.316224!10e5!16s%2Fg%2F1tfq34dj!3m5!1s0x40aa850fbc98251f:0xce965c9c0c3a93c!8m2!3d42.6829446!4d23.316224!16s%2Fg%2F1tfq34dj?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Musica en directo",
+          "Picar",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:41:17.618Z",
+        "fechaActualizacion": "2026-11-21T23:41:55.059Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4ec79d8f-0f13-48c3-8a85-47988705ad08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.33126,
+          42.692799
+        ]
+      },
+      "properties": {
+        "nombre": "Fast Food Vkusotilnica",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Sofia Center, ul. \"Tsar Shishman\" 4, 1191 Sofia, Bulgaria",
+        "googleMapsUrl": "https://www.google.com/maps/place/Fast+Food+Vkusotilnica/@42.692799,23.3286851,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa85740c942853:0x4163f896eb86aa84!8m2!3d42.692799!4d23.33126!16s%2Fg%2F1tfb9n7d?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:43:48.179Z",
+        "fechaActualizacion": "2026-11-21T23:43:48.179Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "187cd72a-7fd6-4c00-9157-3adab805e4e9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.320602,
+          42.696556
+        ]
+      },
+      "properties": {
+        "nombre": "Happy Bar & Grill Sveta Nedelya",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Sofia Center, pl. \"Sveta Nedelya\" 4, 1000 Sofia, Bulgaria",
+        "googleMapsUrl": "https://www.google.com/maps/place/Happy+Bar+%26+Grill+Sveta+Nedelya/@42.6965594,23.3015513,15z/data=!3m1!5s0x40aa856ea8c8b58b:0xa5aeec4065f18f79!4m10!1m2!2m1!1sHappy+Bar!3m6!1s0x40aa856eae793a4f:0x6449c65db9deecef!8m2!3d42.696556!4d23.320602!15sCglIYXBweSBCYXIiA4gBAVoLIgloYXBweSBiYXKSARNldXJvcGVhbl9yZXN0YXVyYW50mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxd01XTnFUazFOYTFaTlUyeEtibFpHV2xKYVIzQlpWREExUkZKSVl4QULgAQD6AQUI3AMQQw!16s%2Fg%2F11df7q5hqz?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:44:56.115Z",
+        "fechaActualizacion": "2026-11-21T23:44:56.115Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cccec25c-10e1-4a52-8127-7727101e9173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9703029,
+          42.0097756
+        ]
+      },
+      "properties": {
+        "nombre": "Trenditional House",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Illyria 1200, Tetovo 1220, Macedonia del Norte",
+        "googleMapsUrl": "https://www.google.com/maps/place/Trenditional+House/@42.0097945,20.9700612,19.25z/data=!4m6!3m5!1s0x1353f182806ef5e3:0x6006590b0fd6606c!8m2!3d42.0097756!4d20.9703029!16s%2Fg%2F11n7__v6pj?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Hamburguesa"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:46:58.154Z",
+        "fechaActualizacion": "2026-11-21T23:46:58.154Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "532dd66b-98d5-4de8-a377-96dd048477f1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2597672,
+          42.4351281
+        ]
+      },
+      "properties": {
+        "nombre": "Pod Volat",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 2,
+        "icono": "",
+        "selloB": false,
+        "direccion": "1 Trg Vojvode Bećira Osmanagića, Podgorica, Montenegro",
+        "googleMapsUrl": "https://www.google.com/maps/place/Pod+Volat/@42.4351281,19.2597672,17z/data=!4m15!1m8!3m7!1s0x134deb47549f9103:0xdfcec88cf832de9e!2sPod+Volat!8m2!3d42.4351281!4d19.2597672!10e5!16s%2Fg%2F1hf1f0wt1!3m5!1s0x134deb47549f9103:0xdfcec88cf832de9e!8m2!3d42.4351281!4d19.2597672!16s%2Fg%2F1hf1f0wt1?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:48:41.467Z",
+        "fechaActualizacion": "2026-11-21T23:48:41.467Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f1edecce-91b8-4cc3-b501-084bb155abca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1115942,
+          42.6399829
+        ]
+      },
+      "properties": {
+        "nombre": "Gianni",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Ul. kneza Damjana Jude bb, 20000, Dubrovnik, Croacia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Gianni/@42.6399829,18.1090193,17z/data=!3m1!4b1!4m6!3m5!1s0x134c0b70ff2be195:0x16b76f9c65c870d!8m2!3d42.6399829!4d18.1115942!16s%2Fg%2F11c6tyytq_?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:50:22.137Z",
+        "fechaActualizacion": "2026-11-21T23:50:22.137Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "313aeeee-4eb9-4430-895f-aad5532d1735",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1099236,
+          42.6414689
+        ]
+      },
+      "properties": {
+        "nombre": "Barba",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": 2,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Boškovićeva ul. 5, 20000, Dubrovnik, Croacia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Barba/@42.6414691,18.1094687,19z/data=!4m6!3m5!1s0x134c0b32e3924c07:0x24e7fa3c356de3a6!8m2!3d42.6414689!4d18.1099236!16s%2Fg%2F11b6y1kfcy?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Pescado",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:51:31.129Z",
+        "fechaActualizacion": "2026-11-21T23:51:31.129Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b09fbc15-3b48-45e8-bc3a-7a47d1b642d8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1110162,
+          42.6415101
+        ]
+      },
+      "properties": {
+        "nombre": "Peppino's Gelato Garden",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Ul. Svetog Dominika 3, 20000, Dubrovnik, Croacia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Peppino's+Gelato+Garden/@42.6414482,18.1109012,21z/data=!3m1!5s0x134c0b329aeef261:0xcf51a79999bf77e6!4m6!3m5!1s0x134c0b04a16f3457:0x70a4be5eaca1c0d4!8m2!3d42.6415101!4d18.1110162!16s%2Fg%2F11np3bq5kl?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:52:47.258Z",
+        "fechaActualizacion": "2026-11-21T23:52:47.258Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "57b4a7a6-ee75-4b84-b6d4-2a805f6a7b40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.111155,
+          42.640262
+        ]
+      },
+      "properties": {
+        "nombre": "Lokanda Peskarija",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Na ponti bb, 20000, Dubrovnik, Croacia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Lokanda+Peskarija/@42.6403714,18.1112519,20.75z/data=!4m6!3m5!1s0x134c0b33af40540f:0x404abe23b1a59120!8m2!3d42.640262!4d18.111155!16s%2Fg%2F1tf09v0k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Pescado",
+          "Vino",
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:54:22.659Z",
+        "fechaActualizacion": "2026-11-21T23:54:22.659Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "79c9d207-b193-4c0e-bce3-550d5b5618d9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4382179,
+          43.5091767
+        ]
+      },
+      "properties": {
+        "nombre": "Ela's Gelateria Artigianale",
+        "tipo": "Otros",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "helado",
+        "selloB": false,
+        "direccion": "Domaldova ul. 1a, 21000, Split, Croacia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Ela's+Gelateria+Artigianale/@43.5091801,16.4286911,16z/data=!4m10!1m2!2m1!1sela+split!3m6!1s0x13355df876082921:0xb102aefdb390954!8m2!3d43.5091767!4d16.4382179!15sCgllbGEgc3BsaXRaCyIJZWxhIHNwbGl0kgEOaWNlX2NyZWFtX3Nob3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUkVjVFZpVGxGUkVBReABAPoBBAgAEDY!16s%2Fg%2F11h7fyjhc8?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Helados"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:55:25.035Z",
+        "fechaActualizacion": "2026-11-21T23:55:25.035Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b22e5c68-c992-48c1-a5a6-12b1c5a110d6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4539846,
+          43.5011885
+        ]
+      },
+      "properties": {
+        "nombre": "Dvor",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Put Firula 14, 21000, Split, Croacia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Dvor/@43.5011885,16.4514097,17z/data=!3m2!4b1!5s0x133560a7b50b6669:0x6b299c5e382e1814!4m6!3m5!1s0x133560a7ca7f944d:0x6cdb299834c63b15!8m2!3d43.5011885!4d16.4539846!16s%2Fg%2F12lttl5p8?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Vistas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:56:41.867Z",
+        "fechaActualizacion": "2026-11-21T23:56:41.867Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18f10873-2c87-46dd-822c-002e4b16da4d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.429984,
+          43.8586636
+        ]
+      },
+      "properties": {
+        "nombre": "Ćevabdžinica Željo",
+        "tipo": "Restaurante",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Kundurdžiluk 19, Sarajevo 71000, Bosnia y Herzegovina",
+        "googleMapsUrl": "https://www.google.com/maps/place/%C4%86evabd%C5%BEinica+%C5%BDeljo/@43.8587431,18.427346,17z/data=!4m10!1m2!2m1!1scevabdzinica+zeljo!3m6!1s0x4758c8c8f60c4be3:0xb07fe0b1352c41a2!8m2!3d43.8586636!4d18.429984!15sChJjZXZhYmR6aW5pY2EgemVsam9aFCISY2V2YWJkemluaWNhIHplbGpvkgETYmFyYmVjdWVfcmVzdGF1cmFudOABAA!16s%2Fg%2F11b6dj76gf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Carne",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:58:22.692Z",
+        "fechaActualizacion": "2026-11-21T23:58:22.692Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9247b999-de32-4e6b-b3ed-129f3e371ee9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4638314,
+          44.8173906
+        ]
+      },
+      "properties": {
+        "nombre": "Red bar",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "Skadarska 17, Beograd, Serbia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Red+bar/@44.8173906,20.4612565,17z/data=!3m1!4b1!4m6!3m5!1s0x475a7ab159c8d70d:0xbcafee0b9dd54e40!8m2!3d44.8173906!4d20.4638314!16s%2Fg%2F11c0qx5p5j?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Cocteles",
+          "Copas"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-21T23:59:59.774Z",
+        "fechaActualizacion": "2026-11-21T23:59:59.774Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0b48f895-2ede-48d4-9344-6e4f4c4f55ab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9626506,
+          57.702778
+        ]
+      },
+      "properties": {
+        "nombre": "Jinx Food Truck",
+        "tipo": "Bar",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Magasinsgatan 17, 411 18 Göteborg, Suecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/Jinx+Food+Truck/@57.702778,11.9600757,17z/data=!3m1!4b1!4m6!3m5!1s0x464ff368a4fec211:0xc648bcc1d59c2d1a!8m2!3d57.702778!4d11.9626506!16s%2Fg%2F11c1wy6mfz?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Asiatico",
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-22T00:02:22.206Z",
+        "fechaActualizacion": "2026-11-22T00:02:22.206Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d8bb3d5a-ef0b-4442-ba7d-d5281a104b22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9494411,
+          57.6993258
+        ]
+      },
+      "properties": {
+        "nombre": "Ölstugan Tullen Andra Lång",
+        "tipo": "Bar",
+        "estado": "Visitado",
+        "precio": 1,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Andra Långgatan 13, 413 03 Göteborg, Suecia",
+        "googleMapsUrl": "https://www.google.com/maps/place/%C3%96lstugan+Tullen+Andra+L%C3%A5ng/@57.6993088,11.9113469,14z/data=!4m10!1m2!2m1!1s%C3%96lstugan+Tullen!3m6!1s0x464ff3422a37dc75:0x6cd15885f298fe35!8m2!3d57.6993258!4d11.9494411!15sChDDlmxzdHVnYW4gVHVsbGVuIgOIAQFaEiIQw7Zsc3R1Z2FuIHR1bGxlbpIBCWJlZXJfaGFsbOABAA!16s%2Fg%2F1hc4ksk5_?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Barato",
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-22T00:03:45.809Z",
+        "fechaActualizacion": "2026-11-22T00:03:45.809Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "341ec68b-c276-464b-be5a-687b4facd654",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5963002,
+          55.6778186
+        ]
+      },
+      "properties": {
+        "nombre": "Barr",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Strandgade 93, 1401 København, Dinamarca",
+        "googleMapsUrl": "https://www.google.com/maps/place/Barr/@55.6778186,12.5963002,17z/data=!4m15!1m8!3m7!1s0x4652533b679080a5:0xf1bebc75960e646f!2sBarr!8m2!3d55.6778186!4d12.5963002!10e5!16s%2Fg%2F11g8vppfgl!3m5!1s0x4652533b679080a5:0xf1bebc75960e646f!8m2!3d55.6778186!4d12.5963002!16s%2Fg%2F11g8vppfgl?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "De autor",
+          "Pescado"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-22T00:07:09.210Z",
+        "fechaActualizacion": "2026-11-22T00:07:09.210Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ca1e0a1e-ff35-4ad3-8bb9-dbe7833f5940",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5808456,
+          55.677973
+        ]
+      },
+      "properties": {
+        "nombre": "Slotskælderen Gitte Kik",
+        "tipo": "Restaurante",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "cubiertos",
+        "selloB": false,
+        "direccion": "Fortunstræde 4, 1065 København, Dinamarca",
+        "googleMapsUrl": "https://www.google.com/maps/place/Slotsk%C3%A6lderen+Gitte+Kik/@55.677973,12.5782707,17z/data=!3m1!4b1!4m6!3m5!1s0x46525316e0510969:0x79efe628cb20c5dd!8m2!3d55.677973!4d12.5808456!16s%2Fg%2F1tfqj_cv?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Tipico"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-22T00:08:25.075Z",
+        "fechaActualizacion": "2026-11-22T00:08:25.075Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b6589ce5-12a8-4a66-83ba-91df4575a7b1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5777,
+          55.679913
+        ]
+      },
+      "properties": {
+        "nombre": "Balderdash",
+        "tipo": "Pub",
+        "estado": "Quiero ir",
+        "precio": null,
+        "icono": "coctel",
+        "selloB": false,
+        "direccion": "1151 k, Valkendorfsgade 11, 1151 København, Dinamarca",
+        "googleMapsUrl": "https://www.google.com/maps/place/Balderdash/@55.679913,12.5751251,17z/data=!3m1!4b1!4m6!3m5!1s0x46525310bf628397:0x9df46290d9923d9f!8m2!3d55.679913!4d12.5777!16s%2Fg%2F11b6_qbkxl?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "etiquetas": [
+          "Copas",
+          "Postre"
+        ],
+        "notas": "",
+        "fechaCreacion": "2026-11-22T00:09:51.883Z",
+        "fechaActualizacion": "2026-11-22T00:09:51.883Z"
       }
     }
   ]
